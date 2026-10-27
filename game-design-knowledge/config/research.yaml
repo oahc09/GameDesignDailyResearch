@@ -1,0 +1,40 @@
+# 调度、检索与评分配置（对应 SPEC 第 1、3 节）
+version: 1
+updated_at: "2026-10-27"
+
+schedule:
+  time: "23:10"
+  timezone: "Asia/Shanghai"
+  weekday_themes:
+    monday: classic_mechanics          # 经典机制及其变体
+    tuesday: casual_hypercasual        # 休闲与超休闲
+    wednesday: action_shooter          # 动作与射击
+    thursday: puzzle_strategy          # 益智与策略
+    friday: indie_experimental         # 独立与实验玩法
+    saturday: theory_algorithms        # 理论与算法
+    sunday: synthesis_innovation       # 知识归纳与创新（+周报；月末周日+月审）
+
+discovery:
+  candidate_pool: [10, 20]             # 结果不足时不强制达到
+  recency_window_days: 7               # 时效性检索首选范围；历史经典不受此限
+  language_coverage: [zh, en]
+
+scoring:                               # weighted_score = Σ weight * score (0–5)
+  mechanic_clarity: 0.25
+  design_insight: 0.25
+  originality: 0.20
+  reproducibility: 0.20
+  knowledge_gap_fit: 0.10
+  min_weighted_score: 3.5
+  daily_target: [3, 5]
+  constraints:
+    - "每日至少 1 个规则可形式化的案例（当天专题不适用时注明）"
+    - "评分仅为筛选辅助，须另写选择理由；不可当作已验证玩家体验结论"
+
+evidence_levels:
+  A: "可直接验证的原始证据：官方页面、可玩版本/Demo、规则文档、开发者原文、开源仓库源码与 README、官方演讲与论文原文"
+  B: "可靠二次资料：有引用与实证的分析、设计访谈、可信技术文章"
+  C: "发现线索：社交帖子、社区讨论、视频剪辑、收藏榜单（不单独支撑关键机制结论）"
+
+confidence_levels: [verified, source_reviewed, inferred, unverified]
+verification_statuses: [source_reviewed, demo_played, code_inspected, unverified]

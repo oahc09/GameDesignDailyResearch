@@ -1,0 +1,3 @@
+{"id":"pattern-000001","name":"one_tap_retry_loop（一触短循环 + 死亡即重开）","related_case_ids":["game-000001","game-000002","game-000004"],"confidence":"source_reviewed","path":"patterns/pattern-000001.md","created_at":"2026-10-27","updated_at":"2026-10-27"}
+{"id":"pattern-000002","name":"visible_chain_reward（可见的连锁与接近奖励）","related_case_ids":["game-000003","game-000004"],"confidence":"source_reviewed","path":"patterns/pattern-000002.md","created_at":"2026-10-27","updated_at":"2026-10-27"}
+{"id":"pattern-000003","name":"daily_scarcity_share（每日稀缺 + 无剧透分享）","related_case_ids":["game-000005"],"confidence":"source_reviewed","path":"patterns/pattern-000003.md","created_at":"2026-10-27","updated_at":"2026-10-27"}

@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-10-28T07:46:00+08:00",
+  "last_planned_success_date": "2026-10-27",
+  "last_run": {
+    "planned_date": "2026-10-27",
+    "run_type": "daily",
+    "theme": "casual_hypercasual",
+    "status": "success_pending_push",
+    "status_note": "本地校验通过并归档；Git 推送结果见当日运行输出"
+  },
+  "coverage": {
+    "total_cases": 5,
+    "total_mechanics": 6,
+    "total_patterns": 3,
+    "total_theories": 1,
+    "total_hypotheses": 2,
+    "themes_covered": {
+      "2026-10-27": "casual_hypercasual"
+    },
+    "genres_touched": ["casual", "puzzle", "hybrid"]
+  },
+  "verification_profile": {
+    "code_inspected": 1,
+    "source_reviewed": 4,
+    "demo_played": 0,
+    "unverified": 0
+  },
+  "knowledge_gaps": [
+    "非点击输入（倾斜/滑动主导）的休闲样本未覆盖（Doodle Jump、Tiny Wings 在 backlog）",
+    "广告插入对重开循环的破坏缺数据证据",
+    "确定性玩法与物理玩法的可解性光谱缺形式化度量（留待周六理论专题）",
+    "中文市场样本（羊了个羊）缺可验证原始规则来源",
+    "合成大西瓜与 Suika Game 的起源独立性未查证（易混淆项已登记）",
+    "全部案例未实测，下日优先选择可玩原型的案例"
+  ],
+  "dedup_watchlist": [
+    "game-000003 与《合成大西瓜》同构不同实体（见 config/aliases.yaml confusables）",
+    "game-000004 与其他同名堆叠游戏不可合并"
+  ],
+  "next_scheduled": {
+    "date": "2026-10-28",
+    "weekday": "wednesday",
+    "theme": "action_shooter（动作与射击）"
+  },
+  "git_push_result": "reported_in_run_output（仓内不虚报远端状态）"
+}

@@ -1,0 +1,41 @@
+# 游戏类型与机制分类（初版：覆盖 SPEC 第 12 节要求的 7 大类）
+version: 1
+updated_at: "2026-10-27"
+
+genres:
+  puzzle: "益智"
+  action: "动作"
+  shooter: "射击"
+  strategy: "策略"
+  casual: "休闲"
+  simulation: "模拟"
+  hybrid: "混合"
+
+subgenre_tags:
+  hypercasual: "超休闲：单指输入、极简规则、秒级会话"
+  endless_runner: "无尽跑酷/无尽推进"
+  endless_hopper: "无尽格跳（Frogger 系）"
+  merge: "合成/合并类"
+  stacking: "堆叠/时机类"
+  word: "字词类"
+  wordle_like: "每日限量猜词类"
+  one_touch: "单触操作"
+
+# 机制卡 category 取值（新增需在此登记）
+mechanism_categories:
+  input_pattern: "输入模式：一次输入的语义、时机与数量"
+  state_transition: "状态转移：掉落、合并、切割、跳跃等规则"
+  feedback: "反馈：视觉/听觉/分数的即时回响"
+  progression: "进程：难度曲线、解锁、升阶链"
+  economy: "经济：货币、广告、解锁"
+  session_structure: "会话结构：重开、每日限量、会话长度"
+
+# 关系类型（indices/relations.jsonl 的 type 字段，SPEC 第 5.3 节）
+relation_types:
+  - USES_MECHANIC
+  - EXEMPLIFIES_PATTERN
+  - EVOLVES_FROM
+  - COMBINES_WITH
+  - CONTRASTS_WITH
+  - SUPPORTED_BY
+  - TESTS_HYPOTHESIS

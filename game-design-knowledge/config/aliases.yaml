@@ -1,0 +1,21 @@
+# 别名、同义词与归并规则（SPEC 第 3.5、6 节）
+version: 1
+updated_at: "2026-10-27"
+
+case_aliases:
+  game-000001: ["flappybird", "Flap Flap（开发期原名）"]
+  game-000002: ["天天过马路（中文社区通称）"]
+  game-000003: ["スイカゲーム", "西瓜游戏", "Watermelon Game"]
+  game-000004: ["Ketchapp Stack"]
+  game-000005: []
+
+# 已知易混淆实体（同名或同玩法不同实体，禁止合并）
+confusables:
+  - note: "Suika Game（game-000003，popIn/Aladdin X，2021）与 合成大西瓜（比翼互动 H5，中国，2021）玩法同构但为不同实体、不同来源。合成大西瓜记入 backlog，不新建机制，仅作为 mechanic-000003 的变体案例。"
+  - note: "Stack（game-000004，Ketchapp）与其他同名堆叠游戏（如 arcade 益智机 Stacker）不可合并。"
+
+# 机制语义归并规则
+mechanic_merge_rules:
+  - "题材换皮、名称变化不新增机制，登记为既有机制的案例变体（aliases 管理）"
+  - "合并机制词条时保留旧 ID 重定向、全部来源与审计记录"
+  - "无法确认是否同一机制时标记 possible_duplicate，不自动覆盖"

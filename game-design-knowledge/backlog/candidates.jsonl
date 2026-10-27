@@ -1,0 +1,9 @@
+{"candidate":"合成大西瓜（比翼互动 H5）","language":"zh","evidence_level":"A","urls":["https://github.com/winsight/daxigua-1","https://github.com/bullhe4d/bigwatermelon","https://github.com/tangxiangmin/cocos-big-watermelon","https://blog.csdn.net/osfront/article/details/113588857"],"status":"backlog","reason":"与 game-000003 机制同构（mechanic-000003 变体），按归并规则不建独立案例；作为中文市场物理合并变体与 dedup 校准样本保留","added_on":"2026-10-27"}
+{"candidate":"Subway Surfers（SYBO/Kiloo）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"滑动无尽跑酷代表；与今日已选无尽类重叠，留待周三动作主题或无尽变体研究","added_on":"2026-10-27"}
+{"candidate":"Helix Jump（Voodoo）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"单指纵向时机类超休闲；与 Stack 时机轴重叠，候选池补充项","added_on":"2026-10-27"}
+{"candidate":"Doodle Jump（Igor Migunov / Lima Sky）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"倾斜+点击的早期单指跳跃经典，可与 Flappy/Crossy 做输入语义三方对比","added_on":"2026-10-27"}
+{"candidate":"Tiny Wings（Andreas Illiger）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"单触地形节奏（按住=下潜）的反直觉输入映射，独立极简代表","added_on":"2026-10-27"}
+{"candidate":"羊了个羊","language":"zh","evidence_level":"B","urls":[],"status":"backlog","reason":"三消+广告驱动难度悬崖的失败反馈与商业化极端样本；需检索可验证规则来源后再入选","added_on":"2026-10-27"}
+{"candidate":"2048（Gabriele Cirulli）","language":"en","evidence_level":"A","urls":[],"status":"backlog","reason":"高分候选但属周一『经典机制』专题，主题偏离待该日研究；官方网页版开源（预期地址 gabrielecirulli.github.io/2048，下次运行须实际核验后再登记 URL）","added_on":"2026-10-27"}
+{"candidate":"Candy Crush Saga（King）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Match-3 商业化巨作，属周一经典机制专题；今日不重复研究","added_on":"2026-10-27"}
+{"candidate":"Threes!（Asher Vollmer / Greg Wohlwend）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"2048 前身，滑动合并离散设计样本，随 2048 一并排入周一专题","added_on":"2026-10-27"}

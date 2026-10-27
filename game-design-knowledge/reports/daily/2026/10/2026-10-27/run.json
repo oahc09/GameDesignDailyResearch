@@ -1,0 +1,51 @@
+{
+  "research_date": "2026-10-27",
+  "run_type": "daily",
+  "weekday_theme": "casual_hypercasual（休闲与超休闲）",
+  "executed_at": {
+    "start": "2026-10-27T23:10:00+08:00",
+    "start_note": "调度窗口内开始，检索与撰写跨零点",
+    "archive_completed": "2026-10-28T07:46:00+08:00",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 13,
+    "selected_cases": 5,
+    "new_cases": 5,
+    "new_mechanics": 6,
+    "new_patterns": 3,
+    "new_theories": 1,
+    "new_hypotheses": 2,
+    "updated_entities": 0,
+    "sources_registered": 24,
+    "sources_fetch_failed": 2
+  },
+  "dedup_scope": "current_run_only（首日空库初始化，无历史库可比对，不宣称跨天去重）",
+  "bootstrap": {
+    "performed": true,
+    "spec_sections": ["4", "12"],
+    "items": ["config/taxonomy.yaml", "config/aliases.yaml", "config/research.yaml", "indices/*", "state/*", "backlog/"]
+  },
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（全部 URL 来自当日检索命中或实际抓取；未核验地址一律置 null 并注明）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/10/2026-10-27/",
+    "planned_date_match": true,
+    "rerun_note": "跨零点补跑仍按计划研究日归档，未另建 2026-10-28 目录"
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-10-27",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 在提交后产生；commit SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

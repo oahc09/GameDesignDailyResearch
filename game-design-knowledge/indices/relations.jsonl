@@ -1,0 +1,23 @@
+{"from":"game-000001","type":"USES_MECHANIC","to":"mechanic-000001","evidence_urls":["https://github.com/nebez/floppybird","https://en.wikipedia.org/wiki/Flappy_Bird"]}
+{"from":"game-000001","type":"USES_MECHANIC","to":"mechanic-000006","evidence_urls":["https://en.wikipedia.org/wiki/Flappy_Bird"]}
+{"from":"game-000002","type":"USES_MECHANIC","to":"mechanic-000002","evidence_urls":["https://en.wikipedia.org/wiki/Crossy_Road","https://crossyroad.fandom.com/wiki/Eagle"]}
+{"from":"game-000002","type":"USES_MECHANIC","to":"mechanic-000006","evidence_urls":["https://en.wikipedia.org/wiki/Crossy_Road"]}
+{"from":"game-000003","type":"USES_MECHANIC","to":"mechanic-000003","evidence_urls":["https://en.wikipedia.org/wiki/Suika_Game"]}
+{"from":"game-000004","type":"USES_MECHANIC","to":"mechanic-000004","evidence_urls":["https://apps.apple.com/us/app/stack/id1080487957"]}
+{"from":"game-000004","type":"USES_MECHANIC","to":"mechanic-000006","evidence_urls":["https://apps.apple.com/us/app/stack/id1080487957"]}
+{"from":"game-000005","type":"USES_MECHANIC","to":"mechanic-000005","evidence_urls":["https://www.nytimes.com/games/wordle/index.html","https://en.wikipedia.org/wiki/Wordle"]}
+{"from":"game-000001","type":"EXEMPLIFIES_PATTERN","to":"pattern-000001","evidence_urls":["https://en.wikipedia.org/wiki/Flappy_Bird"]}
+{"from":"game-000002","type":"EXEMPLIFIES_PATTERN","to":"pattern-000001","evidence_urls":["https://en.wikipedia.org/wiki/Crossy_Road"]}
+{"from":"game-000004","type":"EXEMPLIFIES_PATTERN","to":"pattern-000001","evidence_urls":["https://apps.apple.com/us/app/stack/id1080487957"]}
+{"from":"game-000003","type":"EXEMPLIFIES_PATTERN","to":"pattern-000002","evidence_urls":["https://en.wikipedia.org/wiki/Suika_Game"]}
+{"from":"game-000004","type":"EXEMPLIFIES_PATTERN","to":"pattern-000002","evidence_urls":["https://apps.apple.com/us/app/stack/id1080487957"]}
+{"from":"game-000005","type":"EXEMPLIFIES_PATTERN","to":"pattern-000003","evidence_urls":["https://en.wikipedia.org/wiki/Wordle"]}
+{"from":"game-000001","type":"CONTRASTS_WITH","to":"game-000005","evidence_urls":["https://en.wikipedia.org/wiki/Wordle"],"note":"无限重开 vs 每日稀缺两种留存引擎"}
+{"from":"game-000002","type":"CONTRASTS_WITH","to":"game-000001","evidence_urls":["https://en.wikipedia.org/wiki/Crossy_Road"],"note":"离散格跳 vs 连续脉冲的输入语义对比"}
+{"from":"hypothesis-000001","type":"COMBINES_WITH","to":"mechanic-000002","evidence_urls":[]}
+{"from":"hypothesis-000001","type":"COMBINES_WITH","to":"mechanic-000003","evidence_urls":[]}
+{"from":"hypothesis-000002","type":"COMBINES_WITH","to":"mechanic-000004","evidence_urls":[]}
+{"from":"hypothesis-000002","type":"COMBINES_WITH","to":"pattern-000003","evidence_urls":[]}
+{"from":"game-000001","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
+{"from":"game-000003","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
+{"from":"game-000005","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}

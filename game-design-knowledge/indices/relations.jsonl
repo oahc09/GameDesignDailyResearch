@@ -6,18 +6,33 @@
 {"from":"game-000004","type":"USES_MECHANIC","to":"mechanic-000004","evidence_urls":["https://apps.apple.com/us/app/stack/id1080487957"]}
 {"from":"game-000004","type":"USES_MECHANIC","to":"mechanic-000006","evidence_urls":["https://apps.apple.com/us/app/stack/id1080487957"]}
 {"from":"game-000005","type":"USES_MECHANIC","to":"mechanic-000005","evidence_urls":["https://www.nytimes.com/games/wordle/index.html","https://en.wikipedia.org/wiki/Wordle"]}
+{"from":"game-000006","type":"USES_MECHANIC","to":"mechanic-000007","evidence_urls":["https://en.wikipedia.org/wiki/Baba_Is_You"]}
+{"from":"game-000007","type":"USES_MECHANIC","to":"mechanic-000008","evidence_urls":["https://en.wikipedia.org/wiki/Braid_(video_game)"]}
+{"from":"game-000008","type":"USES_MECHANIC","to":"mechanic-000009","evidence_urls":["https://en.wikipedia.org/wiki/Celeste_(video_game)"]}
+{"from":"game-000009","type":"USES_MECHANIC","to":"mechanic-000010","evidence_urls":["https://en.wikipedia.org/wiki/Tiny_Wings"]}
 {"from":"game-000001","type":"EXEMPLIFIES_PATTERN","to":"pattern-000001","evidence_urls":["https://en.wikipedia.org/wiki/Flappy_Bird"]}
 {"from":"game-000002","type":"EXEMPLIFIES_PATTERN","to":"pattern-000001","evidence_urls":["https://en.wikipedia.org/wiki/Crossy_Road"]}
 {"from":"game-000004","type":"EXEMPLIFIES_PATTERN","to":"pattern-000001","evidence_urls":["https://apps.apple.com/us/app/stack/id1080487957"]}
 {"from":"game-000003","type":"EXEMPLIFIES_PATTERN","to":"pattern-000002","evidence_urls":["https://en.wikipedia.org/wiki/Suika_Game"]}
 {"from":"game-000004","type":"EXEMPLIFIES_PATTERN","to":"pattern-000002","evidence_urls":["https://apps.apple.com/us/app/stack/id1080487957"]}
 {"from":"game-000005","type":"EXEMPLIFIES_PATTERN","to":"pattern-000003","evidence_urls":["https://en.wikipedia.org/wiki/Wordle"]}
+{"from":"game-000007","type":"EXEMPLIFIES_PATTERN","to":"pattern-000004","evidence_urls":["https://en.wikipedia.org/wiki/Braid_(video_game)"]}
+{"from":"game-000006","type":"EXEMPLIFIES_PATTERN","to":"pattern-000005","evidence_urls":["https://en.wikipedia.org/wiki/Baba_Is_You"]}
+{"from":"game-000008","type":"EXEMPLIFIES_PATTERN","to":"pattern-000006","evidence_urls":["https://en.wikipedia.org/wiki/Celeste_(video_game)"]}
 {"from":"game-000001","type":"CONTRASTS_WITH","to":"game-000005","evidence_urls":["https://en.wikipedia.org/wiki/Wordle"],"note":"无限重开 vs 每日稀缺两种留存引擎"}
 {"from":"game-000002","type":"CONTRASTS_WITH","to":"game-000001","evidence_urls":["https://en.wikipedia.org/wiki/Crossy_Road"],"note":"离散格跳 vs 连续脉冲的输入语义对比"}
+{"from":"game-000007","type":"CONTRASTS_WITH","to":"game-000001","evidence_urls":["https://en.wikipedia.org/wiki/Braid_(video_game)"],"note":"倒带宽恕 vs 死亡即重开：失败处理光谱两端"}
+{"from":"game-000008","type":"CONTRASTS_WITH","to":"game-000007","evidence_urls":["https://en.wikipedia.org/wiki/Celeste_(video_game)"],"note":"保留死亡的隐形宽恕+检查点 vs 消灭死亡的倒带"}
+{"from":"game-000009","type":"CONTRASTS_WITH","to":"game-000001","evidence_urls":["https://en.wikipedia.org/wiki/Tiny_Wings"],"note":"持续态输入+时钟封顶会话 vs 离散点击+错误封顶会话"}
 {"from":"hypothesis-000001","type":"COMBINES_WITH","to":"mechanic-000002","evidence_urls":[]}
 {"from":"hypothesis-000001","type":"COMBINES_WITH","to":"mechanic-000003","evidence_urls":[]}
 {"from":"hypothesis-000002","type":"COMBINES_WITH","to":"mechanic-000004","evidence_urls":[]}
 {"from":"hypothesis-000002","type":"COMBINES_WITH","to":"pattern-000003","evidence_urls":[]}
+{"from":"hypothesis-000003","type":"COMBINES_WITH","to":"mechanic-000008","evidence_urls":[]}
+{"from":"hypothesis-000003","type":"COMBINES_WITH","to":"mechanic-000001","evidence_urls":[]}
+{"from":"hypothesis-000004","type":"COMBINES_WITH","to":"mechanic-000009","evidence_urls":[]}
+{"from":"hypothesis-000004","type":"COMBINES_WITH","to":"mechanic-000004","evidence_urls":[]}
 {"from":"game-000001","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
 {"from":"game-000003","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
 {"from":"game-000005","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
+{"from":"game-000008","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}

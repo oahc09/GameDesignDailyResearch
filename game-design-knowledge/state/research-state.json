@@ -1,46 +1,63 @@
 {
-  "updated_at": "2026-10-28T07:46:00+08:00",
-  "last_planned_success_date": "2026-10-27",
+  "updated_at": "2026-10-30T22:12:00+08:00",
+  "last_planned_success_date": "2026-10-30",
+  "missed_scheduled_dates": [
+    {
+      "date": "2026-10-28",
+      "weekday_theme": "action_shooter（动作与射击）",
+      "status": "missed_not_rerun",
+      "note": "2026-10-30 运行时检测：reports/daily 下无该日目录、run-history 无记录。按 SPEC §8 列为缺口，不视为零发现；如需补跑应归档到该计划日期"
+    },
+    {
+      "date": "2026-10-29",
+      "weekday_theme": "puzzle_strategy（益智与策略）",
+      "status": "missed_not_rerun",
+      "note": "同上，2026-10-30 运行时检测为缺失"
+    }
+  ],
   "last_run": {
-    "planned_date": "2026-10-27",
+    "planned_date": "2026-10-30",
     "run_type": "daily",
-    "theme": "casual_hypercasual",
+    "theme": "indie_experimental",
     "status": "success_pending_push",
     "status_note": "本地校验通过并归档；Git 推送结果见当日运行输出"
   },
   "coverage": {
-    "total_cases": 5,
-    "total_mechanics": 6,
-    "total_patterns": 3,
+    "total_cases": 9,
+    "total_mechanics": 10,
+    "total_patterns": 6,
     "total_theories": 1,
-    "total_hypotheses": 2,
+    "total_hypotheses": 4,
     "themes_covered": {
-      "2026-10-27": "casual_hypercasual"
+      "2026-10-27": "casual_hypercasual",
+      "2026-10-30": "indie_experimental"
     },
-    "genres_touched": ["casual", "puzzle", "hybrid"]
+    "genres_touched": ["casual", "puzzle", "hybrid", "action"]
   },
   "verification_profile": {
     "code_inspected": 1,
-    "source_reviewed": 4,
+    "source_reviewed": 8,
     "demo_played": 0,
     "unverified": 0
   },
   "knowledge_gaps": [
-    "非点击输入（倾斜/滑动主导）的休闲样本未覆盖（Doodle Jump、Tiny Wings 在 backlog）",
+    "倾斜（连续模拟量）输入样本仍缺：Doodle Jump 两次顺延，优先级已提升（backlog）",
     "广告插入对重开循环的破坏缺数据证据",
-    "确定性玩法与物理玩法的可解性光谱缺形式化度量（留待周六理论专题）",
+    "确定性玩法与物理玩法的可解性光谱缺形式化度量（周六理论专题；Baba 规则可变性使 Solver 成本上升为新增观察点）",
     "中文市场样本（羊了个羊）缺可验证原始规则来源",
     "合成大西瓜与 Suika Game 的起源独立性未查证（易混淆项已登记）",
-    "全部案例未实测，下日优先选择可玩原型的案例"
+    "全部 9 案例仍未实测（demo_played=0）；Celeste Classic 已登记浏览器可玩线索（Lexaloffle BBS，页面未核），下日候选优先可实测项",
+    "10-28/10-29 两次调度未运行：动作射击与益智策略专题覆盖为零，需补跑或并入周日周报缺口"
   ],
   "dedup_watchlist": [
     "game-000003 与《合成大西瓜》同构不同实体（见 config/aliases.yaml confusables）",
-    "game-000004 与其他同名堆叠游戏不可合并"
+    "game-000004 与其他同名堆叠游戏不可合并",
+    "mechanic-000009（输入宽恕窗口）与未来可能入库的『hitstop/冻结帧反馈』需防语义混淆（2026-10-30 预登记）"
   ],
   "next_scheduled": {
-    "date": "2026-10-28",
-    "weekday": "wednesday",
-    "theme": "action_shooter（动作与射击）"
+    "date": "2026-10-31",
+    "weekday": "saturday",
+    "theme": "theory_algorithms（理论与算法）"
   },
   "git_push_result": "reported_in_run_output（仓内不虚报远端状态）"
 }

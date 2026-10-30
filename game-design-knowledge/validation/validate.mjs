@@ -81,9 +81,13 @@ for (const [f, pool] of [['indices/cases.jsonl', cases], ['indices/mechanics.jso
   if (a.join() !== b.join()) errors.push(`${f}: 索引(${a}) 与实体(${b}) 不一致`);
 }
 
-// 7. run.json 可解析
-try { JSON.parse(readFileSync(join(root, 'reports/daily', '2026/10/2026-10-27/run.json'), 'utf8')); }
-catch (e) { errors.push(`run.json 解析失败: ${e.message}`); }
+// 7. 全部 run.json 可解析
+const runFiles = globSync('reports/daily/**/run.json', { root, cwd: root }).map(f => f.replace(/\\/g, '/'));
+if (runFiles.length === 0) errors.push('未找到任何 run.json');
+for (const f of runFiles) {
+  try { JSON.parse(readFileSync(join(root, f), 'utf8')); }
+  catch (e) { errors.push(`${f} 解析失败: ${e.message}`); }
+}
 
 console.log(`ERRORS: ${errors.length}`);
 errors.forEach(e => console.log('  ✗', e));

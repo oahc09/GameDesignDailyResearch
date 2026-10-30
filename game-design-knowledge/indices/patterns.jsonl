@@ -1,3 +1,6 @@
 {"id":"pattern-000001","name":"one_tap_retry_loop（一触短循环 + 死亡即重开）","related_case_ids":["game-000001","game-000002","game-000004"],"confidence":"source_reviewed","path":"patterns/pattern-000001.md","created_at":"2026-10-27","updated_at":"2026-10-27"}
 {"id":"pattern-000002","name":"visible_chain_reward（可见的连锁与接近奖励）","related_case_ids":["game-000003","game-000004"],"confidence":"source_reviewed","path":"patterns/pattern-000002.md","created_at":"2026-10-27","updated_at":"2026-10-27"}
 {"id":"pattern-000003","name":"daily_scarcity_share（每日稀缺 + 无剧透分享）","related_case_ids":["game-000005"],"confidence":"source_reviewed","path":"patterns/pattern-000003.md","created_at":"2026-10-27","updated_at":"2026-10-27"}
+{"id":"pattern-000004","name":"rewind_as_forgiveness（撤销即宽恕）","related_case_ids":["game-000007"],"confidence":"source_reviewed","path":"patterns/pattern-000004.md","created_at":"2026-10-30","updated_at":"2026-10-30"}
+{"id":"pattern-000005","name":"rules_as_manipulable_objects（规则本身作为可操纵对象）","related_case_ids":["game-000006"],"confidence":"source_reviewed","path":"patterns/pattern-000005.md","created_at":"2026-10-30","updated_at":"2026-10-30"}
+{"id":"pattern-000006","name":"respectful_difficulty_opt_out（尊重式难度可选）","related_case_ids":["game-000008"],"confidence":"source_reviewed","path":"patterns/pattern-000006.md","created_at":"2026-10-30","updated_at":"2026-10-30"}

@@ -1,5 +1,13 @@
 # 校验记录
 
+## 2026-10-30（周五 · 独立与实验玩法）
+
+- 工具：`validation/validate.mjs`（本日起 run.json 检查升级为全量扫描所有日报的 run.json）
+- 结果：**ERRORS 0 / WARNINGS 0**
+- 覆盖：JSONL 10 文件 / 147 条记录；实体 cases=9, mechanics=10, patterns=6, theories=1, hypotheses=4（共 30）；relations 34 条端点与类型全部合法；两个 run.json（10-27、10-30）解析通过；索引与实体集合一致。
+- 去重核查：新增 4 实体案例与既有 5 案例做三级去重（URL/实体/机制语义），无重复；预登记 mechanic-000009 与未来 hitstop 类机制的语义边界。
+- 诚实注记：Lexaloffle BBS、Hempuli 官网、Illiger 官网为检索命中但未全文抓取，已在 sources.jsonl 与案例卡注明；无编造 URL。
+
 ## 2026-10-27（首日运行，归档收尾实际执行于 2026-10-28 凌晨 Asia/Shanghai）
 
 - 工具：`validation/validate.mjs`（node validation/validate.mjs，后续每日运行复用）

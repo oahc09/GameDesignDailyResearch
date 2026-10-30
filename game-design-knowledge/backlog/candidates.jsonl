@@ -1,9 +1,19 @@
 {"candidate":"合成大西瓜（比翼互动 H5）","language":"zh","evidence_level":"A","urls":["https://github.com/winsight/daxigua-1","https://github.com/bullhe4d/bigwatermelon","https://github.com/tangxiangmin/cocos-big-watermelon","https://blog.csdn.net/osfront/article/details/113588857"],"status":"backlog","reason":"与 game-000003 机制同构（mechanic-000003 变体），按归并规则不建独立案例；作为中文市场物理合并变体与 dedup 校准样本保留","added_on":"2026-10-27"}
-{"candidate":"Subway Surfers（SYBO/Kiloo）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"滑动无尽跑酷代表；与今日已选无尽类重叠，留待周三动作主题或无尽变体研究","added_on":"2026-10-27"}
+{"candidate":"Subway Surfers（SYBO/Kiloo）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"滑动无尽跑酷代表；与已选无尽类重叠，留待周三动作主题或无尽变体研究","added_on":"2026-10-27"}
 {"candidate":"Helix Jump（Voodoo）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"单指纵向时机类超休闲；与 Stack 时机轴重叠，候选池补充项","added_on":"2026-10-27"}
-{"candidate":"Doodle Jump（Igor Migunov / Lima Sky）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"倾斜+点击的早期单指跳跃经典，可与 Flappy/Crossy 做输入语义三方对比","added_on":"2026-10-27"}
-{"candidate":"Tiny Wings（Andreas Illiger）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"单触地形节奏（按住=下潜）的反直觉输入映射，独立极简代表","added_on":"2026-10-27"}
+{"candidate":"Doodle Jump（Igor & Marko Pusenjak / Lima Sky）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"倾斜输入语义对照样本——2026-10-30 专题因 Tiny Wings（持续态输入）优先入选而再度顺延；倾斜（连续模拟量）对照缺口仍在，优先级提升","added_on":"2026-10-27","updated_on":"2026-10-30"}
+{"candidate":"Tiny Wings（Andreas Illiger）","language":"en","evidence_level":"B","urls":["https://en.wikipedia.org/wiki/Tiny_Wings","https://www.andreasilliger.com"],"status":"selected","selected_as":"game-000009","reason":"2026-10-30（周五 独立与实验玩法）入选：持续态单输入+无失败时钟封顶结构，填补非点击输入缺口","added_on":"2026-10-27","updated_on":"2026-10-30"}
 {"candidate":"羊了个羊","language":"zh","evidence_level":"B","urls":[],"status":"backlog","reason":"三消+广告驱动难度悬崖的失败反馈与商业化极端样本；需检索可验证规则来源后再入选","added_on":"2026-10-27"}
 {"candidate":"2048（Gabriele Cirulli）","language":"en","evidence_level":"A","urls":[],"status":"backlog","reason":"高分候选但属周一『经典机制』专题，主题偏离待该日研究；官方网页版开源（预期地址 gabrielecirulli.github.io/2048，下次运行须实际核验后再登记 URL）","added_on":"2026-10-27"}
-{"candidate":"Candy Crush Saga（King）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Match-3 商业化巨作，属周一经典机制专题；今日不重复研究","added_on":"2026-10-27"}
+{"candidate":"Candy Crush Saga（King）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Match-3 属周一经典机制专题；今日不重复研究","added_on":"2026-10-27"}
 {"candidate":"Threes!（Asher Vollmer / Greg Wohlwend）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"2048 前身，滑动合并离散设计样本，随 2048 一并排入周一专题","added_on":"2026-10-27"}
+{"candidate":"QWOP（Bennett Foddy）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"分肢体按键的实验性操控（控制即玩法）代表；Foddy 物理操控谱系起点，值得单独深挖","added_on":"2026-10-30"}
+{"candidate":"Canabalt（Adam Saltsman / Semi Secret）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"单键无尽跑酷原型起源（Flixel 引擎诞生地），一触谱系的历史节点","added_on":"2026-10-30"}
+{"candidate":"Vampire Survivors（Luca Galante / poncle）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"『不设计瞄准』的射击反转（移动即玩法），机制反转样本；偏周三动作主题亦可","added_on":"2026-10-30"}
+{"candidate":"Getting Over It with Bennett Foddy","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Fodder 挫败设计（无检查点+旁白解说挫败）样本；与 rage game 谱系研究配套","added_on":"2026-10-30"}
+{"candidate":"The Stanley Parable（Wreden / Pugh）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"元叙事/旁白对抗的实验玩法；规则可形式化程度低，适合叙事-机制关系专题","added_on":"2026-10-30"}
+{"candidate":"Thomas Was Alone（Mike Bithell）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"极简几何+角色赋形的独立样本；协作平台机制可形式化","added_on":"2026-10-30"}
+{"candidate":"Downwell（Ojiro Fumoto）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"枪靴合一（下落即射击）的机制合并样本，combo 经济紧凑；GameCenter 原型起源","added_on":"2026-10-30"}
+{"candidate":"Snakebird（Noumenon Games）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"蛇形多节体的网格谜题，可形式化程度高；属周四益智专题更佳","added_on":"2026-10-30"}
+{"candidate":"Return of the Obra Dinn（Lucas Pope）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"演绎推理的形式化样本（Boolean 消除+确认门槛）；Pope 前作 Papers Please 同谱系；属周四专题更佳","added_on":"2026-10-30"}
+{"candidate":"Her Story（Sam Barlow）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"FMV 数据库叙事的实验样本；检索即玩法","added_on":"2026-10-30"}

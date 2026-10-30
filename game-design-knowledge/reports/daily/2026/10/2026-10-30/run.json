@@ -1,0 +1,47 @@
+{
+  "research_date": "2026-10-30",
+  "run_type": "daily",
+  "weekday_theme": "indie_experimental（独立与实验玩法）",
+  "executed_at": {
+    "start": "2026-10-30T22:12:00+08:00",
+    "start_note": "由定时任务于 23:10 窗口前的用户触发执行；归档按计划研究日 2026-10-30",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 15,
+    "selected_cases": 4,
+    "new_cases": 4,
+    "new_mechanics": 4,
+    "new_patterns": 3,
+    "new_theories": 0,
+    "new_hypotheses": 2,
+    "updated_entities": 0,
+    "backlog_status_changes": 1,
+    "backlog_added": 10,
+    "sources_registered": 10,
+    "sources_fetch_failed": 0
+  },
+  "dedup_scope": "full_library（跨 10-27 与本次运行的全部实体做了三级去重；知识库完整可访问）",
+  "missed_runs_detected": ["2026-10-28", "2026-10-29"],
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（Lexaloffle BBS URL 来自检索结果引用，已注明页面未单独抓取）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/10/2026-10-30/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-10-30",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

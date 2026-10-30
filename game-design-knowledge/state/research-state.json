@@ -1,58 +1,61 @@
 {
-  "updated_at": "2026-10-30T22:12:00+08:00",
-  "last_planned_success_date": "2026-10-30",
+  "updated_at": "2026-10-30T23:50:00+08:00",
+  "last_planned_success_date": "2026-10-28（补跑完成）",
+  "last_run": {
+    "planned_date": "2026-10-28",
+    "run_type": "daily_backfill",
+    "theme": "action_shooter",
+    "status": "success_pending_push",
+    "status_note": "由 2026-10-30 23:13 的重复触发执行补跑；按 SPEC 第 4 节归档到计划日期 2026-10-28 并记录实际执行时间"
+  },
   "missed_scheduled_dates": [
     {
       "date": "2026-10-28",
       "weekday_theme": "action_shooter（动作与射击）",
-      "status": "missed_not_rerun",
-      "note": "2026-10-30 运行时检测：reports/daily 下无该日目录、run-history 无记录。按 SPEC §8 列为缺口，不视为零发现；如需补跑应归档到该计划日期"
+      "status": "backfilled",
+      "backfilled_on": "2026-10-30T23:13:00+08:00",
+      "archive_dir": "reports/daily/2026/10/2026-10-28/",
+      "note": "经 GPL 源码核验补足动作/射击轴覆盖（Doom AI 代码级验证）"
     },
     {
       "date": "2026-10-29",
       "weekday_theme": "puzzle_strategy（益智与策略）",
       "status": "missed_not_rerun",
-      "note": "同上，2026-10-30 运行时检测为缺失"
+      "note": "仍为缺口；backlog 已预排 Snakebird、Obra Dinn 等可形式化候选，建议下一次补跑"
     }
   ],
-  "last_run": {
-    "planned_date": "2026-10-30",
-    "run_type": "daily",
-    "theme": "indie_experimental",
-    "status": "success_pending_push",
-    "status_note": "本地校验通过并归档；Git 推送结果见当日运行输出"
-  },
   "coverage": {
-    "total_cases": 9,
-    "total_mechanics": 10,
-    "total_patterns": 6,
+    "total_cases": 13,
+    "total_mechanics": 14,
+    "total_patterns": 9,
     "total_theories": 1,
-    "total_hypotheses": 4,
+    "total_hypotheses": 6,
     "themes_covered": {
       "2026-10-27": "casual_hypercasual",
+      "2026-10-28": "action_shooter（2026-10-30 补跑）",
       "2026-10-30": "indie_experimental"
     },
-    "genres_touched": ["casual", "puzzle", "hybrid", "action"]
+    "genres_touched": ["casual", "puzzle", "hybrid", "action", "shooter"]
   },
   "verification_profile": {
-    "code_inspected": 1,
-    "source_reviewed": 8,
+    "code_inspected": 2,
+    "source_reviewed": 11,
     "demo_played": 0,
     "unverified": 0
   },
   "knowledge_gaps": [
-    "倾斜（连续模拟量）输入样本仍缺：Doodle Jump 两次顺延，优先级已提升（backlog）",
-    "广告插入对重开循环的破坏缺数据证据",
-    "确定性玩法与物理玩法的可解性光谱缺形式化度量（周六理论专题；Baba 规则可变性使 Solver 成本上升为新增观察点）",
+    "益智/策略轴（10-29）仍为零覆盖——最优先缺口",
+    "倾斜（连续模拟量）输入样本仍缺：Doodle Jump 两度顺延（backlog 优先级高）",
+    "确定性玩法与物理玩法的可解性光谱缺形式化度量（周六理论专题；Baba/弹色链为新增观察点）",
+    "全部 13 案例仍未实测（demo_played=0）；Celeste Classic 与 Ikaruga Steam 版为可实测线索",
     "中文市场样本（羊了个羊）缺可验证原始规则来源",
-    "合成大西瓜与 Suika Game 的起源独立性未查证（易混淆项已登记）",
-    "全部 9 案例仍未实测（demo_played=0）；Celeste Classic 已登记浏览器可玩线索（Lexaloffle BBS，页面未核），下日候选优先可实测项",
-    "10-28/10-29 两次调度未运行：动作射击与益智策略专题覆盖为零，需补跑或并入周日周报缺口"
+    "Doom pain chance 等数值表未逐值登记（info.c 待核）"
   ],
   "dedup_watchlist": [
-    "game-000003 与《合成大西瓜》同构不同实体（见 config/aliases.yaml confusables）",
+    "game-000003 与《合成大西瓜》同构不同实体（config/aliases.yaml confusables）",
     "game-000004 与其他同名堆叠游戏不可合并",
-    "mechanic-000009（输入宽恕窗口）与未来可能入库的『hitstop/冻结帧反馈』需防语义混淆（2026-10-30 预登记）"
+    "mechanic-000012（运动耦合时间）与 mechanic-000008（倒带）语义边界已用 CONTRASTS_WITH 固化，防合并",
+    "mechanic-000009（输入宽恕窗口）与未来 hitstop/冻结帧机制需防混淆"
   ],
   "next_scheduled": {
     "date": "2026-10-31",

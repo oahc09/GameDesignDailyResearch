@@ -36,3 +36,17 @@
 {"from":"game-000003","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
 {"from":"game-000005","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
 {"from":"game-000008","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
+{"from":"game-000010","type":"USES_MECHANIC","to":"mechanic-000011","evidence_urls":["https://en.wikipedia.org/wiki/Ikaruga","https://store.steampowered.com/app/426680/Ikaruga/"]}
+{"from":"game-000011","type":"USES_MECHANIC","to":"mechanic-000012","evidence_urls":["https://en.wikipedia.org/wiki/Superhot"]}
+{"from":"game-000012","type":"USES_MECHANIC","to":"mechanic-000013","evidence_urls":["https://github.com/id-Software/DOOM","https://raw.githubusercontent.com/id-Software/DOOM/master/linuxdoom-1.10/p_enemy.c"]}
+{"from":"game-000013","type":"USES_MECHANIC","to":"mechanic-000014","evidence_urls":["https://en.wikipedia.org/wiki/Halo:_Combat_Evolved"]}
+{"from":"game-000010","type":"EXEMPLIFIES_PATTERN","to":"pattern-000007","evidence_urls":["https://en.wikipedia.org/wiki/Ikaruga"]}
+{"from":"game-000011","type":"EXEMPLIFIES_PATTERN","to":"pattern-000008","evidence_urls":["https://en.wikipedia.org/wiki/Superhot"]}
+{"from":"game-000012","type":"EXEMPLIFIES_PATTERN","to":"pattern-000009","evidence_urls":["https://github.com/id-Software/DOOM"]}
+{"from":"game-000013","type":"EXEMPLIFIES_PATTERN","to":"pattern-000009","evidence_urls":["https://en.wikipedia.org/wiki/Halo:_Combat_Evolved","https://gdcvault.com/play/497/Building-a-Better-Battle-HALO"]}
+{"from":"game-000011","type":"CONTRASTS_WITH","to":"game-000007","evidence_urls":["https://en.wikipedia.org/wiki/Superhot"],"note":"时间操控两极：倒带修改过去 vs 门控现在"}
+{"from":"game-000010","type":"CONTRASTS_WITH","to":"game-000001","evidence_urls":["https://en.wikipedia.org/wiki/Ikaruga"],"note":"迎弹（同色弹=资源）vs 避弹（一切弹皆威胁）"}
+{"from":"hypothesis-000005","type":"COMBINES_WITH","to":"mechanic-000011","evidence_urls":[]}
+{"from":"hypothesis-000005","type":"COMBINES_WITH","to":"pattern-000002","evidence_urls":[]}
+{"from":"hypothesis-000006","type":"COMBINES_WITH","to":"mechanic-000012","evidence_urls":[]}
+{"from":"hypothesis-000006","type":"COMBINES_WITH","to":"mechanic-000008","evidence_urls":[]}

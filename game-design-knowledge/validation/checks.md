@@ -1,5 +1,14 @@
 # 校验记录
 
+## 2026-10-28（补跑，实际执行于 2026-10-30 23:13 Asia/Shanghai）
+
+- 工具：`validation/validate.mjs`
+- 结果：**ERRORS 0 / WARNINGS 0**
+- 覆盖：JSONL 12 文件 / 204 条记录；实体 cases=13, mechanics=14, patterns=9, theories=1, hypotheses=6（共 43）；relations 52 条端点与类型全部合法；三个 run.json（10-27/28/30）解析通过；索引与实体集合一致。
+- 重点去重核查：mechanic-000012（运动耦合时间）vs mechanic-000008（倒带）语义比对确认非重复，CONTRASTS_WITH 固化；game-000010~13 与既有 9 案例三级去重无重复。
+- 引用真实性：DOOM 怪物 AI 全部事实来自 GPL 源码 p_enemy.c 逐函数核对（A 级）；GDC Vault 页为纯音频，仅引用主题范围并注明；无编造 URL。
+- 幂等注记：2026-10-30 23:13 为当日重复触发，先幂等处理（审计记录 49602dc），再补跑缺口日 10-28（本节），归档未占用 10-30 目录。
+
 ## 2026-10-30（周五 · 独立与实验玩法）
 
 - 工具：`validation/validate.mjs`（本日起 run.json 检查升级为全量扫描所有日报的 run.json）

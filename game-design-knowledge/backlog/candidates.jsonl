@@ -17,3 +17,12 @@
 {"candidate":"Snakebird（Noumenon Games）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"蛇形多节体的网格谜题，可形式化程度高；属周四益智专题更佳","added_on":"2026-10-30"}
 {"candidate":"Return of the Obra Dinn（Lucas Pope）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"演绎推理的形式化样本（Boolean 消除+确认门槛）；Pope 前作 Papers Please 同谱系；属周四专题更佳","added_on":"2026-10-30"}
 {"candidate":"Her Story（Sam Barlow）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"FMV 数据库叙事的实验样本；检索即玩法","added_on":"2026-10-30"}
+{"candidate":"Galaga（Namco）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"1981 街机弹幕经典（敌阵形编队与俯冲），属本专题但候选池已满；随 Space Invaders 一并排入射击史轴","added_on":"2026-10-30"}
+{"candidate":"Space Invaders（Taito）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"射击品类起点样本；节奏加速机制（剩余越少越快）值得单卡；另日","added_on":"2026-10-30"}
+{"candidate":"Hotline Miami（Dennaton）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"一发双杀+分数链的 top-down 风险收益样本，与 game-000010 呼应；另日","added_on":"2026-10-30"}
+{"candidate":"Enter the Gungeon（Dodge Roll）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"翻滚无敌帧+弹幕洪流的 roguelite；无敌帧参数化研究样本；另日","added_on":"2026-10-30"}
+{"candidate":"Nuclear Throne（Vlambeer）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Vlambeer『craft of noise』手感设计的 roguelite 射击；武器构筑轴；另日","added_on":"2026-10-30"}
+{"candidate":"Bayonetta（PlatinumGames）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Witch Time（极限闪避触发时缓）与 dodge-offset 的高级动作轴；属周三主题深水区","added_on":"2026-10-30"}
+{"candidate":"Katana ZERO（Askiisoft）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"时缓+计划-执行循环的一发双杀独立样本；与 SUPERHOT 时间轴对照；另日","added_on":"2026-10-30"}
+{"candidate":"Titanfall 2（Respawn）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"移动射击与关卡教学编排（Effect and Cause 关卡）的现代范本；另日","added_on":"2026-10-30"}
+{"candidate":"Doom Eternal（id Software）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"与 game-000012 构成 30 年对照：arena 封闭+资源泵（flame/chain/glory kill）vs 1993 涌现群战；对照研究样本","added_on":"2026-10-30"}

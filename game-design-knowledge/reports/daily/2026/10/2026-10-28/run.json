@@ -1,0 +1,50 @@
+{
+  "research_date": "2026-10-28",
+  "run_type": "daily_backfill",
+  "weekday_theme": "action_shooter（动作与射击：战斗循环、敌人行为、武器构筑、风险收益、空间控制）",
+  "executed_at": {
+    "start": "2026-10-30T23:13:00+08:00",
+    "start_note": "因 2026-10-28 当日调度未运行，由 2026-10-30 23:13 的定时重复触发执行补跑；按 SPEC 第 4 节仍归档到计划研究日 2026-10-28，实际执行时间如实记录于此",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 13,
+    "selected_cases": 4,
+    "new_cases": 4,
+    "new_mechanics": 4,
+    "new_patterns": 3,
+    "new_theories": 0,
+    "new_hypotheses": 2,
+    "updated_entities": 0,
+    "backlog_added": 9,
+    "sources_registered": 8,
+    "sources_fetch_failed": 0
+  },
+  "dedup_scope": "full_library（跨 10-27/10-30 与本次全部实体三级去重；时间操控两机制经语义比对确认非重复，已用 CONTRASTS_WITH 固化边界）",
+  "missed_run_recovery": {
+    "original_gap_detected_on": "2026-10-30 22:12 运行",
+    "recovery_trigger": "2026-10-30 23:13 定时重复触发（当日 10-30 研究已完成，按 SPEC 第 9 节幂等处理后续跑缺口日）"
+  },
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（DOOM 源码事实经 raw.githubusercontent 逐函数核对；GDC 演讲页为纯音频，仅引用主题范围并已注明）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/10/2026-10-28/",
+    "planned_date_match": true,
+    "rerun_note": "补跑按计划日期归档，未占用 2026-10-30 目录"
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-10-28",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "research_date": "2026-10-31",
+  "run_type": "daily",
+  "weekday_theme": "theory_algorithms（理论与算法：MDA、心流、认知负荷、玩家动机、概率与数值设计）",
+  "executed_at": {
+    "start": "2026-10-31T23:11:00+08:00",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 15,
+    "selected_cases": 5,
+    "new_cases": 5,
+    "new_mechanics": 5,
+    "new_patterns": 2,
+    "new_theories": 2,
+    "new_hypotheses": 2,
+    "updated_entities": 0,
+    "taxonomy_updated": "新增 randomization 机制类别",
+    "backlog_added": 10,
+    "sources_registered": 11,
+    "sources_fetch_failed": 0
+  },
+  "theme_deviations": [
+    "Tetris、2048 列于周一'经典机制'专题名单，本日按 SPEC §1 以概率/算法轴切入并在案例卡元数据中记录偏离原因"
+  ],
+  "dedup_scope": "full_library（18 案例/19 机制全量语义比对；四个随机化机制（袋式/iid/首击生成/概率分层）注入点互相声明，无重复）",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass（首跑时 backlog 末行因命令截断损坏，已原子修复后复验通过）",
+    "no_fabricated_urls": "pass（2048 生成概率与终局判定经源码逐行核对；XCOM 内部参数未公开处如实标注）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/10/2026-10-31/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-10-31",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

@@ -26,3 +26,13 @@
 {"candidate":"Katana ZERO（Askiisoft）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"时缓+计划-执行循环的一发双杀独立样本；与 SUPERHOT 时间轴对照；另日","added_on":"2026-10-30"}
 {"candidate":"Titanfall 2（Respawn）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"移动射击与关卡教学编排（Effect and Cause 关卡）的现代范本；另日","added_on":"2026-10-30"}
 {"candidate":"Doom Eternal（id Software）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"与 game-000012 构成 30 年对照：arena 封闭+资源泵（flame/chain/glory kill）vs 1993 涌现群战；对照研究样本","added_on":"2026-10-30"}
+{"candidate":"XCOM 2 / War of the Chosen","language":"en","evidence_level":"B","urls":["https://www.gamasutra.com/view/news/267606/Jake_Solomon_explains_the_careful_use_of_randomness_in_XCOM_2.php"],"status":"backlog","reason":"game-000018 的续作对照（时间轴/命中率显示策略差异）；Solomon Designer Notes 播客 #81（'75% 不等于 75%'）待收听后可单卡","added_on":"2026-10-31"}
+{"candidate":"Slay the Spire","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"卡牌概率与地图生成算法样本（种子/事件去重）；与 Balatro 构筑轴互补","added_on":"2026-10-31"}
+{"candidate":"Sudoku（生成与难度分级）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"唯一解生成算法与难度度量（约束传播）的教科书样本；属周四益智主题亦可","added_on":"2026-10-31"}
+{"candidate":"Threes!（Asher Vollmer / Greg Wohlwend）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"2048 渊源主卡（Wikipedia 未给 Vollmer 归属，需原始访谈）+ 配对算法与 AI（官方博客）；随 2048 姊妹研究排周一","added_on":"2026-10-31","updated_on":"2026-10-31"}
+{"candidate":"Drop7（Frank Lantz / Zynga）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"数值设计极简神作（素数消除）；Lantz 有访谈与演讲可核验","added_on":"2026-10-31"}
+{"candidate":"Candy Crush Saga（King，难度建模）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"King 公开技术博客有难度建模/ML 内容，属周一 Match-3 主题，顺延","added_on":"2026-10-31"}
+{"candidate":"Hearthstone（Ben Brode RNG 哲学）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"卡牌游戏随机性设计哲学（发现机制/随机显式化）有大量访谈；另日","added_on":"2026-10-31"}
+{"candidate":"Portal（测试舱认知负荷编排）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"教学节奏/认知负荷理论（theory-000002 姊妹）的关卡设计样本；属周四主题亦可","added_on":"2026-10-31"}
+{"candidate":"The Witness（规则归纳语言）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"面板规则作为可归纳语法（与 Baba 词块语法对照）；Blow 访谈资源丰富","added_on":"2026-10-31"}
+{"candidate":"Klondike Solitaire（可解率研究）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"79-92% 可解率的经典数值设计（发一张/发三张差异）；需核验可复现研究来源后再入库","added_on":"2026-10-31"}

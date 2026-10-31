@@ -7,3 +7,5 @@
 {"id":"pattern-000007","name":"absorb_over_dodge（吸收优于闪避的迎弹经济）","related_case_ids":["game-000010"],"confidence":"source_reviewed","path":"patterns/pattern-000007.md","created_at":"2026-10-30","updated_at":"2026-10-30"}
 {"id":"pattern-000008","name":"time_as_currency（时间即行动货币）","related_case_ids":["game-000011"],"confidence":"source_reviewed","path":"patterns/pattern-000008.md","created_at":"2026-10-30","updated_at":"2026-10-30"}
 {"id":"pattern-000009","name":"simple_ai_emergent_pressure（简单 AI 规则的涌现压力）","related_case_ids":["game-000012","game-000013"],"confidence":"verified","path":"patterns/pattern-000009.md","created_at":"2026-10-30","updated_at":"2026-10-30"}
+{"id":"pattern-000010","name":"guaranteed_random_fairness（保底式随机公平）","related_case_ids":["game-000014","game-000018","game-000016"],"confidence":"source_reviewed","path":"patterns/pattern-000010.md","created_at":"2026-10-31","updated_at":"2026-10-31"}
+{"id":"pattern-000011","name":"solver_bounded_depth（求解器界定的深度谱）","related_case_ids":["game-000015","game-000016","game-000005"],"confidence":"source_reviewed","path":"patterns/pattern-000011.md","created_at":"2026-10-31","updated_at":"2026-10-31"}

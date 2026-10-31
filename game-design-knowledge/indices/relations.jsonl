@@ -50,3 +50,21 @@
 {"from":"hypothesis-000005","type":"COMBINES_WITH","to":"pattern-000002","evidence_urls":[]}
 {"from":"hypothesis-000006","type":"COMBINES_WITH","to":"mechanic-000012","evidence_urls":[]}
 {"from":"hypothesis-000006","type":"COMBINES_WITH","to":"mechanic-000008","evidence_urls":[]}
+{"from":"game-000014","type":"USES_MECHANIC","to":"mechanic-000015","evidence_urls":["https://en.wikipedia.org/wiki/Tetris"]}
+{"from":"game-000015","type":"USES_MECHANIC","to":"mechanic-000016","evidence_urls":["https://github.com/gabrielecirulli/2048","https://raw.githubusercontent.com/gabrielecirulli/2048/master/js/game_manager.js"]}
+{"from":"game-000016","type":"USES_MECHANIC","to":"mechanic-000017","evidence_urls":["https://en.wikipedia.org/wiki/Minesweeper_(video_game)"]}
+{"from":"game-000017","type":"USES_MECHANIC","to":"mechanic-000018","evidence_urls":["https://en.wikipedia.org/wiki/Balatro"]}
+{"from":"game-000018","type":"USES_MECHANIC","to":"mechanic-000019","evidence_urls":["https://www.gamasutra.com/view/news/267606/Jake_Solomon_explains_the_careful_use_of_randomness_in_XCOM_2.php"]}
+{"from":"game-000014","type":"EXEMPLIFIES_PATTERN","to":"pattern-000010","evidence_urls":["https://en.wikipedia.org/wiki/Tetris"]}
+{"from":"game-000018","type":"EXEMPLIFIES_PATTERN","to":"pattern-000010","evidence_urls":["https://www.gamasutra.com/view/news/267606/Jake_Solomon_explains_the_careful_use_of_randomness_in_XCOM_2.php"]}
+{"from":"game-000016","type":"EXEMPLIFIES_PATTERN","to":"pattern-000010","evidence_urls":["https://en.wikipedia.org/wiki/Minesweeper_(video_game)"]}
+{"from":"game-000015","type":"EXEMPLIFIES_PATTERN","to":"pattern-000011","evidence_urls":["https://github.com/ov3y/2048-AI"]}
+{"from":"game-000016","type":"EXEMPLIFIES_PATTERN","to":"pattern-000011","evidence_urls":["https://en.wikipedia.org/wiki/Minesweeper_(video_game)"]}
+{"from":"game-000005","type":"EXEMPLIFIES_PATTERN","to":"pattern-000011","evidence_urls":["https://www.3blue1brown.com/lessons/wordle"]}
+{"from":"game-000015","type":"CONTRASTS_WITH","to":"game-000018","evidence_urls":["https://raw.githubusercontent.com/gabrielecirulli/2048/master/js/game_manager.js"],"note":"iid 无记忆随机 vs 有记忆连败补偿：随机是否该被设计的两极"}
+{"from":"game-000014","type":"SUPPORTED_BY","to":"theory-000002","evidence_urls":[]}
+{"from":"game-000005","type":"SUPPORTED_BY","to":"theory-000003","evidence_urls":["https://www.3blue1brown.com/lessons/wordle"]}
+{"from":"hypothesis-000007","type":"COMBINES_WITH","to":"mechanic-000015","evidence_urls":[]}
+{"from":"hypothesis-000007","type":"COMBINES_WITH","to":"pattern-000010","evidence_urls":[]}
+{"from":"hypothesis-000008","type":"COMBINES_WITH","to":"theory-000003","evidence_urls":[]}
+{"from":"hypothesis-000008","type":"COMBINES_WITH","to":"mechanic-000005","evidence_urls":[]}

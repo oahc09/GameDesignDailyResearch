@@ -29,6 +29,7 @@ mechanism_categories:
   progression: "进程：难度曲线、解锁、升阶链"
   economy: "经济：货币、广告、解锁"
   session_structure: "会话结构：重开、每日限量、会话长度"
+  randomization: "随机化：抽样方式（保底/iid）、概率显示与数值分布（2026-10-31 新增）"
 
 # 关系类型（indices/relations.jsonl 的 type 字段，SPEC 第 5.3 节）
 relation_types:

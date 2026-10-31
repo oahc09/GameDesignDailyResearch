@@ -40,3 +40,11 @@
 - 引用真实性：全部 URL 来自当日检索命中或实际抓取；未核验地址一律 `null` 并注明（Wordle 原始源码仓库未定位到，未登记）。2 个来源抓取失败（ECONNRESET），其内容未用于支撑结论，详见日报"来源索引与失败项"。
 
 - 2026-10-30 23:13 重复触发复核：validate.mjs 重跑通过（0 错误 0 警告），当日内容无变更，按 SPEC §9 幂等处理并留审计记录。
+
+## 2026-10-31（周六 · 理论与算法）
+
+- 工具：`validation/validate.mjs`；结果：**ERRORS 0 / WARNINGS 0**（修复后复验）。
+- 覆盖：JSONL 12 文件 / 244 条记录；实体 cases=18, mechanics=19, patterns=11, theories=3, hypotheses=8（共 59）；三个 run.json 解析通过（现为 10-27/28/31 三份）。
+- 过程异常：backlog 追加命令尾部被截断，末行 Klondike JSON 损坏（Unterminated string）——校验捕获，head+append+mv 原子修复后复验通过。
+- 主题偏离：Tetris/2048 属周一名单，本日按 SPEC §1 以概率/算法轴切入并已在案例卡与 run.json 记录偏离原因。
+- 引用真实性：2048 生成概率经 game_manager.js 逐行核对；XCOM 内部参数、Balatro 小丑权重、NES 随机器算法均标未知不采信社区口径。

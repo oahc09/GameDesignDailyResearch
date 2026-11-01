@@ -9,11 +9,11 @@
 {"candidate":"Threes!（Asher Vollmer / Greg Wohlwend）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"2048 前身，滑动合并离散设计样本，随 2048 一并排入周一专题","added_on":"2026-10-27"}
 {"candidate":"QWOP（Bennett Foddy）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"分肢体按键的实验性操控（控制即玩法）代表；Foddy 物理操控谱系起点，值得单独深挖","added_on":"2026-10-30"}
 {"candidate":"Canabalt（Adam Saltsman / Semi Secret）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"单键无尽跑酷原型起源（Flixel 引擎诞生地），一触谱系的历史节点","added_on":"2026-10-30"}
-{"candidate":"Vampire Survivors（Luca Galante / poncle）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"『不设计瞄准』的射击反转（移动即玩法），机制反转样本；偏周三动作主题亦可","added_on":"2026-10-30"}
+{"candidate":"Vampire Survivors（Luca Galante / poncle）","language":"en","evidence_level":"B","urls":[],"status":"selected","reason":"2026-11-01（周日 跨类别组合专题）入选：『不设计瞄准』的射击反转（移动即玩法），机制反转样本；偏周三动作主题亦可","added_on":"2026-10-30","selected_as":"game-000021","updated_on":"2026-11-01"}
 {"candidate":"Getting Over It with Bennett Foddy","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Fodder 挫败设计（无检查点+旁白解说挫败）样本；与 rage game 谱系研究配套","added_on":"2026-10-30"}
 {"candidate":"The Stanley Parable（Wreden / Pugh）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"元叙事/旁白对抗的实验玩法；规则可形式化程度低，适合叙事-机制关系专题","added_on":"2026-10-30"}
 {"candidate":"Thomas Was Alone（Mike Bithell）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"极简几何+角色赋形的独立样本；协作平台机制可形式化","added_on":"2026-10-30"}
-{"candidate":"Downwell（Ojiro Fumoto）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"枪靴合一（下落即射击）的机制合并样本，combo 经济紧凑；GameCenter 原型起源","added_on":"2026-10-30"}
+{"candidate":"Downwell（Ojiro Fumoto）","language":"en","evidence_level":"B","urls":[],"status":"selected","reason":"2026-11-01（周日 跨类别组合专题）入选：枪靴合一（下落即射击）的机制合并样本，combo 经济紧凑；GameCenter 原型起源","added_on":"2026-10-30","selected_as":"game-000022","updated_on":"2026-11-01"}
 {"candidate":"Snakebird（Noumenon Games）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"蛇形多节体的网格谜题，可形式化程度高；属周四益智专题更佳","added_on":"2026-10-30"}
 {"candidate":"Return of the Obra Dinn（Lucas Pope）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"演绎推理的形式化样本（Boolean 消除+确认门槛）；Pope 前作 Papers Please 同谱系；属周四专题更佳","added_on":"2026-10-30"}
 {"candidate":"Her Story（Sam Barlow）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"FMV 数据库叙事的实验样本；检索即玩法","added_on":"2026-10-30"}
@@ -27,7 +27,7 @@
 {"candidate":"Titanfall 2（Respawn）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"移动射击与关卡教学编排（Effect and Cause 关卡）的现代范本；另日","added_on":"2026-10-30"}
 {"candidate":"Doom Eternal（id Software）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"与 game-000012 构成 30 年对照：arena 封闭+资源泵（flame/chain/glory kill）vs 1993 涌现群战；对照研究样本","added_on":"2026-10-30"}
 {"candidate":"XCOM 2 / War of the Chosen","language":"en","evidence_level":"B","urls":["https://www.gamasutra.com/view/news/267606/Jake_Solomon_explains_the_careful_use_of_randomness_in_XCOM_2.php"],"status":"backlog","reason":"game-000018 的续作对照（时间轴/命中率显示策略差异）；Solomon Designer Notes 播客 #81（'75% 不等于 75%'）待收听后可单卡","added_on":"2026-10-31"}
-{"candidate":"Slay the Spire","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"卡牌概率与地图生成算法样本（种子/事件去重）；与 Balatro 构筑轴互补","added_on":"2026-10-31"}
+{"candidate":"Slay the Spire","language":"en","evidence_level":"B","urls":[],"status":"selected","reason":"2026-11-01（周日 跨类别组合专题）入选：卡牌概率与地图生成算法样本（种子/事件去重）；与 Balatro 构筑轴互补","added_on":"2026-10-31","selected_as":"game-000020","updated_on":"2026-11-01"}
 {"candidate":"Sudoku（生成与难度分级）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"唯一解生成算法与难度度量（约束传播）的教科书样本；属周四益智主题亦可","added_on":"2026-10-31"}
 {"candidate":"Threes!（Asher Vollmer / Greg Wohlwend）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"2048 渊源主卡（Wikipedia 未给 Vollmer 归属，需原始访谈）+ 配对算法与 AI（官方博客）；随 2048 姊妹研究排周一","added_on":"2026-10-31","updated_on":"2026-10-31"}
 {"candidate":"Drop7（Frank Lantz / Zynga）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"数值设计极简神作（素数消除）；Lantz 有访谈与演讲可核验","added_on":"2026-10-31"}
@@ -36,3 +36,13 @@
 {"candidate":"Portal（测试舱认知负荷编排）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"教学节奏/认知负荷理论（theory-000002 姊妹）的关卡设计样本；属周四主题亦可","added_on":"2026-10-31"}
 {"candidate":"The Witness（规则归纳语言）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"面板规则作为可归纳语法（与 Baba 词块语法对照）；Blow 访谈资源丰富","added_on":"2026-10-31"}
 {"candidate":"Klondike Solitaire（可解率研究）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"79-92% 可解率的经典数值设计（发一张/发三张差异）；需核验可复现研究来源后再入库","added_on":"2026-10-31"}
+{"candidate":"Puzzle Quest 2 / Galactrix / Marvel PQ","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000019 谱系续作与授权衍生（接口可移植性对照样本）；另日","added_on":"2026-11-01"}
+{"candidate":"Inscryption（Daniel Mullins）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"卡牌+meta 叙事+密室逃逸的多层融合样本；层次作为叙事装置研究","added_on":"2026-11-01"}
+{"candidate":"Hades（Supergiant）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"肉鸽×叙事持久性（死亡即叙事推进）的融合标杆；叙事-机制接口研究","added_on":"2026-11-01"}
+{"candidate":"Dead Cells（Motion Twin）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"银河城×肉鸽细胞元进程的融合样本；属周五主题亦可","added_on":"2026-11-01"}
+{"candidate":"Loop Hero（Four Quarters）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"卡牌布置×自动战斗×闲置循环的三重融合；循环结构本身即机制","added_on":"2026-11-01"}
+{"candidate":"Peglin（Penguin Knights）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"弹珠盘×肉鸽构筑；Peggle 概率轴的肉鸽化移植","added_on":"2026-11-01"}
+{"candidate":"Dungeon Raid（Fireflame Games）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Puzzle Quest 直系血统的连线版（2011），融合史前史样本","added_on":"2026-11-01"}
+{"candidate":"Shotgun King（Punkcake Delicieux）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"国际象棋×弹幕射击的规则反转融合（2022）； chess 形式化与射击的结合","added_on":"2026-11-01"}
+{"candidate":"Luck Be a Landlord（TrampolineTales）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"老虎机×卡组构筑（Balatro 灵感上游）；符号协同代数样本","added_on":"2026-11-01"}
+{"candidate":"Grindstone（Capybara）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"连线消除×战斗通勤的移动端融合；颜色链经济","added_on":"2026-11-01"}

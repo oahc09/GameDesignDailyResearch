@@ -1,0 +1,53 @@
+{
+  "research_date": "2026-11-01",
+  "run_type": "daily",
+  "weekday_theme": "synthesis_innovation（知识归纳与创新：共性规律、跨类别组合、缺口研究、待验证假设）",
+  "weekly_report": {
+    "generated": true,
+    "file": "reports/weekly/2026-W44.md",
+    "iso_week": "2026-W44（Mon 2026-10-26 ~ Sun 2026-11-01）",
+    "monthly_audit_due": false,
+    "monthly_audit_note": "11-01 + 7 天仍为 11 月，非本月最后一个周日，月审不触发"
+  },
+  "executed_at": {
+    "start": "2026-11-01T23:11:00+08:00",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 14,
+    "selected_cases": 4,
+    "new_cases": 4,
+    "new_mechanics": 4,
+    "new_patterns": 2,
+    "new_theories": 0,
+    "new_hypotheses": 2,
+    "updated_entities": 0,
+    "backlog_status_changes": 3,
+    "backlog_added": 10,
+    "sources_registered": 7,
+    "sources_fetch_failed": 1
+  },
+  "dedup_scope": "full_library（22 案例/23 机制全量语义比对；pattern-000012 三 known_uses 的融合层次（资源桥/对象桥/输入桥）互查确认非重复）",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（GDC Vault 仅登记收录页存在性与演讲主题，注明未逐帧观看；RPS 仅登记标题口径）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-01/",
+    "planned_date_match": true,
+    "note": "归档月份目录随研究日期切换为 11 月"
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-01",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

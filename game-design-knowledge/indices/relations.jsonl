@@ -68,3 +68,16 @@
 {"from":"hypothesis-000007","type":"COMBINES_WITH","to":"pattern-000010","evidence_urls":[]}
 {"from":"hypothesis-000008","type":"COMBINES_WITH","to":"theory-000003","evidence_urls":[]}
 {"from":"hypothesis-000008","type":"COMBINES_WITH","to":"mechanic-000005","evidence_urls":[]}
+{"from":"game-000019","type":"USES_MECHANIC","to":"mechanic-000020","evidence_urls":["https://en.wikipedia.org/wiki/Puzzle_Quest:_Challenge_of_the_Warlords"]}
+{"from":"game-000020","type":"USES_MECHANIC","to":"mechanic-000021","evidence_urls":["https://en.wikipedia.org/wiki/Slay_the_Spire"]}
+{"from":"game-000021","type":"USES_MECHANIC","to":"mechanic-000022","evidence_urls":["https://en.wikipedia.org/wiki/Vampire_Survivors"]}
+{"from":"game-000022","type":"USES_MECHANIC","to":"mechanic-000023","evidence_urls":["https://en.wikipedia.org/wiki/Downwell_(video_game)"]}
+{"from":"game-000019","type":"EXEMPLIFIES_PATTERN","to":"pattern-000012","evidence_urls":["https://en.wikipedia.org/wiki/Puzzle_Quest:_Challenge_of_the_Warlords"]}
+{"from":"game-000020","type":"EXEMPLIFIES_PATTERN","to":"pattern-000012","evidence_urls":["https://en.wikipedia.org/wiki/Slay_the_Spire"]}
+{"from":"game-000022","type":"EXEMPLIFIES_PATTERN","to":"pattern-000012","evidence_urls":["https://en.wikipedia.org/wiki/Downwell_(video_game)"]}
+{"from":"game-000021","type":"EXEMPLIFIES_PATTERN","to":"pattern-000013","evidence_urls":["https://en.wikipedia.org/wiki/Vampire_Survivors"]}
+{"from":"game-000020","type":"SUPPORTED_BY","to":"theory-000002","evidence_urls":[]}
+{"from":"hypothesis-000009","type":"COMBINES_WITH","to":"mechanic-000003","evidence_urls":[]}
+{"from":"hypothesis-000009","type":"COMBINES_WITH","to":"mechanic-000020","evidence_urls":[]}
+{"from":"hypothesis-000010","type":"COMBINES_WITH","to":"mechanic-000021","evidence_urls":[]}
+{"from":"hypothesis-000010","type":"COMBINES_WITH","to":"mechanic-000018","evidence_urls":[]}

@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-31T23:55:00+08:00",
-  "last_planned_success_date": "2026-10-31",
+  "updated_at": "2026-11-01T23:55:00+08:00",
+  "last_planned_success_date": "2026-11-01",
   "last_run": {
-    "planned_date": "2026-10-31",
+    "planned_date": "2026-11-01",
     "run_type": "daily",
-    "theme": "theory_algorithms",
+    "theme": "synthesis_innovation + weekly_report_2026-W44",
     "status": "success_pending_push",
     "status_note": "本地校验通过并归档；Git 推送结果见当日运行输出"
   },
@@ -13,51 +13,50 @@
       "date": "2026-10-29",
       "weekday_theme": "puzzle_strategy（益智与策略）",
       "status": "missed_not_rerun",
-      "note": "仍为缺口；backlog 预排 Snakebird、Obra Dinn、Sudoku、Portal、The Witness 等可形式化候选，建议下次触发优先补跑"
+      "note": "仍为缺口；backlog 预排 Snakebird、Obra Dinn、Sudoku、Portal、The Witness；周报已列为缺口"
     }
   ],
   "backfill_history": [
     {"date": "2026-10-28", "backfilled_on": "2026-10-30T23:13:00+08:00", "archive_dir": "reports/daily/2026/10/2026-10-28/"}
   ],
   "coverage": {
-    "total_cases": 18,
-    "total_mechanics": 19,
-    "total_patterns": 11,
+    "total_cases": 22,
+    "total_mechanics": 23,
+    "total_patterns": 13,
     "total_theories": 3,
-    "total_hypotheses": 8,
+    "total_hypotheses": 10,
     "themes_covered": {
       "2026-10-27": "casual_hypercasual",
       "2026-10-28": "action_shooter（2026-10-30 补跑）",
       "2026-10-30": "indie_experimental",
-      "2026-10-31": "theory_algorithms"
+      "2026-10-31": "theory_algorithms",
+      "2026-11-01": "synthesis_innovation"
     },
     "genres_touched": ["casual", "puzzle", "hybrid", "action", "shooter", "strategy"]
   },
   "verification_profile": {
     "code_inspected": 3,
-    "source_reviewed": 15,
+    "source_reviewed": 19,
     "demo_played": 0,
     "unverified": 0
   },
   "knowledge_gaps": [
-    "益智/策略轴（10-29）仍为零覆盖——最优先缺口",
-    "倾斜（连续模拟量）输入样本仍缺：Doodle Jump 数度顺延（backlog 高优先）",
-    "求解器界定的深度谱（pattern-000011）缺'熵作为连续难度度量'的实证——hypothesis-000008 待测",
-    "全部 18 案例仍未实测（demo_played=0）；2048（开源网页版）与 Ikaruga Steam 版为最易实测项",
-    "中文市场样本（羊了个羊）缺可验证原始规则来源",
-    "Balatro 小丑池稀有度权重、XCOM 内部补偿公式均为未公开参数（已如实标注）"
+    "益智/策略轴（10-29）仍为零覆盖——最优先缺口，周报已列",
+    "demo_played 仍为 0——下周优先实测 2048 开源网页版（零成本）",
+    "倾斜输入样本（Doodle Jump）仍未覆盖",
+    "Threes! 归属与配对算法未核验（周一专题待办）",
+    "Puzzle Quest 设计动机缺一手 Fawkner 访谈",
+    "熵作为连续难度度量的实证（hypothesis-000008 离线仿真部分可先行）"
   ],
   "dedup_watchlist": [
     "game-000003 与《合成大西瓜》同构不同实体（config/aliases.yaml confusables）",
-    "game-000004 与其他同名堆叠游戏不可合并",
-    "mechanic-000012（运动耦合时间）与 mechanic-000008（倒带）边界已固化",
-    "mechanic-000015/000016/000017/000019 同属随机化家族但注入点不同（供给/生成时序/体验补偿），语义边界已在卡内互相声明——后续新增随机机制须先比对四者"
+    "mechanic-000020/000021/000022/000023 与既有机制（尤其 mechanic-000004 时机、mechanic-000003 合并）语义边界已在卡内声明——融合类机制入库前必须先与 pattern-000012 三 known_uses 比对"
   ],
   "next_scheduled": {
-    "date": "2026-11-01",
-    "weekday": "sunday",
-    "theme": "synthesis_innovation（知识归纳与创新）+ 首份周报（ISO 2026-W44）"
+    "date": "2026-11-02",
+    "weekday": "monday",
+    "theme": "classic_mechanics（经典机制及其变体：Threes! 归属核验、Sokoban、Match-3、塔防；周四补跑候选 Snakebird/Obra Dinn 亦在 backlog）"
   },
-  "weekly_report_preview_note": "近 7 天窗口（10-26~11-01）将有 4 个运行日（10-27/28/30/31），10-29 为缺口，10-28 为补跑——周报须如实区分",
+  "weekly_reports": ["reports/weekly/2026-W44.md（首份，2026-11-01 生成）"],
   "git_push_result": "reported_in_run_output（仓内不虚报远端状态）"
 }

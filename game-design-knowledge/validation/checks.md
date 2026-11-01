@@ -48,3 +48,10 @@
 - 过程异常：backlog 追加命令尾部被截断，末行 Klondike JSON 损坏（Unterminated string）——校验捕获，head+append+mv 原子修复后复验通过。
 - 主题偏离：Tetris/2048 属周一名单，本日按 SPEC §1 以概率/算法轴切入并已在案例卡与 run.json 记录偏离原因。
 - 引用真实性：2048 生成概率经 game_manager.js 逐行核对；XCOM 内部参数、Balatro 小丑权重、NES 随机器算法均标未知不采信社区口径。
+
+## 2026-11-01（周日 · 知识归纳与创新 + 首份周报）
+
+- 工具：`validation/validate.mjs`；结果：**ERRORS 0 / WARNINGS 0**。
+- 覆盖：JSONL 16 文件；实体 cases=22, mechanics=23, patterns=13, theories=3, hypotheses=8+2=10；四份 run.json（10-27/28/31/11-01）解析通过；周报 2026-W44.md 生成。
+- 过程异常：Downwell 首次抓取命中消歧义页（Downwelling），改用 Downwell_(video_game) 重试成功；backlog 用 node 解析-修补-重命名做原子状态迁移（3 项 selected）。
+- 归档路径：11-01 起月份目录切换为 reports/daily/2026/11/。

@@ -46,3 +46,13 @@
 {"candidate":"Shotgun King（Punkcake Delicieux）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"国际象棋×弹幕射击的规则反转融合（2022）； chess 形式化与射击的结合","added_on":"2026-11-01"}
 {"candidate":"Luck Be a Landlord（TrampolineTales）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"老虎机×卡组构筑（Balatro 灵感上游）；符号协同代数样本","added_on":"2026-11-01"}
 {"candidate":"Grindstone（Capybara）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"连线消除×战斗通勤的移动端融合；颜色链经济","added_on":"2026-11-01"}
+{"candidate":"Ms. Pac-Man（GCC 1982）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000023 谱系续作（随机迷宫化改动对照）；随 Pac-Man 姊妹研究","added_on":"2026-11-07"}
+{"candidate":"Dwarf Fortress Adventure/Legends 深挖","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000026 三模式中另两模式未覆盖；Tarn Adams GDC 演讲 URL 待核验","added_on":"2026-11-07"}
+{"candidate":"Spelunky 2 / Derek Yu GDC 2013 演讲","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"生成方法的演讲级一手来源待定位（TIGSource 原文已存档）；Spelunky 2 变化点对照","added_on":"2026-11-07"}
+{"candidate":"RimWorld（Tynan Sylvester）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000026 直接影响链下游（叙事底座+剧本化事件）；Sylvester 著有《Designing Games》理论书","added_on":"2026-11-07"}
+{"candidate":"StarCraft（确定性+平衡 patch 史）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"RTS 竞技谱系另一极（Brood War 平衡文化）；与 AoE 锁步对照","added_on":"2026-11-07"}
+{"candidate":"NetHack（深度交互模拟）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Spelunky 地形交互的源头；物品交互矩阵的形式化样本","added_on":"2026-11-07"}
+{"candidate":"FTL: Faster Than Light","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"分支地图生成（STS 明言灵感来源）；慢节奏实时混合","added_on":"2026-11-07"}
+{"candidate":"Factorio（自动化经济模拟）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"确定性模拟+物流优化的工厂系；吞吐量即玩法数学","added_on":"2026-11-07"}
+{"candidate":"Dwarf Fortress-like：Songs of Syx / Ancient Savo","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"模拟城市谱系下游样本（低优先）","added_on":"2026-11-07"}
+{"candidate":"Minecraft（程序生成地形）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"噪声地形生成与 DF 影响链下游；体素生成算法轴","added_on":"2026-11-07"}

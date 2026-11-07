@@ -1,0 +1,48 @@
+{
+  "research_date": "2026-11-07",
+  "run_type": "daily",
+  "weekday_theme": "theory_algorithms（理论与算法第二轮：确定性模拟与程序生成——避开 10-31 已覆盖的随机化轴）",
+  "executed_at": {
+    "start": "2026-11-07T23:11:00+08:00",
+    "timezone": "Asia/Shanghai"
+  },
+  "queued_trigger_anomaly": "本会话一次性收到三条排队的调度提示（宿主离线数日后补发）；按计划日期幂等原则只执行 11-07 运行；11-02~11-06 五个调度日与 10-29 均登记为缺口（state.missed_scheduled_dates），未补造",
+  "counts": {
+    "candidates": 14,
+    "selected_cases": 4,
+    "new_cases": 4,
+    "new_mechanics": 4,
+    "new_patterns": 2,
+    "new_theories": 0,
+    "new_hypotheses": 2,
+    "updated_entities": 0,
+    "backlog_added": 10,
+    "sources_registered": 8,
+    "sources_fetch_failed": 0
+  },
+  "theme_deviations": [
+    "Pac-Man 列于周一'经典机制'专题谱系，本日按 SPEC §1 以确定性 AI 算法轴切入并在案例卡元数据记录偏离原因"
+  ],
+  "dedup_scope": "full_library（26 案例/27 机制全量语义比对；本日四机制均为'确定性模拟/程序生成'轴，与 10-31 随机化轴互补不重复；pattern-000014 跨日回收 game-000005/000015 建立关联）",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（Derek Yu 原博文/GDC 演讲 URL 未命中即不引用，方法经二手一致描述核验并注明；Tarn Adams 演讲 URL 未核验即不登记）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-07/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-07",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

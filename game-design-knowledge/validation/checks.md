@@ -55,3 +55,10 @@
 - 覆盖：JSONL 16 文件；实体 cases=22, mechanics=23, patterns=13, theories=3, hypotheses=8+2=10；四份 run.json（10-27/28/31/11-01）解析通过；周报 2026-W44.md 生成。
 - 过程异常：Downwell 首次抓取命中消歧义页（Downwelling），改用 Downwell_(video_game) 重试成功；backlog 用 node 解析-修补-重命名做原子状态迁移（3 项 selected）。
 - 归档路径：11-01 起月份目录切换为 reports/daily/2026/11/。
+
+## 2026-11-07（周六 · 理论与算法第二轮：确定性模拟与程序生成）
+
+- 工具：`validation/validate.mjs`；结果：**ERRORS 0 / WARNINGS 0**。
+- 覆盖：实体 cases=26, mechanics=27, patterns=15, theories=3, hypotheses=12（共 83）；五份 run.json（10-27/28/31/11-01/11-07）解析通过；relations 99 条全合法。
+- 调度异常：本会话收到三条排队触发（宿主离线数日）；11-02~11-06 与 10-29 登记为缺口，未补造；缺口积压建议专项补跑批次。
+- 引用真实性：Pac-Man Dossier（A，幽灵 AI 相关项已核）、1500 Archers 论文 PDF+文章版双互证（A）；Derek Yu 原博文与 Tarn Adams 演讲 URL 未命中即不登记。

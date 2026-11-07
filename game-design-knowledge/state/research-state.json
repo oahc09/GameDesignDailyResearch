@@ -1,62 +1,64 @@
 {
-  "updated_at": "2026-11-01T23:55:00+08:00",
-  "last_planned_success_date": "2026-11-01",
-  "last_run": {
-    "planned_date": "2026-11-01",
-    "run_type": "daily",
-    "theme": "synthesis_innovation + weekly_report_2026-W44",
-    "status": "success_pending_push",
-    "status_note": "本地校验通过并归档；Git 推送结果见当日运行输出"
-  },
+  "updated_at": "2026-11-07T23:55:00+08:00",
+  "last_planned_success_date": "2026-11-07",
   "missed_scheduled_dates": [
-    {
-      "date": "2026-10-29",
-      "weekday_theme": "puzzle_strategy（益智与策略）",
-      "status": "missed_not_rerun",
-      "note": "仍为缺口；backlog 预排 Snakebird、Obra Dinn、Sudoku、Portal、The Witness；周报已列为缺口"
-    }
+    {"date": "2026-10-29", "weekday_theme": "puzzle_strategy（益智与策略）", "status": "missed_not_rerun", "note": "自 W44 起持续为缺口；backlog 预排 Snakebird/Obra Dinn/Sudoku/Portal/The Witness"},
+    {"date": "2026-11-02", "weekday_theme": "classic_mechanics（经典机制）", "status": "missed_not_rerun", "note": "宿主离线期缺失；Threes! 归属核验/塔防等候选随 backlog 顺延"},
+    {"date": "2026-11-03", "weekday_theme": "casual_hypercasual（休闲与超休闲）", "status": "missed_not_rerun", "note": "同上"},
+    {"date": "2026-11-04", "weekday_theme": "action_shooter（动作与射击）", "status": "missed_not_rerun", "note": "同上"},
+    {"date": "2026-11-05", "weekday_theme": "puzzle_strategy（益智与策略）", "status": "missed_not_rerun", "note": "同上"},
+    {"date": "2026-11-06", "weekday_theme": "indie_experimental（独立与实验玩法）", "status": "missed_not_rerun", "note": "同上"}
   ],
+  "trigger_anomaly_note": "2026-11-07 23:11 的会话一次性收到三条排队的调度提示（宿主离线数日后补发）；按计划日期幂等原则只执行当日 11-07 运行，其余缺失日登记为缺口，未补造",
   "backfill_history": [
     {"date": "2026-10-28", "backfilled_on": "2026-10-30T23:13:00+08:00", "archive_dir": "reports/daily/2026/10/2026-10-28/"}
   ],
+  "last_run": {
+    "planned_date": "2026-11-07",
+    "run_type": "daily",
+    "theme": "theory_algorithms（第二轮：确定性模拟与程序生成）",
+    "status": "success_pending_push",
+    "status_note": "本地校验通过并归档；Git 推送结果见当日运行输出"
+  },
   "coverage": {
-    "total_cases": 22,
-    "total_mechanics": 23,
-    "total_patterns": 13,
+    "total_cases": 26,
+    "total_mechanics": 27,
+    "total_patterns": 15,
     "total_theories": 3,
-    "total_hypotheses": 10,
+    "total_hypotheses": 12,
     "themes_covered": {
       "2026-10-27": "casual_hypercasual",
       "2026-10-28": "action_shooter（2026-10-30 补跑）",
       "2026-10-30": "indie_experimental",
       "2026-10-31": "theory_algorithms",
-      "2026-11-01": "synthesis_innovation"
+      "2026-11-01": "synthesis_innovation",
+      "2026-11-07": "theory_algorithms（第二轮）"
     },
-    "genres_touched": ["casual", "puzzle", "hybrid", "action", "shooter", "strategy"]
+    "genres_touched": ["casual", "puzzle", "hybrid", "action", "shooter", "strategy", "simulation"]
   },
   "verification_profile": {
     "code_inspected": 3,
-    "source_reviewed": 19,
+    "source_reviewed": 23,
     "demo_played": 0,
     "unverified": 0
   },
   "knowledge_gaps": [
-    "益智/策略轴（10-29）仍为零覆盖——最优先缺口，周报已列",
-    "demo_played 仍为 0——下周优先实测 2048 开源网页版（零成本）",
-    "倾斜输入样本（Doodle Jump）仍未覆盖",
-    "Threes! 归属与配对算法未核验（周一专题待办）",
-    "Puzzle Quest 设计动机缺一手 Fawkner 访谈",
-    "熵作为连续难度度量的实证（hypothesis-000008 离线仿真部分可先行）"
+    "六个缺口日（10-29 与 11-02~11-06）积压——单人会话逐日补跑不可持续，建议用户显式触发专项补跑批次或接受缺口滚动",
+    "demo_played 仍为 0（2048 网页版实测最优先）",
+    "Threes! 归属核验（周一专题）持续顺延",
+    "Pac-Man Dossier 46 页未逐节核对（幽灵 AI 相关项已核）",
+    "Derek Yu 生成方法原博文/GDC 演讲 URL 未定位（方法经二手一致描述核验）",
+    "熵作为连续难度度量的实证（hypothesis-000008 离线仿真）"
   ],
   "dedup_watchlist": [
     "game-000003 与《合成大西瓜》同构不同实体（config/aliases.yaml confusables）",
-    "mechanic-000020/000021/000022/000023 与既有机制（尤其 mechanic-000004 时机、mechanic-000003 合并）语义边界已在卡内声明——融合类机制入库前必须先与 pattern-000012 三 known_uses 比对"
+    "mechanic-000024（幽灵人格）与未来可能入库的'群体行为 flocking/boids'需防混淆",
+    "mechanic-000025（模板生成）与 mechanic-000017（验证-回退）为生成端公平家族的两支，边界已在卡内声明"
   ],
   "next_scheduled": {
-    "date": "2026-11-02",
-    "weekday": "monday",
-    "theme": "classic_mechanics（经典机制及其变体：Threes! 归属核验、Sokoban、Match-3、塔防；周四补跑候选 Snakebird/Obra Dinn 亦在 backlog）"
+    "date": "2026-11-08",
+    "weekday": "sunday",
+    "theme": "synthesis_innovation + 周报 2026-W45（近 7 天仅 11-07 一个运行日 + 六个缺口日——周报须如实列缺口）"
   },
-  "weekly_reports": ["reports/weekly/2026-W44.md（首份，2026-11-01 生成）"],
   "git_push_result": "reported_in_run_output（仓内不虚报远端状态）"
 }

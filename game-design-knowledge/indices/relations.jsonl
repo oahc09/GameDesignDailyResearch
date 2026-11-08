@@ -97,3 +97,15 @@
 {"from":"hypothesis-000011","type":"COMBINES_WITH","to":"mechanic-000024","evidence_urls":[]}
 {"from":"hypothesis-000012","type":"COMBINES_WITH","to":"mechanic-000025","evidence_urls":[]}
 {"from":"hypothesis-000012","type":"COMBINES_WITH","to":"mechanic-000017","evidence_urls":[]}
+{"from":"game-000027","type":"USES_MECHANIC","to":"mechanic-000028","evidence_urls":["https://en.wikipedia.org/wiki/Return_of_the_Obra_Dinn"]}
+{"from":"game-000028","type":"USES_MECHANIC","to":"mechanic-000029","evidence_urls":["https://en.wikipedia.org/wiki/The_Witness_(2016_video_game)"]}
+{"from":"game-000029","type":"USES_MECHANIC","to":"mechanic-000030","evidence_urls":["https://en.wikipedia.org/wiki/Portal_(video_game)"]}
+{"from":"game-000030","type":"USES_MECHANIC","to":"mechanic-000031","evidence_urls":["https://en.wikipedia.org/wiki/Snakebird_(video_game)"]}
+{"from":"game-000028","type":"EXEMPLIFIES_PATTERN","to":"pattern-000016","evidence_urls":["https://en.wikipedia.org/wiki/The_Witness_(2016_video_game)"]}
+{"from":"game-000029","type":"EXEMPLIFIES_PATTERN","to":"pattern-000016","evidence_urls":["https://en.wikipedia.org/wiki/Portal_(video_game)"]}
+{"from":"game-000030","type":"EXEMPLIFIES_PATTERN","to":"pattern-000017","evidence_urls":["https://en.wikipedia.org/wiki/Snakebird_(video_game)"]}
+{"from":"game-000006","type":"CONTRASTS_WITH","to":"game-000028","evidence_urls":["https://en.wikipedia.org/wiki/Baba_Is_You"],"note":"规则教学两极：词块显式化 vs 样例归纳（Baba 作者自述受 Snakebird 影响最深，谱系闭环）"}
+{"from":"game-000030","type":"SUPPORTED_BY","to":"theory-000002","evidence_urls":[]}
+{"from":"hypothesis-000013","type":"COMBINES_WITH","to":"mechanic-000028","evidence_urls":[]}
+{"from":"hypothesis-000014","type":"COMBINES_WITH","to":"mechanic-000029","evidence_urls":[]}
+{"from":"hypothesis-000014","type":"COMBINES_WITH","to":"pattern-000003","evidence_urls":[]}

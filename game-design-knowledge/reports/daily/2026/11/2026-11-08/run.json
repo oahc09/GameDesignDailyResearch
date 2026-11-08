@@ -1,0 +1,52 @@
+{
+  "research_date": "2026-11-08",
+  "run_type": "daily",
+  "weekday_theme": "synthesis_innovation（周日专题：以'缺口研究'为轴，覆盖知识库此前缺失的益智/策略推理谜题轴）",
+  "weekly_report": {
+    "generated": true,
+    "file": "reports/weekly/2026-W45.md",
+    "iso_week": "2026-W45（Mon 2026-11-02 ~ Sun 2026-11-08）",
+    "monthly_audit_due": false,
+    "monthly_audit_note": "11-08 + 7 = 11-15 仍为 11 月，非本月最后一个周日（11-29），月审不触发"
+  },
+  "executed_at": {
+    "start": "2026-11-08T23:11:00+08:00",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 14,
+    "selected_cases": 4,
+    "new_cases": 4,
+    "new_mechanics": 4,
+    "new_patterns": 2,
+    "new_theories": 0,
+    "new_hypotheses": 2,
+    "updated_entities": 0,
+    "backlog_added": 10,
+    "sources_registered": 6,
+    "sources_fetch_failed": 0
+  },
+  "gap_research_note": "本日案例全部取自 backlog 预排候选（10-29 缺口专题的益智/策略轴），按周日'缺口研究'定位执行；10-29 的调度缺口本身仍记录在案（state.missed_scheduled_dates），未补造归档",
+  "dedup_scope": "full_library（30 案例/31 机制全量语义比对；归纳教学 vs 课程节奏、续作易化 vs 同作 Assist 两条边界均在卡内声明）",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（Snakebird Steam 页与 ThinkyGames 页为检索命中，未全文抓取已注明；Witness 规则族完整清单未核验不引用）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-08/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-08",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

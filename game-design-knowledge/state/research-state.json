@@ -1,64 +1,67 @@
 {
-  "updated_at": "2026-11-07T23:55:00+08:00",
-  "last_planned_success_date": "2026-11-07",
+  "updated_at": "2026-11-08T23:55:00+08:00",
+  "last_planned_success_date": "2026-11-08",
   "missed_scheduled_dates": [
-    {"date": "2026-10-29", "weekday_theme": "puzzle_strategy（益智与策略）", "status": "missed_not_rerun", "note": "自 W44 起持续为缺口；backlog 预排 Snakebird/Obra Dinn/Sudoku/Portal/The Witness"},
-    {"date": "2026-11-02", "weekday_theme": "classic_mechanics（经典机制）", "status": "missed_not_rerun", "note": "宿主离线期缺失；Threes! 归属核验/塔防等候选随 backlog 顺延"},
-    {"date": "2026-11-03", "weekday_theme": "casual_hypercasual（休闲与超休闲）", "status": "missed_not_rerun", "note": "同上"},
-    {"date": "2026-11-04", "weekday_theme": "action_shooter（动作与射击）", "status": "missed_not_rerun", "note": "同上"},
-    {"date": "2026-11-05", "weekday_theme": "puzzle_strategy（益智与策略）", "status": "missed_not_rerun", "note": "同上"},
-    {"date": "2026-11-06", "weekday_theme": "indie_experimental（独立与实验玩法）", "status": "missed_not_rerun", "note": "同上"}
+    {"date": "2026-10-29", "weekday_theme": "puzzle_strategy（益智与策略）", "status": "missed_not_rerun", "note": "自 W44 起持续为缺口；本日以周日'缺口研究'轴覆盖了益智/策略样本（Snakebird/Obra Dinn/Witness/Portal），但 10-29 的调度缺口本身仍记录在案，未补造"},
+    {"date": "2026-11-02", "weekday_theme": "classic_mechanics（经典机制）", "status": "missed_not_rerun", "note": "Threes! 归属核验等顺延"},
+    {"date": "2026-11-03", "weekday_theme": "casual_hypercasual（休闲与超休闲）", "status": "missed_not_rerun", "note": "缺口"},
+    {"date": "2026-11-04", "weekday_theme": "action_shooter（动作与射击）", "status": "missed_not_rerun", "note": "缺口"},
+    {"date": "2026-11-05", "weekday_theme": "puzzle_strategy（益智与策略）", "status": "partially_addressed_by_2026-11-08", "note": "11-08 以缺口研究轴覆盖益智/策略样本（4 案例），调度缺口仍记录在案"},
+    {"date": "2026-11-06", "weekday_theme": "indie_experimental（独立与实验玩法）", "status": "missed_not_rerun", "note": "缺口"}
   ],
-  "trigger_anomaly_note": "2026-11-07 23:11 的会话一次性收到三条排队的调度提示（宿主离线数日后补发）；按计划日期幂等原则只执行当日 11-07 运行，其余缺失日登记为缺口，未补造",
+  "trigger_anomaly_note": "缺口积压（10-29 与 11-02~11-06）单会话逐日补跑不可持续；建议用户显式触发专项补跑批次或接受缺口滚动；周报如实列缺口",
   "backfill_history": [
     {"date": "2026-10-28", "backfilled_on": "2026-10-30T23:13:00+08:00", "archive_dir": "reports/daily/2026/10/2026-10-28/"}
   ],
   "last_run": {
-    "planned_date": "2026-11-07",
+    "planned_date": "2026-11-08",
     "run_type": "daily",
-    "theme": "theory_algorithms（第二轮：确定性模拟与程序生成）",
+    "theme": "synthesis_innovation（缺口研究轴：益智/策略推理谜题）+ weekly_report_2026-W45",
     "status": "success_pending_push",
     "status_note": "本地校验通过并归档；Git 推送结果见当日运行输出"
   },
   "coverage": {
-    "total_cases": 26,
-    "total_mechanics": 27,
-    "total_patterns": 15,
+    "total_cases": 30,
+    "total_mechanics": 31,
+    "total_patterns": 17,
     "total_theories": 3,
-    "total_hypotheses": 12,
+    "total_hypotheses": 14,
     "themes_covered": {
       "2026-10-27": "casual_hypercasual",
       "2026-10-28": "action_shooter（2026-10-30 补跑）",
       "2026-10-30": "indie_experimental",
       "2026-10-31": "theory_algorithms",
       "2026-11-01": "synthesis_innovation",
-      "2026-11-07": "theory_algorithms（第二轮）"
+      "2026-11-07": "theory_algorithms（第二轮）",
+      "2026-11-08": "synthesis_innovation（缺口研究轴）"
     },
-    "genres_touched": ["casual", "puzzle", "hybrid", "action", "shooter", "strategy", "simulation"]
+    "genres_touched": ["casual", "puzzle", "hybrid", "action", "shooter", "strategy", "simulation"],
+    "axis_coverage_note": "益智/策略推理谜题轴（Obra Dinn/Witness/Portal/Snakebird）于本日首次成轴覆盖"
   },
   "verification_profile": {
     "code_inspected": 3,
-    "source_reviewed": 23,
+    "source_reviewed": 27,
     "demo_played": 0,
     "unverified": 0
   },
   "knowledge_gaps": [
-    "六个缺口日（10-29 与 11-02~11-06）积压——单人会话逐日补跑不可持续，建议用户显式触发专项补跑批次或接受缺口滚动",
+    "缺口日积压（10-29 与 11-02~11-06）——待用户决策补跑批次或接受滚动",
     "demo_played 仍为 0（2048 网页版实测最优先）",
-    "Threes! 归属核验（周一专题）持续顺延",
-    "Pac-Man Dossier 46 页未逐节核对（幽灵 AI 相关项已核）",
-    "Derek Yu 生成方法原博文/GDC 演讲 URL 未定位（方法经二手一致描述核验）",
-    "熵作为连续难度度量的实证（hypothesis-000008 离线仿真）"
+    "Threes! 归属核验持续顺延（周一专题）",
+    "Obra Dinn 销量未载（Wikipedia 无数据）",
+    "Witness 规则族完整清单与面板分布（社区解法库未核验）",
+    "hypothesis-000013/000014 离线仿真部分可先行"
   ],
   "dedup_watchlist": [
     "game-000003 与《合成大西瓜》同构不同实体（config/aliases.yaml confusables）",
-    "mechanic-000024（幽灵人格）与未来可能入库的'群体行为 flocking/boids'需防混淆",
-    "mechanic-000025（模板生成）与 mechanic-000017（验证-回退）为生成端公平家族的两支，边界已在卡内声明"
+    "mechanic-000029（归纳教学）与 mechanic-000030（课程节奏）为 pattern-000016 的两条实现路线，边界已在卡内声明",
+    "pattern-000017（续作易化）与 pattern-000006（同作内 Assist）为难度可及的两条路线，关系已在卡内声明"
   ],
   "next_scheduled": {
-    "date": "2026-11-08",
-    "weekday": "sunday",
-    "theme": "synthesis_innovation + 周报 2026-W45（近 7 天仅 11-07 一个运行日 + 六个缺口日——周报须如实列缺口）"
+    "date": "2026-11-09",
+    "weekday": "monday",
+    "theme": "classic_mechanics（经典机制：Threes! 归属核验、Sokoban、Match-3、塔防）"
   },
+  "weekly_reports": ["reports/weekly/2026-W44.md", "reports/weekly/2026-W45.md（2026-11-08 生成）"],
   "git_push_result": "reported_in_run_output（仓内不虚报远端状态）"
 }

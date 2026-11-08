@@ -56,3 +56,13 @@
 {"candidate":"Factorio（自动化经济模拟）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"确定性模拟+物流优化的工厂系；吞吐量即玩法数学","added_on":"2026-11-07"}
 {"candidate":"Dwarf Fortress-like：Songs of Syx / Ancient Savo","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"模拟城市谱系下游样本（低优先）","added_on":"2026-11-07"}
 {"candidate":"Minecraft（程序生成地形）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"噪声地形生成与 DF 影响链下游；体素生成算法轴","added_on":"2026-11-07"}
+{"candidate":"The Case of the Golden Idol（Color Gray）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Obra Dinn 影响链下游（Wikipedia 明载），演绎填词谱系；另日","added_on":"2026-11-08"}
+{"candidate":"The Talos Principle（Croteam）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"第一人称哲学谜题（与 Portal/Witness 同轴）；叙事-机制关系样本","added_on":"2026-11-08"}
+{"candidate":"Antichamber（Alexander Bruce）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"非欧空间归纳谜题；Bruce 有 GDC 演讲（七年开发的失败教训）","added_on":"2026-11-08"}
+{"candidate":"Patrick's Parabox","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"递归推箱（箱子含世界）的网格谜题极限；可形式化程度极高","added_on":"2026-11-08"}
+{"candidate":"Stephen's Sausage Roll（increpare）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"网格推箱硬核谱系（与 Snakebird 同难度身份路线）","added_on":"2026-11-08"}
+{"candidate":"A Monster's Expedition（Draknek）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"推树谜题的宽难度谱系（Draknek 以难度分级菜单著称——与 pattern-000017 同题）","added_on":"2026-11-08"}
+{"candidate":"Sokoban（Thinking Rabbit 1982）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"网格推箱始祖（PQ/Snakebird/Sausage Roll 谱系源头）；周一经典机制候选，NP-hardness 文献充分","added_on":"2026-11-08"}
+{"candidate":"Portal 2（含合作模式）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000029 续作（合作教学与 gels 新机制）；教学课程表扩容样本","added_on":"2026-11-08"}
+{"candidate":"Snakebird Primer / Complete","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000030 谱系（Primer 教学改动清单值得对比研究）","added_on":"2026-11-08"}
+{"candidate":"Baba Is You 官方关卡编辑器与社区关","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000006 的 UGC 生态（2021 编辑器更新后）；规则词块 UGC 质量控制研究","added_on":"2026-11-08"}

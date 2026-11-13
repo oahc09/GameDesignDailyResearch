@@ -109,3 +109,15 @@
 {"from":"hypothesis-000013","type":"COMBINES_WITH","to":"mechanic-000028","evidence_urls":[]}
 {"from":"hypothesis-000014","type":"COMBINES_WITH","to":"mechanic-000029","evidence_urls":[]}
 {"from":"hypothesis-000014","type":"COMBINES_WITH","to":"pattern-000003","evidence_urls":[]}
+{"from":"game-000031","type":"USES_MECHANIC","to":"mechanic-000032","evidence_urls":["https://en.wikipedia.org/wiki/QWOP"]}
+{"from":"game-000032","type":"USES_MECHANIC","to":"mechanic-000033","evidence_urls":["https://en.wikipedia.org/wiki/Getting_Over_It_with_Bennett_Foddy"]}
+{"from":"game-000033","type":"USES_MECHANIC","to":"mechanic-000034","evidence_urls":["https://en.wikipedia.org/wiki/Katamari_Damacy"]}
+{"from":"game-000034","type":"USES_MECHANIC","to":"mechanic-000035","evidence_urls":["https://en.wikipedia.org/wiki/Papers,_Please"]}
+{"from":"game-000031","type":"EXEMPLIFIES_PATTERN","to":"pattern-000018","evidence_urls":["https://en.wikipedia.org/wiki/QWOP"]}
+{"from":"game-000032","type":"EXEMPLIFIES_PATTERN","to":"pattern-000018","evidence_urls":["https://en.wikipedia.org/wiki/Getting_Over_It_with_Bennett_Foddy"]}
+{"from":"game-000033","type":"EXEMPLIFIES_PATTERN","to":"pattern-000019","evidence_urls":["https://en.wikipedia.org/wiki/Katamari_Damacy"]}
+{"from":"game-000008","type":"CONTRASTS_WITH","to":"game-000031","evidence_urls":["https://en.wikipedia.org/wiki/Celeste_(video_game)"],"note":"笨拙/宽恕对立：Celeste 隐藏笨拙服务叙事，QWOP 暴露笨拙作为主题"}
+{"from":"hypothesis-000015","type":"COMBINES_WITH","to":"mechanic-000032","evidence_urls":[]}
+{"from":"hypothesis-000015","type":"COMBINES_WITH","to":"pattern-000012","evidence_urls":[]}
+{"from":"hypothesis-000016","type":"COMBINES_WITH","to":"mechanic-000034","evidence_urls":[]}
+{"from":"hypothesis-000016","type":"COMBINES_WITH","to":"mechanic-000003","evidence_urls":[]}

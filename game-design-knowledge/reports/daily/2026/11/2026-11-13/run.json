@@ -1,0 +1,45 @@
+{
+  "research_date": "2026-11-13",
+  "run_type": "daily",
+  "weekday_theme": "indie_experimental（独立与实验玩法：控制即玩法、无护栏失败、尺度进程、官僚模拟）",
+  "executed_at": {
+    "start": "2026-11-13T23:11:00+08:00",
+    "timezone": "Asia/Shanghai"
+  },
+  "queued_trigger_note": "本会话收到五条排队触发（宿主离线致 11-09~11-12 四日缺失）；本运行执行当日 11-13，随后按计划在本会话内补跑 11-09（经典机制主题，另立提交与归档）",
+  "counts": {
+    "candidates": 14,
+    "selected_cases": 4,
+    "new_cases": 4,
+    "new_mechanics": 4,
+    "new_patterns": 2,
+    "new_theories": 0,
+    "new_hypotheses": 2,
+    "updated_entities": 0,
+    "backlog_added": 10,
+    "sources_registered": 4,
+    "sources_fetch_failed": 0
+  },
+  "dedup_scope": "full_library（34 案例/35 机制全量语义比对；控制即玩法（QWOP/GOI）与输入宽恕（Celeste）对立、Foddian 与 Foddy 谱系去重通过）",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（Foddy 演讲 URL 未核验不引用；Sexy Hiking 降为 C 级 backlog）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-13/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-13",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

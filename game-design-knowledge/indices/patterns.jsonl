@@ -15,3 +15,5 @@
 {"id":"pattern-000015","name":"simulation_as_content（模拟即内容：涌现叙事替代手工内容）","related_case_ids":["game-000026"],"confidence":"source_reviewed","path":"patterns/pattern-000015.md","created_at":"2026-11-07","updated_at":"2026-11-07"}
 {"id":"pattern-000016","name":"silent_teaching_by_induction（零文本归纳教学）","related_case_ids":["game-000028","game-000029"],"confidence":"source_reviewed","path":"patterns/pattern-000016.md","created_at":"2026-11-08","updated_at":"2026-11-08"}
 {"id":"pattern-000017","name":"accessibility_repositioning_sequel（难度重定位续作）","related_case_ids":["game-000030"],"confidence":"source_reviewed","path":"patterns/pattern-000017.md","created_at":"2026-11-08","updated_at":"2026-11-08"}
+{"id":"pattern-000018","name":"control_as_gameplay（控制即玩法）","related_case_ids":["game-000031","game-000032"],"confidence":"source_reviewed","path":"patterns/pattern-000018.md","created_at":"2026-11-13","updated_at":"2026-11-13"}
+{"id":"pattern-000019","name":"scale_as_progression（尺度即进程）","related_case_ids":["game-000033"],"confidence":"source_reviewed","path":"patterns/pattern-000019.md","created_at":"2026-11-13","updated_at":"2026-11-13"}

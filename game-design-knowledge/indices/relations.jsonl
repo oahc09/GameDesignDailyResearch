@@ -121,3 +121,16 @@
 {"from":"hypothesis-000015","type":"COMBINES_WITH","to":"pattern-000012","evidence_urls":[]}
 {"from":"hypothesis-000016","type":"COMBINES_WITH","to":"mechanic-000034","evidence_urls":[]}
 {"from":"hypothesis-000016","type":"COMBINES_WITH","to":"mechanic-000003","evidence_urls":[]}
+{"from":"game-000035","type":"USES_MECHANIC","to":"mechanic-000036","evidence_urls":["https://en.wikipedia.org/wiki/Threes"]}
+{"from":"game-000036","type":"USES_MECHANIC","to":"mechanic-000037","evidence_urls":["https://en.wikipedia.org/wiki/Sokoban"]}
+{"from":"game-000037","type":"USES_MECHANIC","to":"mechanic-000038","evidence_urls":["https://en.wikipedia.org/wiki/Candy_Crush_Saga"]}
+{"from":"game-000038","type":"USES_MECHANIC","to":"mechanic-000039","evidence_urls":["https://en.wikipedia.org/wiki/Plants_vs._Zombies_(video_game)"]}
+{"from":"game-000035","type":"EXEMPLIFIES_PATTERN","to":"pattern-000020","evidence_urls":["https://en.wikipedia.org/wiki/Threes"]}
+{"from":"game-000003","type":"EXEMPLIFIES_PATTERN","to":"pattern-000020","evidence_urls":["https://en.wikipedia.org/wiki/Suika_Game"]}
+{"from":"game-000001","type":"EXEMPLIFIES_PATTERN","to":"pattern-000020","evidence_urls":["https://en.wikipedia.org/wiki/Flappy_Bird"]}
+{"from":"game-000035","type":"EXEMPLIFIES_PATTERN","to":"pattern-000011","evidence_urls":["https://en.wikipedia.org/wiki/Threes"]}
+{"from":"game-000036","type":"EXEMPLIFIES_PATTERN","to":"pattern-000011","evidence_urls":["https://en.wikipedia.org/wiki/Sokoban"]}
+{"from":"game-000015","type":"CONTRASTS_WITH","to":"game-000035","evidence_urls":["https://en.wikipedia.org/wiki/Threes"],"note":"克隆关系与规则分岔：纯倍数 vs 特例合并、面值 vs 稀有度计分"}
+{"from":"hypothesis-000017","type":"COMBINES_WITH","to":"mechanic-000036","evidence_urls":[]}
+{"from":"hypothesis-000017","type":"COMBINES_WITH","to":"mechanic-000016","evidence_urls":[]}
+{"from":"hypothesis-000018","type":"COMBINES_WITH","to":"mechanic-000037","evidence_urls":[]}

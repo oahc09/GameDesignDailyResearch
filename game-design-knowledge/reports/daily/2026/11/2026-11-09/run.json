@@ -1,0 +1,48 @@
+{
+  "research_date": "2026-11-09",
+  "run_type": "daily_backfill",
+  "weekday_theme": "classic_mechanics（经典机制及其变体：Match-3 谱系、Sokoban、塔防——周一专题首次覆盖）",
+  "executed_at": {
+    "start": "2026-11-13T23:40:00+08:00",
+    "start_note": "2026-11-09 调度未运行（宿主离线）；由 2026-11-13 会话按缺口积压优先级补跑（周一主题从未覆盖），按 SPEC 第 4 节归档到计划研究日 2026-11-09",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 14,
+    "selected_cases": 4,
+    "new_cases": 4,
+    "new_mechanics": 4,
+    "new_patterns": 1,
+    "new_theories": 0,
+    "new_hypotheses": 2,
+    "updated_entities": 1,
+    "backlog_status_changes": 4,
+    "backlog_added": 7,
+    "sources_registered": 5,
+    "sources_fetch_failed": 0
+  },
+  "updated_entities_note": "game-000015（2048）的 backlog 状态条目回填为 selected（该实体已于 10-31 入选，此为账目修正而非内容修订）",
+  "erratum": "W44 周报与 backlog 曾载'Sokoban 50 原版关'口径——Wikipedia 确认商业版 20 关、50 关属 1984 年 Sokoban 2；已在案例卡纠误",
+  "dedup_scope": "full_library（38 案例/39 机制全量比对；Threes vs 2048 的规则 diff 为去重关键对照——非重复实体，克隆关系入 pattern-000020）",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（Sokoban 复杂性结论引用 Culberson/Hearn/Dor-Zwick 经 Wikipedia 转述；求解器细节未读原文不展开）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-09/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-09",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

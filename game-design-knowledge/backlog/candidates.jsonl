@@ -4,9 +4,9 @@
 {"candidate":"Doodle Jump（Igor & Marko Pusenjak / Lima Sky）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"倾斜输入语义对照样本——2026-10-30 专题因 Tiny Wings（持续态输入）优先入选而再度顺延；倾斜（连续模拟量）对照缺口仍在，优先级提升","added_on":"2026-10-27","updated_on":"2026-10-30"}
 {"candidate":"Tiny Wings（Andreas Illiger）","language":"en","evidence_level":"B","urls":["https://en.wikipedia.org/wiki/Tiny_Wings","https://www.andreasilliger.com"],"status":"selected","selected_as":"game-000009","reason":"2026-10-30（周五 独立与实验玩法）入选：持续态单输入+无失败时钟封顶结构，填补非点击输入缺口","added_on":"2026-10-27","updated_on":"2026-10-30"}
 {"candidate":"羊了个羊","language":"zh","evidence_level":"B","urls":[],"status":"backlog","reason":"三消+广告驱动难度悬崖的失败反馈与商业化极端样本；需检索可验证规则来源后再入选","added_on":"2026-10-27"}
-{"candidate":"2048（Gabriele Cirulli）","language":"en","evidence_level":"A","urls":[],"status":"backlog","reason":"高分候选但属周一『经典机制』专题，主题偏离待该日研究；官方网页版开源（预期地址 gabrielecirulli.github.io/2048，下次运行须实际核验后再登记 URL）","added_on":"2026-10-27"}
+{"candidate":"2048（Gabriele Cirulli）","language":"en","evidence_level":"A","urls":[],"status":"selected","reason":"已于 2026-10-31 入选（game-000015），此处仅回填状态","added_on":"2026-10-27","selected_as":"game-000015","updated_on":"2026-11-13"}
 {"candidate":"Candy Crush Saga（King）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Match-3 属周一经典机制专题；今日不重复研究","added_on":"2026-10-27"}
-{"candidate":"Threes!（Asher Vollmer / Greg Wohlwend）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"2048 前身，滑动合并离散设计样本，随 2048 一并排入周一专题","added_on":"2026-10-27"}
+{"candidate":"Threes!（Asher Vollmer / Greg Wohlwend）","language":"en","evidence_level":"B","urls":[],"status":"selected","reason":"2026-11-13 补跑 11-09（经典机制）入选：2048 前身，滑动合并离散设计样本，随 2048 一并排入周一专题","added_on":"2026-10-27","selected_as":"game-000035","updated_on":"2026-11-13"}
 {"candidate":"QWOP（Bennett Foddy）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"分肢体按键的实验性操控（控制即玩法）代表；Foddy 物理操控谱系起点，值得单独深挖","added_on":"2026-10-30"}
 {"candidate":"Canabalt（Adam Saltsman / Semi Secret）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"单键无尽跑酷原型起源（Flixel 引擎诞生地），一触谱系的历史节点","added_on":"2026-10-30"}
 {"candidate":"Vampire Survivors（Luca Galante / poncle）","language":"en","evidence_level":"B","urls":[],"status":"selected","reason":"2026-11-01（周日 跨类别组合专题）入选：『不设计瞄准』的射击反转（移动即玩法），机制反转样本；偏周三动作主题亦可","added_on":"2026-10-30","selected_as":"game-000021","updated_on":"2026-11-01"}
@@ -29,9 +29,9 @@
 {"candidate":"XCOM 2 / War of the Chosen","language":"en","evidence_level":"B","urls":["https://www.gamasutra.com/view/news/267606/Jake_Solomon_explains_the_careful_use_of_randomness_in_XCOM_2.php"],"status":"backlog","reason":"game-000018 的续作对照（时间轴/命中率显示策略差异）；Solomon Designer Notes 播客 #81（'75% 不等于 75%'）待收听后可单卡","added_on":"2026-10-31"}
 {"candidate":"Slay the Spire","language":"en","evidence_level":"B","urls":[],"status":"selected","reason":"2026-11-01（周日 跨类别组合专题）入选：卡牌概率与地图生成算法样本（种子/事件去重）；与 Balatro 构筑轴互补","added_on":"2026-10-31","selected_as":"game-000020","updated_on":"2026-11-01"}
 {"candidate":"Sudoku（生成与难度分级）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"唯一解生成算法与难度度量（约束传播）的教科书样本；属周四益智主题亦可","added_on":"2026-10-31"}
-{"candidate":"Threes!（Asher Vollmer / Greg Wohlwend）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"2048 渊源主卡（Wikipedia 未给 Vollmer 归属，需原始访谈）+ 配对算法与 AI（官方博客）；随 2048 姊妹研究排周一","added_on":"2026-10-31","updated_on":"2026-10-31"}
+{"candidate":"Threes!（Asher Vollmer / Greg Wohlwend）","language":"en","evidence_level":"B","urls":[],"status":"selected","reason":"2026-11-13 补跑 11-09（经典机制）入选：2048 渊源主卡（Wikipedia 未给 Vollmer 归属，需原始访谈）+ 配对算法与 AI（官方博客）；随 2048 姊妹研究排周一","added_on":"2026-10-31","updated_on":"2026-11-13","selected_as":"game-000035"}
 {"candidate":"Drop7（Frank Lantz / Zynga）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"数值设计极简神作（素数消除）；Lantz 有访谈与演讲可核验","added_on":"2026-10-31"}
-{"candidate":"Candy Crush Saga（King，难度建模）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"King 公开技术博客有难度建模/ML 内容，属周一 Match-3 主题，顺延","added_on":"2026-10-31"}
+{"candidate":"Candy Crush Saga（King，难度建模）","language":"en","evidence_level":"B","urls":[],"status":"selected","reason":"2026-11-13 补跑 11-09（经典机制）入选：King 公开技术博客有难度建模/ML 内容，属周一 Match-3 主题，顺延","added_on":"2026-10-31","selected_as":"game-000037","updated_on":"2026-11-13"}
 {"candidate":"Hearthstone（Ben Brode RNG 哲学）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"卡牌游戏随机性设计哲学（发现机制/随机显式化）有大量访谈；另日","added_on":"2026-10-31"}
 {"candidate":"Portal（测试舱认知负荷编排）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"教学节奏/认知负荷理论（theory-000002 姊妹）的关卡设计样本；属周四主题亦可","added_on":"2026-10-31"}
 {"candidate":"The Witness（规则归纳语言）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"面板规则作为可归纳语法（与 Baba 词块语法对照）；Blow 访谈资源丰富","added_on":"2026-10-31"}
@@ -62,7 +62,7 @@
 {"candidate":"Patrick's Parabox","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"递归推箱（箱子含世界）的网格谜题极限；可形式化程度极高","added_on":"2026-11-08"}
 {"candidate":"Stephen's Sausage Roll（increpare）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"网格推箱硬核谱系（与 Snakebird 同难度身份路线）","added_on":"2026-11-08"}
 {"candidate":"A Monster's Expedition（Draknek）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"推树谜题的宽难度谱系（Draknek 以难度分级菜单著称——与 pattern-000017 同题）","added_on":"2026-11-08"}
-{"candidate":"Sokoban（Thinking Rabbit 1982）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"网格推箱始祖（PQ/Snakebird/Sausage Roll 谱系源头）；周一经典机制候选，NP-hardness 文献充分","added_on":"2026-11-08"}
+{"candidate":"Sokoban（Thinking Rabbit 1982）","language":"en","evidence_level":"B","urls":[],"status":"selected","reason":"2026-11-13 补跑 11-09（经典机制）入选：网格推箱始祖（PQ/Snakebird/Sausage Roll 谱系源头）；周一经典机制候选，NP-hardness 文献充分","added_on":"2026-11-08","selected_as":"game-000036","updated_on":"2026-11-13"}
 {"candidate":"Portal 2（含合作模式）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000029 续作（合作教学与 gels 新机制）；教学课程表扩容样本","added_on":"2026-11-08"}
 {"candidate":"Snakebird Primer / Complete","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000030 谱系（Primer 教学改动清单值得对比研究）","added_on":"2026-11-08"}
 {"candidate":"Baba Is You 官方关卡编辑器与社区关","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000006 的 UGC 生态（2021 编辑器更新后）；规则词块 UGC 质量控制研究","added_on":"2026-11-08"}
@@ -76,3 +76,10 @@
 {"candidate":"WarioWare, Inc.","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"微游戏格式（5 秒一玩的实验格式化）；周五主题另日","added_on":"2026-11-13"}
 {"candidate":"The Stanley Parable","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"元叙事旁白对抗（原 backlog 项）；旁白设计与 GOI 鼓励旁白对照","added_on":"2026-11-13"}
 {"candidate":"2QWOP","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"QWOP 双人对抗版（hypothesis-000015 的先例参照）","added_on":"2026-11-13"}
+{"candidate":"Bejeweled（PopCap 2001）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Match-3 品类原点（Candy Crush/Miner Speed 游戏谱系上游）；周一专题候选","added_on":"2026-11-13"}
+{"candidate":"Insaniquarium（George Fan 2001）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"PvZ 设计谱系源头（Fan 前作防御向改造）；Fan 谱系补全","added_on":"2026-11-13"}
+{"candidate":"Boxxle / Sokoban 2 / Sokobond","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Sokoban 移植/续作/化学变体谱系；推箱变体研究","added_on":"2026-11-13"}
+{"candidate":"Festival 求解器（FESS 算法）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Sokoban 90 关全解的算法论文——pattern-000011 的求解器谱系补全","added_on":"2026-11-13"}
+{"candidate":"PvZ 2（freemium 化对照）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000038 续作的货币化改造对照（Fan 反对口径的事件本体）","added_on":"2026-11-13"}
+{"candidate":"2048 strategy AIs（Salmoria 等）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Threes/2048 求解器谱系（pattern-000011 补全）；ov3y 已登记，Salmoria 待核","added_on":"2026-11-13"}
+{"candidate":"Dreamworld（Odus 色平衡机制）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Candy Crush 已移除的扩展机制——'移除机制考古'样本","added_on":"2026-11-13"}

@@ -75,3 +75,10 @@
 - 工具：`validation/validate.mjs`；结果：**ERRORS 0 / WARNINGS 0**。
 - 覆盖：实体 cases=34, mechanics=35, patterns=19, theories=3, hypotheses=16（共 107）；relations 123 条全合法。
 - 引用真实性：全部 4 来源为 Wikipedia（文献日）；Foddy 演讲/Papers 逐日规则/Katamari 公式未核验即标未知。
+
+## 2026-11-09（补跑，实际执行于 2026-11-13 23:40）
+
+- 工具：`validation/validate.mjs`；结果：**ERRORS 0 / WARNINGS 0**。
+- 覆盖：实体 cases=38, mechanics=39, patterns=20, theories=3, hypotheses=18（共 118）；relations 136 条全合法；七份 run.json 解析通过。
+- 纠误：Sokoban 关卡数口径（商业版 20 关，50 关属 Sokoban 2）——W44 周报原口径有误，案例卡与 run.json 已记录。
+- backlog 账目回填：game-000015（2048）状态条目修正（内容无修订）。

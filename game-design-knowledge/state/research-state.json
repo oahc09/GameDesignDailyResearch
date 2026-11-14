@@ -1,13 +1,7 @@
 {
   "updated_at": "2026-11-13T23:55:00+08:00",
-  "last_planned_success_date": "2026-11-09（补跑完成）",
+  "last_planned_success_date": "2026-10-29（补跑完成）",
   "missed_scheduled_dates": [
-    {
-      "date": "2026-10-29",
-      "weekday_theme": "puzzle_strategy（益智与策略）",
-      "status": "missed_not_rerun",
-      "note": "自 W44 起持续为缺口；本日以周日'缺口研究'轴覆盖了益智/策略样本（Snakebird/Obra Dinn/Witness/Portal），但 10-29 的调度缺口本身仍记录在案，未补造"
-    },
     {
       "date": "2026-11-02",
       "weekday_theme": "classic_mechanics（经典机制）",
@@ -50,21 +44,26 @@
       "date": "2026-11-09",
       "backfilled_on": "2026-11-13T23:40:00+08:00",
       "archive_dir": "reports/daily/2026/11/2026-11-09/"
+    },
+    {
+      "date": "2026-10-29",
+      "backfilled_on": "2026-11-14T10:45:00+08:00",
+      "archive_dir": "reports/daily/2026/10/2026-10-29/"
     }
   ],
   "last_run": {
-    "planned_date": "2026-11-09",
+    "planned_date": "2026-10-29",
     "run_type": "daily_backfill",
-    "theme": "classic_mechanics",
+    "theme": "puzzle_strategy",
     "status": "success_pending_push",
-    "status_note": "由 2026-11-13 会话按缺口优先级补跑（周一主题首次覆盖）；归档到计划日期 2026-11-09"
+    "status_note": "由用户指令继续补跑的批次会话按最老缺口优先补跑；归档到计划日期"
   },
   "coverage": {
-    "total_cases": 38,
-    "total_mechanics": 39,
-    "total_patterns": 20,
+    "total_cases": 42,
+    "total_mechanics": 43,
+    "total_patterns": 21,
     "total_theories": 3,
-    "total_hypotheses": 18,
+    "total_hypotheses": 19,
     "themes_covered": {
       "2026-10-27": "casual_hypercasual",
       "2026-10-28": "action_shooter（2026-10-30 补跑）",
@@ -73,7 +72,8 @@
       "2026-11-01": "synthesis_innovation",
       "2026-11-07": "theory_algorithms（第二轮）",
       "2026-11-08": "synthesis_innovation（缺口研究轴）",
-      "2026-11-09": "classic_mechanics（2026-11-13 补跑）"
+      "2026-11-09": "classic_mechanics（2026-11-13 补跑）",
+      "2026-10-29": "puzzle_strategy（2026-11-14 补跑）"
     },
     "genres_touched": [
       "casual",
@@ -88,26 +88,27 @@
   },
   "verification_profile": {
     "code_inspected": 3,
-    "source_reviewed": 31,
+    "source_reviewed": 35,
     "demo_played": 0,
     "unverified": 0
   },
   "knowledge_gaps": [
-    "缺口积压 9 天（10-29 与 11-02~11-06、11-10~11-12）——待用户决策补跑批次或接受滚动",
+    "缺口积压 8 天（11-02~11-06、11-10~11-12）——本批次已补 11-09/10-29，剩余待下一批",
     "demo_played 仍为 0（2048 网页版实测最优先）",
-    "FESS 论文与 Threes 稀有度权重表（论文级待读）",
-    "熵度量实证（hypothesis-000014/000017 离线仿真可先行）"
+    "FESS/McGuire/Yato 论文级文献待读（pattern-000011 补全）",
+    "hypothesis-000019 离线先行可零成本执行"
   ],
   "dedup_watchlist": [
     "game-000003 与《合成大西瓜》同构不同实体（config/aliases.yaml confusables）",
     "mechanic-000029（归纳教学）与 mechanic-000030（课程节奏）为 pattern-000016 的两条实现路线，边界已在卡内声明",
     "pattern-000017（续作易化）与 pattern-000006（同作内 Assist）为难度可及的两条路线，关系已在卡内声明",
-    "mechanic-000036（特例合并）与 mechanic-000016（iid 纯倍数）为 Threes/2048 规则 diff 的两支，边界已声明"
+    "mechanic-000036（特例合并）与 mechanic-000016（iid 纯倍数）为 Threes/2048 规则 diff 的两支，边界已声明",
+    "推块谱系三层（Sokoban 位置/Baba 规则/Parabox 拓扑）与 mechanic-000041（计数扩展）边界已在卡内声明"
   ],
   "next_scheduled": {
-    "date": "2026-11-14",
-    "weekday": "saturday",
-    "theme": "theory_algorithms（第三轮候选：PvZ 经济数学/Sokoban 求解器细节/物理引擎数值）"
+    "date": "2026-11-15",
+    "weekday": "sunday",
+    "theme": "synthesis_innovation + 周报 2026-W46"
   },
   "weekly_reports": [
     "reports/weekly/2026-W44.md",
@@ -115,6 +116,7 @@
   ],
   "git_push_result": "reported_in_run_output（仓内不虚报远端状态）",
   "erratum_log": [
-    "2026-11-13：Sokoban 关卡数口径纠误（商业版 20 关、50 关属 Sokoban 2）——W44 周报与 backlog 原口径有误"
+    "2026-11-13：Sokoban 关卡数口径纠误（商业版 20 关、50 关属 Sokoban 2）——W44 周报与 backlog 原口径有误",
+    "2026-11-14：Parabox 发行商口径纠误（Traynor 一人开发兼发行，非 Draknek）"
   ]
 }

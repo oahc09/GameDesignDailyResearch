@@ -83,3 +83,9 @@
 {"candidate":"PvZ 2（freemium 化对照）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000038 续作的货币化改造对照（Fan 反对口径的事件本体）","added_on":"2026-11-13"}
 {"candidate":"2048 strategy AIs（Salmoria 等）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Threes/2048 求解器谱系（pattern-000011 补全）；ov3y 已登记，Salmoria 待核","added_on":"2026-11-13"}
 {"candidate":"Dreamworld（Odus 色平衡机制）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Candy Crush 已移除的扩展机制——'移除机制考古'样本","added_on":"2026-11-13"}
+{"candidate":"Sudoku 生成器难度分级程序（Gould）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"算法细节待定位（Wikipedia 载其存在与六年开发）——hypothesis-000019 的先例文献","added_on":"2026-11-14"}
+{"candidate":"McGuire 17 提示穷举论文 / Yato & Seta NP-complete 论文","language":"en","evidence_level":"A","urls":[],"status":"backlog","reason":"Sudoku 数学的原始论文（Wikipedia 转述已登记，原文待读）——pattern-000011 文献补全","added_on":"2026-11-14"}
+{"candidate":"Talos Principle Reawakened 编辑器 UGC","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"2025 UE5 重制加入关卡编辑器——组合谜题 UGC 供给研究","added_on":"2026-11-14"}
+{"candidate":"The Looker（Witness 恶搞）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000028 的 2022 恶搞作——归纳教学的接受度反证","added_on":"2026-11-14"}
+{"candidate":"increpare 其他推箱变体（Pusher 系）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"SSR 作者谱系（Lavelle 高产推箱变体）；变体设计研究","added_on":"2026-11-14"}
+{"candidate":"Sokosoko（juner, itch.io）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Parabox 明言灵感来源（Wikipedia）——谱系上游核验","added_on":"2026-11-14"}

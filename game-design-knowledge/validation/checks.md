@@ -82,3 +82,10 @@
 - 覆盖：实体 cases=38, mechanics=39, patterns=20, theories=3, hypotheses=18（共 118）；relations 136 条全合法；七份 run.json 解析通过。
 - 纠误：Sokoban 关卡数口径（商业版 20 关，50 关属 Sokoban 2）——W44 周报原口径有误，案例卡与 run.json 已记录。
 - backlog 账目回填：game-000015（2048）状态条目修正（内容无修订）。
+
+## 2026-10-29（补跑，实际执行于 2026-11-14 10:45）
+
+- 工具：`validation/validate.mjs`；结果：**ERRORS 0 / WARNINGS 0**。
+- 覆盖：实体 cases=42, mechanics=43, patterns=21, theories=3, hypotheses=19（共 128）；relations 145 条全合法；八份 run.json 解析通过。
+- 纠误：Parabox 发行商口径（Traynor 一人开发兼发行）。
+- pattern-000021（唯一解契约）收编既有案例 Sudoku/Obra Dinn/Minesweeper 为 known_uses。

@@ -1,0 +1,46 @@
+{
+  "research_date": "2026-10-29",
+  "run_type": "daily_backfill",
+  "weekday_theme": "puzzle_strategy（益智与策略：约束谜题/演绎/递归/组合箱——W45 周报预排候选兑现）",
+  "executed_at": {
+    "start": "2026-11-14T10:45:00+08:00",
+    "start_note": "2026-10-29 调度未运行（宿主离线）；由用户指令'继续补跑'的批次会话按缺口优先级补跑（最老缺口优先），按 SPEC 第 4 节归档到计划研究日",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 14,
+    "selected_cases": 4,
+    "new_cases": 4,
+    "new_mechanics": 4,
+    "new_patterns": 1,
+    "new_theories": 0,
+    "new_hypotheses": 1,
+    "updated_entities": 0,
+    "backlog_added": 6,
+    "sources_registered": 4,
+    "sources_fetch_failed": 0
+  },
+  "gap_research_note": "本日为 W44 遗留的最老缺口；候选全部取自 backlog 预排（Sudoku/Parabox 为 W45 周报点名项）；益智轴（约束/演绎/递归/组合）成轴覆盖",
+  "dedup_scope": "full_library（42 案例/43 机制全量比对；推块谱系三层——Sokoban 位置/Baba 规则/Parabox 拓扑——边界已在卡内声明；pattern-000021 收编三个既有案例为 known_uses）",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（McGuire/Yato 论文经 Wikipedia 转述登记、原文未读已注明；Parabox 发行商纠误——Traynor 一人开发兼发行）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/10/2026-10-29/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-10-29",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

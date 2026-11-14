@@ -134,3 +134,12 @@
 {"from":"hypothesis-000017","type":"COMBINES_WITH","to":"mechanic-000036","evidence_urls":[]}
 {"from":"hypothesis-000017","type":"COMBINES_WITH","to":"mechanic-000016","evidence_urls":[]}
 {"from":"hypothesis-000018","type":"COMBINES_WITH","to":"mechanic-000037","evidence_urls":[]}
+{"from":"game-000039","type":"USES_MECHANIC","to":"mechanic-000040","evidence_urls":["https://en.wikipedia.org/wiki/Sudoku"]}
+{"from":"game-000040","type":"USES_MECHANIC","to":"mechanic-000041","evidence_urls":["https://en.wikipedia.org/wiki/Stephen%27s_Sausage_Roll"]}
+{"from":"game-000041","type":"USES_MECHANIC","to":"mechanic-000042","evidence_urls":["https://en.wikipedia.org/wiki/Patrick%27s_Parabox"]}
+{"from":"game-000042","type":"USES_MECHANIC","to":"mechanic-000043","evidence_urls":["https://en.wikipedia.org/wiki/The_Talos_Principle"]}
+{"from":"game-000039","type":"EXEMPLIFIES_PATTERN","to":"pattern-000021","evidence_urls":["https://en.wikipedia.org/wiki/Sudoku"]}
+{"from":"game-000027","type":"EXEMPLIFIES_PATTERN","to":"pattern-000021","evidence_urls":["https://en.wikipedia.org/wiki/Return_of_the_Obra_Dinn"]}
+{"from":"game-000016","type":"EXEMPLIFIES_PATTERN","to":"pattern-000021","evidence_urls":["https://en.wikipedia.org/wiki/Minesweeper_(video_game)"]}
+{"from":"game-000036","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
+{"from":"hypothesis-000019","type":"COMBINES_WITH","to":"mechanic-000040","evidence_urls":[]}

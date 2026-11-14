@@ -143,3 +143,11 @@
 {"from":"game-000016","type":"EXEMPLIFIES_PATTERN","to":"pattern-000021","evidence_urls":["https://en.wikipedia.org/wiki/Minesweeper_(video_game)"]}
 {"from":"game-000036","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
 {"from":"hypothesis-000019","type":"COMBINES_WITH","to":"mechanic-000040","evidence_urls":[]}
+{"from":"game-000043","type":"USES_MECHANIC","to":"mechanic-000044","evidence_urls":["https://en.wikipedia.org/wiki/Bejeweled_(video_game)"]}
+{"from":"game-000044","type":"USES_MECHANIC","to":"mechanic-000045","evidence_urls":["https://en.wikipedia.org/wiki/Pong"]}
+{"from":"game-000045","type":"USES_MECHANIC","to":"mechanic-000046","evidence_urls":["https://en.wikipedia.org/wiki/Breakout_(video_game)"]}
+{"from":"game-000044","type":"EXEMPLIFIES_PATTERN","to":"pattern-000022","evidence_urls":["https://en.wikipedia.org/wiki/Pong"]}
+{"from":"game-000023","type":"EXEMPLIFIES_PATTERN","to":"pattern-000022","evidence_urls":["https://www.gamedeveloper.com/design/the-pac-man-dossier"]}
+{"from":"game-000043","type":"SUPPORTED_BY","to":"theory-000002","evidence_urls":[]}
+{"from":"hypothesis-000020","type":"COMBINES_WITH","to":"mechanic-000044","evidence_urls":[]}
+{"from":"game-000037","type":"EVOLVES_FROM","to":"game-000043","evidence_urls":["https://en.wikipedia.org/wiki/Candy_Crush_Saga"],"note":"Candy Crush←King.com Candy Crush←Miner Speed←Bejeweled 谱系（Wikipedia 口径）"}

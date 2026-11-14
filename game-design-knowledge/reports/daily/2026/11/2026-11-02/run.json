@@ -1,0 +1,46 @@
+{
+  "research_date": "2026-11-02",
+  "run_type": "daily_backfill",
+  "weekday_theme": "classic_mechanics（经典机制第二轮：街机起源与 Match-3 奠基——Pong/Breakout/Bejeweled）",
+  "executed_at": {
+    "start": "2026-11-14T11:10:00+08:00",
+    "start_note": "2026-11-02 调度未运行（宿主离线）；由用户指令'继续补跑'的批次会话补跑，按 SPEC 第 4 节归档到计划研究日",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 10,
+    "selected_cases": 3,
+    "new_cases": 3,
+    "new_mechanics": 3,
+    "new_patterns": 1,
+    "new_theories": 0,
+    "new_hypotheses": 1,
+    "updated_entities": 0,
+    "backlog_status_changes": 1,
+    "backlog_added": 5,
+    "sources_registered": 3,
+    "sources_fetch_failed": 0
+  },
+  "dedup_scope": "full_library（45 案例/46 机制全量比对；pattern-000022 收编 Pac-Man Pinky bug 为既有 known_uses；Bejeweled 与 Candy Crush 的 EVOLVES_FROM 谱系边建立）",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（Bejeweled 改名口径按 Wikipedia 为'Diamond Mines 相似'而非商标诉讼——纠常见误传；Shariki 首创归属未核验不采信）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-02/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-02",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

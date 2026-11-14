@@ -1,13 +1,7 @@
 {
   "updated_at": "2026-11-13T23:55:00+08:00",
-  "last_planned_success_date": "2026-10-29（补跑完成）",
+  "last_planned_success_date": "2026-11-02（补跑完成）",
   "missed_scheduled_dates": [
-    {
-      "date": "2026-11-02",
-      "weekday_theme": "classic_mechanics（经典机制）",
-      "status": "missed_not_rerun",
-      "note": "Threes! 归属核验等顺延"
-    },
     {
       "date": "2026-11-03",
       "weekday_theme": "casual_hypercasual（休闲与超休闲）",
@@ -49,21 +43,26 @@
       "date": "2026-10-29",
       "backfilled_on": "2026-11-14T10:45:00+08:00",
       "archive_dir": "reports/daily/2026/10/2026-10-29/"
+    },
+    {
+      "date": "2026-11-02",
+      "backfilled_on": "2026-11-14T11:10:00+08:00",
+      "archive_dir": "reports/daily/2026/11/2026-11-02/"
     }
   ],
   "last_run": {
-    "planned_date": "2026-10-29",
+    "planned_date": "2026-11-02",
     "run_type": "daily_backfill",
-    "theme": "puzzle_strategy",
+    "theme": "classic_mechanics_round2",
     "status": "success_pending_push",
-    "status_note": "由用户指令继续补跑的批次会话按最老缺口优先补跑；归档到计划日期"
+    "status_note": "批次会话补跑；归档到计划日期 2026-11-02"
   },
   "coverage": {
-    "total_cases": 42,
-    "total_mechanics": 43,
-    "total_patterns": 21,
+    "total_cases": 45,
+    "total_mechanics": 46,
+    "total_patterns": 22,
     "total_theories": 3,
-    "total_hypotheses": 19,
+    "total_hypotheses": 20,
     "themes_covered": {
       "2026-10-27": "casual_hypercasual",
       "2026-10-28": "action_shooter（2026-10-30 补跑）",
@@ -73,7 +72,8 @@
       "2026-11-07": "theory_algorithms（第二轮）",
       "2026-11-08": "synthesis_innovation（缺口研究轴）",
       "2026-11-09": "classic_mechanics（2026-11-13 补跑）",
-      "2026-10-29": "puzzle_strategy（2026-11-14 补跑）"
+      "2026-10-29": "puzzle_strategy（2026-11-14 补跑）",
+      "2026-11-02": "classic_mechanics（2026-11-14 补跑，第二轮）"
     },
     "genres_touched": [
       "casual",
@@ -88,15 +88,16 @@
   },
   "verification_profile": {
     "code_inspected": 3,
-    "source_reviewed": 35,
+    "source_reviewed": 38,
     "demo_played": 0,
     "unverified": 0
   },
   "knowledge_gaps": [
-    "缺口积压 8 天（11-02~11-06、11-10~11-12）——本批次已补 11-09/10-29，剩余待下一批",
+    "缺口积压 8 天（11-04、11-06、11-10~11-12 尚余 5 天）——本批次继续补 11-03/11-05",
     "demo_played 仍为 0（2048 网页版实测最优先）",
-    "FESS/McGuire/Yato 论文级文献待读（pattern-000011 补全）",
-    "hypothesis-000019 离线先行可零成本执行"
+    "FESS/McGuire/Yato 论文级文献待读",
+    "交换三消首创归属（Shariki 口径待核）与 Al Alcorn 工程访谈（A 级候选）",
+    "hypothesis-000020 被试内设计可零成本先行"
   ],
   "dedup_watchlist": [
     "game-000003 与《合成大西瓜》同构不同实体（config/aliases.yaml confusables）",
@@ -117,6 +118,7 @@
   "git_push_result": "reported_in_run_output（仓内不虚报远端状态）",
   "erratum_log": [
     "2026-11-13：Sokoban 关卡数口径纠误（商业版 20 关、50 关属 Sokoban 2）——W44 周报与 backlog 原口径有误",
-    "2026-11-14：Parabox 发行商口径纠误（Traynor 一人开发兼发行，非 Draknek）"
+    "2026-11-14：Parabox 发行商口径纠误（Traynor 一人开发兼发行，非 Draknek）",
+    "2026-11-14：Bejeweled 改名口径纠误（Diamond Mines 相似，非商标诉讼）；三创始人为 Vechey/Fiete/Kapalka（无 Steve Roughon 讹传）"
   ]
 }

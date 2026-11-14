@@ -19,3 +19,4 @@
 {"id":"pattern-000019","name":"scale_as_progression（尺度即进程）","related_case_ids":["game-000033"],"confidence":"source_reviewed","path":"patterns/pattern-000019.md","created_at":"2026-11-13","updated_at":"2026-11-13"}
 {"id":"pattern-000020","name":"clone_wave_outcompetes_original（克隆波反超原作）","related_case_ids":["game-000035","game-000015","game-000003","game-000001"],"confidence":"source_reviewed","path":"patterns/pattern-000020.md","created_at":"2026-11-13","updated_at":"2026-11-13"}
 {"id":"pattern-000021","name":"unique_solution_contract（唯一解契约）","related_case_ids":["game-000039","game-000027","game-000016"],"confidence":"source_reviewed","path":"patterns/pattern-000021.md","created_at":"2026-11-14","updated_at":"2026-11-14"}
+{"id":"pattern-000022","name":"kept_defect_as_feature（保留缺陷为特性）","related_case_ids":["game-000044","game-000023"],"confidence":"source_reviewed","path":"patterns/pattern-000022.md","created_at":"2026-11-14","updated_at":"2026-11-14"}

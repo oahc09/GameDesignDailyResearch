@@ -89,3 +89,10 @@
 - 覆盖：实体 cases=42, mechanics=43, patterns=21, theories=3, hypotheses=19（共 128）；relations 145 条全合法；八份 run.json 解析通过。
 - 纠误：Parabox 发行商口径（Traynor 一人开发兼发行）。
 - pattern-000021（唯一解契约）收编既有案例 Sudoku/Obra Dinn/Minesweeper 为 known_uses。
+
+## 2026-11-02（补跑，实际执行于 2026-11-14 11:10）
+
+- 工具：`validation/validate.mjs`；结果：**ERRORS 0 / WARNINGS 0**。
+- 覆盖：实体 cases=45, mechanics=46, patterns=22, theories=3, hypotheses=20（共 136）；relations 153 条全合法；九份 run.json 解析通过。
+- 纠误：Bejeweled 改名口径（Diamond Mines 相似，非诉讼）与三创始人口径（无 Steve Roughon 讹传）。
+- EVOLVES_FROM 关系边首次使用（Candy Crush→Bejeweled 谱系）。

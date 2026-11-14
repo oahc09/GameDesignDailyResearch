@@ -76,7 +76,7 @@
 {"candidate":"WarioWare, Inc.","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"微游戏格式（5 秒一玩的实验格式化）；周五主题另日","added_on":"2026-11-13"}
 {"candidate":"The Stanley Parable","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"元叙事旁白对抗（原 backlog 项）；旁白设计与 GOI 鼓励旁白对照","added_on":"2026-11-13"}
 {"candidate":"2QWOP","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"QWOP 双人对抗版（hypothesis-000015 的先例参照）","added_on":"2026-11-13"}
-{"candidate":"Bejeweled（PopCap 2001）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Match-3 品类原点（Candy Crush/Miner Speed 游戏谱系上游）；周一专题候选","added_on":"2026-11-13"}
+{"candidate":"Bejeweled（PopCap 2001）","language":"en","evidence_level":"B","urls":[],"status":"selected","reason":"2026-11-14 补跑 11-02（经典机制第二轮）入选：Match-3 品类原点（Candy Crush/Miner Speed 游戏谱系上游）；周一专题候选","added_on":"2026-11-13","selected_as":"game-000043","updated_on":"2026-11-14"}
 {"candidate":"Insaniquarium（George Fan 2001）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"PvZ 设计谱系源头（Fan 前作防御向改造）；Fan 谱系补全","added_on":"2026-11-13"}
 {"candidate":"Boxxle / Sokoban 2 / Sokobond","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Sokoban 移植/续作/化学变体谱系；推箱变体研究","added_on":"2026-11-13"}
 {"candidate":"Festival 求解器（FESS 算法）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Sokoban 90 关全解的算法论文——pattern-000011 的求解器谱系补全","added_on":"2026-11-13"}
@@ -89,3 +89,8 @@
 {"candidate":"The Looker（Witness 恶搞）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000028 的 2022 恶搞作——归纳教学的接受度反证","added_on":"2026-11-14"}
 {"candidate":"increpare 其他推箱变体（Pusher 系）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"SSR 作者谱系（Lavelle 高产推箱变体）；变体设计研究","added_on":"2026-11-14"}
 {"candidate":"Sokosoko（juner, itch.io）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Parabox 明言灵感来源（Wikipedia）——谱系上游核验","added_on":"2026-11-14"}
+{"candidate":"Bejeweled 2 / Twist / Blitz / 3 / Stars 谱系","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000043 续作谱系（Blitz freemium 未在本页详载）","added_on":"2026-11-14"}
+{"candidate":"Shariki / 交换三消首创归属考","language":"en","evidence_level":"C","urls":[],"status":"backlog","reason":"Wikipedia 未载交换三消先例（社区称 Shariki 1994）——原创性归属考古（来源待核）","added_on":"2026-11-14"}
+{"candidate":"Arkanoid（Taito 1986）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Breakout 谱系下游（挡板/能量增强）；block kuzushi 商业化节点","added_on":"2026-11-14"}
+{"candidate":"Super Breakout / Breakout Beyond","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Breakout 续作与 2025 重想象对照","added_on":"2026-11-14"}
+{"candidate":"Al Alcorn 工程访谈","language":"en","evidence_level":"A","urls":[],"status":"backlog","reason":"Pong 八段拍面与顶部缺陷的一手工程口径（Wikipedia 转述之外的深挖）","added_on":"2026-11-14"}

@@ -151,3 +151,14 @@
 {"from":"game-000043","type":"SUPPORTED_BY","to":"theory-000002","evidence_urls":[]}
 {"from":"hypothesis-000020","type":"COMBINES_WITH","to":"mechanic-000044","evidence_urls":[]}
 {"from":"game-000037","type":"EVOLVES_FROM","to":"game-000043","evidence_urls":["https://en.wikipedia.org/wiki/Candy_Crush_Saga"],"note":"Candy Crush←King.com Candy Crush←Miner Speed←Bejeweled 谱系（Wikipedia 口径）"}
+{"from":"game-000046","type":"USES_MECHANIC","to":"mechanic-000047","evidence_urls":["https://en.wikipedia.org/wiki/Doodle_Jump"]}
+{"from":"game-000047","type":"USES_MECHANIC","to":"mechanic-000048","evidence_urls":["https://en.wikipedia.org/wiki/Fruit_Ninja"]}
+{"from":"game-000048","type":"USES_MECHANIC","to":"mechanic-000049","evidence_urls":["https://en.wikipedia.org/wiki/Subway_Surfers"]}
+{"from":"game-000046","type":"EXEMPLIFIES_PATTERN","to":"pattern-000023","evidence_urls":["https://en.wikipedia.org/wiki/Doodle_Jump"]}
+{"from":"game-000047","type":"EXEMPLIFIES_PATTERN","to":"pattern-000023","evidence_urls":["https://en.wikipedia.org/wiki/Fruit_Ninja"]}
+{"from":"game-000048","type":"EXEMPLIFIES_PATTERN","to":"pattern-000023","evidence_urls":["https://en.wikipedia.org/wiki/Subway_Surfers"]}
+{"from":"game-000001","type":"EXEMPLIFIES_PATTERN","to":"pattern-000023","evidence_urls":["https://en.wikipedia.org/wiki/Flappy_Bird"]}
+{"from":"game-000009","type":"EXEMPLIFIES_PATTERN","to":"pattern-000023","evidence_urls":["https://en.wikipedia.org/wiki/Tiny_Wings"]}
+{"from":"game-000031","type":"CONTRASTS_WITH","to":"pattern-000023","evidence_urls":["https://en.wikipedia.org/wiki/QWOP"],"note":"QWOP 推翻输入语义轴的简单到复杂假设（分肢差分为第六种语义方向）"}
+{"from":"hypothesis-000021","type":"COMBINES_WITH","to":"mechanic-000047","evidence_urls":[]}
+{"from":"hypothesis-000022","type":"COMBINES_WITH","to":"mechanic-000048","evidence_urls":[]}

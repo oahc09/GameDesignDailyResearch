@@ -96,3 +96,10 @@
 - 覆盖：实体 cases=45, mechanics=46, patterns=22, theories=3, hypotheses=20（共 136）；relations 153 条全合法；九份 run.json 解析通过。
 - 纠误：Bejeweled 改名口径（Diamond Mines 相似，非诉讼）与三创始人口径（无 Steve Roughon 讹传）。
 - EVOLVES_FROM 关系边首次使用（Candy Crush→Bejeweled 谱系）。
+
+## 2026-11-03（补跑，实际执行于 2026-11-14 11:35）
+
+- 工具：`validation/validate.mjs`；结果：**ERRORS 0 / WARNINGS 0**。
+- 覆盖：实体 cases=48, mechanics=49, patterns=23, theories=3, hypotheses=22（共 145）；relations 165 条全合法；十份 run.json 解析通过。
+- 合成产出：pattern-000023 输入语义轴（收编既有五案例）；Fruit Ninja 设计者纠误（Luke Muscat）。
+- 失败项：Subway Surfers 首抓撞并发限制，重试成功。

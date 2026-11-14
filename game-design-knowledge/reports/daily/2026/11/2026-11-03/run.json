@@ -1,0 +1,46 @@
+{
+  "research_date": "2026-11-03",
+  "run_type": "daily_backfill",
+  "weekday_theme": "casual_hypercasual（休闲与超休闲第二轮：输入语义轴补全——倾斜/轨迹/方向滑动+强度）",
+  "executed_at": {
+    "start": "2026-11-14T11:35:00+08:00",
+    "start_note": "2026-11-03 调度未运行（宿主离线）；由用户指令'继续补跑'的批次会话补跑，按 SPEC 第 4 节归档到计划研究日",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 14,
+    "selected_cases": 3,
+    "new_cases": 3,
+    "new_mechanics": 3,
+    "new_patterns": 1,
+    "new_theories": 0,
+    "new_hypotheses": 2,
+    "updated_entities": 0,
+    "backlog_added": 6,
+    "sources_registered": 3,
+    "sources_fetch_failed": 1
+  },
+  "dedup_scope": "full_library（48 案例/49 机制全量比对；pattern-000023 输入语义轴为本日合成产出——收编既有五位案例 game-000001/000009 与本日三位；QWOP 对照已建 CONTRASTS）",
+  "erratum": "Fruit Ninja 设计者纠误（Luke Muscat，非 Phil Larsen——后者为 Halfbrick CMO）；Doodle Jump 灵感'Plot 19'口径 Wikipedia 未载，不采信",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（Subway Surfers 创始人名单 Wikipedia 明确不载——不采信；Plot 19 口径不登记）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-03/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-03",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

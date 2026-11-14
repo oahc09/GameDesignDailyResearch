@@ -103,3 +103,10 @@
 - 覆盖：实体 cases=48, mechanics=49, patterns=23, theories=3, hypotheses=22（共 145）；relations 165 条全合法；十份 run.json 解析通过。
 - 合成产出：pattern-000023 输入语义轴（收编既有五案例）；Fruit Ninja 设计者纠误（Luke Muscat）。
 - 失败项：Subway Surfers 首抓撞并发限制，重试成功。
+
+## 2026-11-05（补跑，实际执行于 2026-11-14 12:05）
+
+- 工具：`validation/validate.mjs`；结果：**ERRORS 0 / WARNINGS 0**。
+- 覆盖：实体 cases=51, mechanics=53, patterns=24, theories=3, hypotheses=23（共 154）；relations 161 条全合法；十一份 run.json 解析通过。
+- 纠误：FTL Advanced Edition 日期（2014-04-03，非 2018）；Subset 联创名（Jay Ma，Wikipedia infobox 口径）。
+- 合成产出：pattern-000024 完美信息战术（收编 game-000020 STS，game-000018 XCOM 为反例）。

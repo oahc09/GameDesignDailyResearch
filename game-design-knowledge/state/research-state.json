@@ -57,7 +57,7 @@
   },
   "coverage": {
     "total_cases": 51,
-    "total_mechanics": 53,
+    "total_mechanics": 52,
     "total_patterns": 24,
     "total_theories": 3,
     "total_hypotheses": 23,

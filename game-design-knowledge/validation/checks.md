@@ -110,3 +110,5 @@
 - 覆盖：实体 cases=51, mechanics=53, patterns=24, theories=3, hypotheses=23（共 154）；relations 161 条全合法；十一份 run.json 解析通过。
 - 纠误：FTL Advanced Edition 日期（2014-04-03，非 2018）；Subset 联创名（Jay Ma，Wikipedia infobox 口径）。
 - 合成产出：pattern-000024 完美信息战术（收编 game-000020 STS，game-000018 XCOM 为反例）。
+
+- 2026-11-05 补录：报告三文件随追加提交补齐；state mechanics 计数修正（53→52）。

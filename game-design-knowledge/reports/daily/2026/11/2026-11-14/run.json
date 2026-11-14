@@ -1,0 +1,44 @@
+{
+  "research_date": "2026-11-14",
+  "run_type": "daily",
+  "weekday_theme": "theory_algorithms（理论与算法第三轮：算法即玩法——SpaceChem 解法即程序/Angry Birds 弹道预览/Factorio 物流即计算/Peggle 瞄准辅助）",
+  "executed_at": {
+    "start": "2026-11-14T23:11:00+08:00",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 15,
+    "selected_cases": 4,
+    "new_cases": 4,
+    "new_mechanics": 4,
+    "new_patterns": 1,
+    "new_theories": 0,
+    "new_hypotheses": 2,
+    "updated_entities": 0,
+    "backlog_added": 10,
+    "sources_registered": 5,
+    "sources_fetch_failed": 1
+  },
+  "dedup_scope": "full_library（55 案例/56 机制全量比对；pattern-000025 确定性预览收编 ITB/STS 为既有 known_uses 并立 XCOM/NetHack 反例；与前两轮（随机化/确定性模拟）互补不重复）",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（'Zen Ball' 专有名词未在本源确认即不使用；AB 首作精确日期 Wikipedia 未载不采用；Factorio no-discount 政策页面明确未载不采信）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-14/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-14",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

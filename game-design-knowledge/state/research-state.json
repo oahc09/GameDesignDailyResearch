@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13T23:55:00+08:00",
-  "last_planned_success_date": "2026-11-05（补跑完成）",
+  "updated_at": "2026-11-14T23:55:00+08:00",
+  "last_planned_success_date": "2026-11-14",
   "missed_scheduled_dates": [
     {
       "date": "2026-11-04",
@@ -49,18 +49,18 @@
     }
   ],
   "last_run": {
-    "planned_date": "2026-11-05",
-    "run_type": "daily_backfill",
-    "theme": "puzzle_strategy_round2_strategy_axis",
+    "planned_date": "2026-11-14",
+    "run_type": "daily",
+    "theme": "theory_algorithms_round3_algorithms_as_gameplay",
     "status": "success_pending_push",
-    "status_note": "批次会话补跑；归档到计划日期 2026-11-05"
+    "status_note": "本地校验通过并归档；Git 推送结果见当日运行输出"
   },
   "coverage": {
-    "total_cases": 51,
-    "total_mechanics": 52,
-    "total_patterns": 24,
+    "total_cases": 55,
+    "total_mechanics": 56,
+    "total_patterns": 25,
     "total_theories": 3,
-    "total_hypotheses": 23,
+    "total_hypotheses": 25,
     "themes_covered": {
       "2026-10-27": "casual_hypercasual",
       "2026-10-28": "action_shooter（2026-10-30 补跑）",
@@ -73,7 +73,8 @@
       "2026-10-29": "puzzle_strategy（2026-11-14 补跑）",
       "2026-11-02": "classic_mechanics（2026-11-14 补跑，第二轮）",
       "2026-11-03": "casual_hypercasual（2026-11-14 补跑，第二轮）",
-      "2026-11-05": "puzzle_strategy（2026-11-14 补跑，第二轮：策略/战术轴）"
+      "2026-11-05": "puzzle_strategy（2026-11-14 补跑，第二轮：策略/战术轴）",
+      "2026-11-14": "theory_algorithms（第三轮：算法即玩法）"
     },
     "genres_touched": [
       "casual",
@@ -88,16 +89,15 @@
   },
   "verification_profile": {
     "code_inspected": 3,
-    "source_reviewed": 44,
+    "source_reviewed": 48,
     "demo_played": 0,
     "unverified": 0
   },
   "knowledge_gaps": [
-    "缺口积压 4 天（11-04、11-06、11-10~11-12）——本批次已补 10-29/11-02/11-03/11-05，剩余 4 天待下一批",
+    "缺口积压 5 天（11-04、11-06、11-10~11-12）——待用户继续补跑",
     "demo_played 仍为 0（2048 网页版实测最优先）",
-    "FESS/McGuire/Yato 论文级文献待读",
-    "交换三消首创归属（Shariki 口径待核）与 Al Alcorn 工程访谈（A 级候选）",
-    "hypothesis-000020 被试内设计可零成本先行"
+    "Zachtronics 谱系与 FESS/McGuire/Yato 论文级文献待读",
+    "hypothesis-000019/000024/000025 离线先行可零成本执行"
   ],
   "dedup_watchlist": [
     "game-000003 与《合成大西瓜》同构不同实体（config/aliases.yaml confusables）",
@@ -105,7 +105,8 @@
     "pattern-000017（续作易化）与 pattern-000006（同作内 Assist）为难度可及的两条路线，关系已在卡内声明",
     "mechanic-000036（特例合并）与 mechanic-000016（iid 纯倍数）为 Threes/2048 规则 diff 的两支，边界已声明",
     "推块谱系三层（Sokoban 位置/Baba 规则/Parabox 拓扑）与 mechanic-000041（计数扩展）边界已在卡内声明",
-    "mechanic-000050（预告+推位）与 mechanic-000021（STS Intent）为 pattern-000024 的战术/卡牌两支，边界已声明"
+    "mechanic-000050（预告+推位）与 mechanic-000021（STS Intent）为 pattern-000024 的战术/卡牌两支，边界已声明",
+    "pattern-000025（确定性预览）与 pattern-000006（Assist）、mechanic-000009（隐形宽恕）构成辅助透明度谱，hypothesis-000025 已串联三者"
   ],
   "next_scheduled": {
     "date": "2026-11-15",
@@ -122,6 +123,7 @@
     "2026-11-14：Parabox 发行商口径纠误（Traynor 一人开发兼发行，非 Draknek）",
     "2026-11-14：Bejeweled 改名口径纠误（Diamond Mines 相似，非商标诉讼）；三创始人为 Vechey/Fiete/Kapalka（无 Steve Roughon 讹传）",
     "2026-11-14：Fruit Ninja 设计者纠误（Luke Muscat，非 Phil Larsen——后者为 CMO）",
-    "2026-11-14：FTL Advanced Edition 日期纠误（2014-04-03，非 2018）；Subset 联创名按 Wikipedia infobox 为 Jay Ma"
+    "2026-11-14：FTL Advanced Edition 日期纠误（2014-04-03，非 2018）；Subset 联创名按 Wikipedia infobox 为 Jay Ma",
+    "2026-11-14：SpaceChem 排行三轴按 Wikipedia 口径（指令数/循环数/反应器数）——历史记忆中的 alpha/beta 与符号/蓄水池措辞不采用"
   ]
 }

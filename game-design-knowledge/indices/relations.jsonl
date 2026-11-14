@@ -170,3 +170,16 @@
 {"from":"game-000049","type":"CONTRASTS_WITH","to":"game-000018","evidence_urls":["https://en.wikipedia.org/wiki/Into_the_Breach"],"note":"信息设计光谱两端：完全信息战术 vs 隐藏概率调校"}
 {"from":"game-000024","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
 {"from":"hypothesis-000023","type":"COMBINES_WITH","to":"mechanic-000050","evidence_urls":[]}
+{"from":"game-000052","type":"USES_MECHANIC","to":"mechanic-000053","evidence_urls":["https://en.wikipedia.org/wiki/SpaceChem"]}
+{"from":"game-000053","type":"USES_MECHANIC","to":"mechanic-000054","evidence_urls":["https://en.wikipedia.org/wiki/Angry_Birds","https://www.wired.com/2010/10/physics-of-angry-birds/"]}
+{"from":"game-000054","type":"USES_MECHANIC","to":"mechanic-000055","evidence_urls":["https://en.wikipedia.org/wiki/Factorio"]}
+{"from":"game-000055","type":"USES_MECHANIC","to":"mechanic-000056","evidence_urls":["https://en.wikipedia.org/wiki/Peggle"]}
+{"from":"game-000053","type":"EXEMPLIFIES_PATTERN","to":"pattern-000025","evidence_urls":["https://www.wired.com/2010/10/physics-of-angry-birds/"]}
+{"from":"game-000055","type":"EXEMPLIFIES_PATTERN","to":"pattern-000025","evidence_urls":["https://en.wikipedia.org/wiki/Peggle"]}
+{"from":"game-000049","type":"EXEMPLIFIES_PATTERN","to":"pattern-000025","evidence_urls":["https://en.wikipedia.org/wiki/Into_the_Breach"]}
+{"from":"game-000020","type":"EXEMPLIFIES_PATTERN","to":"pattern-000025","evidence_urls":["https://en.wikipedia.org/wiki/Slay_the_Spire"]}
+{"from":"game-000053","type":"CONTRASTS_WITH","to":"game-000052","evidence_urls":["https://en.wikipedia.org/wiki/Angry_Birds"],"note":"谜题公平两模式：达标制（1-3 星）vs 效率排行（三轴）"}
+{"from":"game-000054","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
+{"from":"hypothesis-000024","type":"COMBINES_WITH","to":"mechanic-000054","evidence_urls":[]}
+{"from":"hypothesis-000025","type":"COMBINES_WITH","to":"mechanic-000056","evidence_urls":[]}
+{"from":"hypothesis-000025","type":"COMBINES_WITH","to":"pattern-000006","evidence_urls":[]}

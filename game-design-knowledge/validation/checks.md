@@ -112,3 +112,10 @@
 - 合成产出：pattern-000024 完美信息战术（收编 game-000020 STS，game-000018 XCOM 为反例）。
 
 - 2026-11-05 补录：报告三文件随追加提交补齐；state mechanics 计数修正（53→52）。
+
+## 2026-11-14（周六 · 理论与算法第三轮：算法即玩法）
+
+- 工具：`validation/validate.mjs`；结果：**ERRORS 0 / WARNINGS 0**。
+- 覆盖：实体 cases=55, mechanics=56, patterns=25, theories=3, hypotheses=25（共 164）；relations 185 条全合法；十二份 run.json 解析通过。
+- 合成产出：pattern-000025 确定性预览设计（收编 ITB/STS，立 XCOM/NetHack 反例——预览剂量谱与 pattern-000021/000006/000006 关联声明）。
+- README 未提交修订随本提交入库（上批次收尾遗漏，如实补记）。

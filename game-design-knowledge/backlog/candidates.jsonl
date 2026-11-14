@@ -100,3 +100,13 @@
 {"candidate":"Subway Surfers City / Tag","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000048 续作（2026-02-26）与 Apple Arcade 衍生","added_on":"2026-11-14"}
 {"candidate":"App Annie / data.ai 手游下载榜方法论","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"27 亿下载口径的数据源核验（Subway Surfers 记录引用的 App Annie 口径）","added_on":"2026-11-14"}
 {"candidate":"TikTok sludge content 与挂机视觉","language":"en","evidence_level":"C","urls":[],"status":"backlog","reason":"Subway Surfers 玩法作为注意力背景的现象（Wikipedia 载）——文化研究候选（C 级）","added_on":"2026-11-14"}
+{"candidate":"Zachtronics 谱系（TIS-100/Shenzhen I/O/Opus Magnum/EXAPUNKS/Infinifactory/Möbius Front）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000052 谱系续作（导航模板口径，未逐作核验）——编程谜题谱系深挖；Opus Magnum 优化器社区生态尤佳","added_on":"2026-11-14"}
+{"candidate":"Human Resource Machine / 7 Billion Humans（Tomorrow Corporation）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"面向大众的汇编谜题（编程教学的另一端）","added_on":"2026-11-14"}
+{"candidate":"Crush the Castle（2009 Flash）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Angry Birds 灵感原作（pattern-000020 谱系上游核验）","added_on":"2026-11-14"}
+{"candidate":"Angry Birds 2 / Space（能力扩展对照）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000053 续作（新鸟能力=机制扩展样本）","added_on":"2026-11-14"}
+{"candidate":"Satisfactory / Dyson Sphere Program / Captain of Industry","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Factorio 工厂系谱系下游（3D/太空/多厂）","added_on":"2026-11-14"}
+{"candidate":"Peggle Nights / Peggle 2 / Peggle Blast","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000055 谱系（Nights 新 Master/Blast 手游化）","added_on":"2026-11-14"}
+{"candidate":"Wired 'Physics of Angry Birds' 系列（Rhett Allain）","language":"en","evidence_level":"A","urls":["https://www.wired.com/2010/10/physics-of-angry-birds/"],"status":"backlog","reason":"物理教学迁移研究的文献基础（AB 玩家抛体直觉实验的对照材料）","added_on":"2026-11-14"}
+{"candidate":"Minecraft 红石电路（图灵完备实践对照）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"DF/Factorio 电路网络的第三支图灵完备实践（交互矩阵另一极）","added_on":"2026-11-14"}
+{"candidate":"Binding of Isaac（roguelite 三作之末）","language":"en","urls":[],"selected":false,"evidence_level":"B","urls":[],"status":"backlog","reason":"W45 已预排——FTL/Spelunky/Isaac 三作称谓口径的最后一员","added_on":"2026-11-14"}
+{"candidate":"Nuclear Throne（Halfbrick 式迭代对照）","language":"en","urls":[],"selected":false,"evidence_level":"B","urls":[],"status":"backlog","reason":"10-28 已预排，维持","added_on":"2026-11-13"}

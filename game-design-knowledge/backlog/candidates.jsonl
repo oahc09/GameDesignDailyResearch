@@ -38,7 +38,7 @@
 {"candidate":"Klondike Solitaire（可解率研究）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"79-92% 可解率的经典数值设计（发一张/发三张差异）；需核验可复现研究来源后再入库","added_on":"2026-10-31"}
 {"candidate":"Puzzle Quest 2 / Galactrix / Marvel PQ","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000019 谱系续作与授权衍生（接口可移植性对照样本）；另日","added_on":"2026-11-01"}
 {"candidate":"Inscryption（Daniel Mullins）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"卡牌+meta 叙事+密室逃逸的多层融合样本；层次作为叙事装置研究","added_on":"2026-11-01"}
-{"candidate":"Hades（Supergiant）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"肉鸽×叙事持久性（死亡即叙事推进）的融合标杆；叙事-机制接口研究","added_on":"2026-11-01"}
+{"candidate":"Hades（Supergiant）","language":"en","evidence_level":"B","urls":[],"status":"selected","reason":"2026-11-15（周日 知识归纳与创新）入选：肉鸽×叙事持久性（死亡即叙事推进）的融合标杆；叙事-机制接口研究","added_on":"2026-11-01","selected_as":"game-000059","updated_on":"2026-11-15"}
 {"candidate":"Dead Cells（Motion Twin）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"银河城×肉鸽细胞元进程的融合样本；属周五主题亦可","added_on":"2026-11-01"}
 {"candidate":"Loop Hero（Four Quarters）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"卡牌布置×自动战斗×闲置循环的三重融合；循环结构本身即机制","added_on":"2026-11-01"}
 {"candidate":"Peglin（Penguin Knights）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"弹珠盘×肉鸽构筑；Peggle 概率轴的肉鸽化移植","added_on":"2026-11-01"}
@@ -108,5 +108,12 @@
 {"candidate":"Peggle Nights / Peggle 2 / Peggle Blast","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000055 谱系（Nights 新 Master/Blast 手游化）","added_on":"2026-11-14"}
 {"candidate":"Wired 'Physics of Angry Birds' 系列（Rhett Allain）","language":"en","evidence_level":"A","urls":["https://www.wired.com/2010/10/physics-of-angry-birds/"],"status":"backlog","reason":"物理教学迁移研究的文献基础（AB 玩家抛体直觉实验的对照材料）","added_on":"2026-11-14"}
 {"candidate":"Minecraft 红石电路（图灵完备实践对照）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"DF/Factorio 电路网络的第三支图灵完备实践（交互矩阵另一极）","added_on":"2026-11-14"}
-{"candidate":"Binding of Isaac（roguelite 三作之末）","language":"en","urls":[],"selected":false,"evidence_level":"B","urls":[],"status":"backlog","reason":"W45 已预排——FTL/Spelunky/Isaac 三作称谓口径的最后一员","added_on":"2026-11-14"}
-{"candidate":"Nuclear Throne（Halfbrick 式迭代对照）","language":"en","urls":[],"selected":false,"evidence_level":"B","urls":[],"status":"backlog","reason":"10-28 已预排，维持","added_on":"2026-11-13"}
+{"candidate":"Binding of Isaac（roguelite 三作之末）","language":"en","urls":[],"selected":false,"evidence_level":"B","status":"backlog","reason":"W45 已预排——FTL/Spelunky/Isaac 三作称谓口径的最后一员","added_on":"2026-11-14"}
+{"candidate":"Nuclear Throne（Halfbrick 式迭代对照）","language":"en","urls":[],"selected":false,"evidence_level":"B","status":"backlog","reason":"10-28 已预排，维持","added_on":"2026-11-13"}
+{"candidate":"Street Fighter 谱系（Turbo/SFIII 三种风格/SF6）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"game-000056 谱系续作（Super Combos 转正的显式化路径）","added_on":"2026-11-15"}
+{"candidate":"EVO 锦标赛与 FGC 文化（Daigo parry 等）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"pattern-000014 确定性社区的 FGC 支（Evo Moment #37 为文化样本）","added_on":"2026-11-15"}
+{"candidate":"Mario Kart 8 Deluxe（道具概率研究社区）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"道具箱分布数据采集研究（hypothesis 方向；Wikipedia 本页未讨论橡皮带）","added_on":"2026-11-15"}
+{"candidate":"Rocket League Sideswipe / Rocket Racing","language":"en","urls":[],"status":"backlog","reason":"game-000058 衍生（2D 化与 Fortnite 模式）","added_on":"2026-11-15"}
+{"candidate":"Pyre（Supergiant 前作）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Hades 设计问题的来源（分支叙事不被重玩——Kasavin 口径）——叙事-肉鸽问题的反面样本","added_on":"2026-11-15"}
+{"candidate":"Octogeddon（George Fan）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"PvZ 作者后续（2018）——独立设计师谱系","added_on":"2026-11-15"}
+{"candidate":"Supergiant 谱系（Bastion/Transistor/Pyre）","language":"en","evidence_level":"B","urls":[],"status":"backlog","reason":"Hades 工作室作品谱系（约 20 人团队的多作方法）","added_on":"2026-11-15"}

@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-14T23:55:00+08:00",
-  "last_planned_success_date": "2026-11-14",
+  "last_planned_success_date": "2026-11-15",
   "missed_scheduled_dates": [
     {
       "date": "2026-11-04",
@@ -49,18 +49,18 @@
     }
   ],
   "last_run": {
-    "planned_date": "2026-11-14",
+    "planned_date": "2026-11-15",
     "run_type": "daily",
-    "theme": "theory_algorithms_round3_algorithms_as_gameplay",
+    "theme": "synthesis_innovation_fighting_sports_narrative + weekly_report_2026-W46",
     "status": "success_pending_push",
     "status_note": "本地校验通过并归档；Git 推送结果见当日运行输出"
   },
   "coverage": {
-    "total_cases": 55,
-    "total_mechanics": 56,
-    "total_patterns": 25,
+    "total_cases": 59,
+    "total_mechanics": 60,
+    "total_patterns": 26,
     "total_theories": 3,
-    "total_hypotheses": 25,
+    "total_hypotheses": 27,
     "themes_covered": {
       "2026-10-27": "casual_hypercasual",
       "2026-10-28": "action_shooter（2026-10-30 补跑）",
@@ -74,7 +74,8 @@
       "2026-11-02": "classic_mechanics（2026-11-14 补跑，第二轮）",
       "2026-11-03": "casual_hypercasual（2026-11-14 补跑，第二轮）",
       "2026-11-05": "puzzle_strategy（2026-11-14 补跑，第二轮：策略/战术轴）",
-      "2026-11-14": "theory_algorithms（第三轮：算法即玩法）"
+      "2026-11-14": "theory_algorithms（第三轮：算法即玩法）",
+      "2026-11-15": "synthesis_innovation（格斗/体育/叙事融合轴）"
     },
     "genres_touched": [
       "casual",
@@ -83,7 +84,8 @@
       "action",
       "shooter",
       "strategy",
-      "simulation"
+      "simulation",
+      "fighting"
     ],
     "axis_coverage_note": "周一经典机制轴首次覆盖（Sokoban/Threes!/Candy Crush/PvZ）；pattern-000020 克隆波由跨日规律升级"
   },
@@ -96,8 +98,9 @@
   "knowledge_gaps": [
     "缺口积压 5 天（11-04、11-06、11-10~11-12）——待用户继续补跑",
     "demo_played 仍为 0（2048 网页版实测最优先）",
+    "Mario Kart 橡皮带/道具分布数据待核验（社区研究口径不采信）",
     "Zachtronics 谱系与 FESS/McGuire/Yato 论文级文献待读",
-    "hypothesis-000019/000024/000025 离线先行可零成本执行"
+    "hypothesis-000026/000027 离线部分可先行"
   ],
   "dedup_watchlist": [
     "game-000003 与《合成大西瓜》同构不同实体（config/aliases.yaml confusables）",
@@ -106,12 +109,13 @@
     "mechanic-000036（特例合并）与 mechanic-000016（iid 纯倍数）为 Threes/2048 规则 diff 的两支，边界已声明",
     "推块谱系三层（Sokoban 位置/Baba 规则/Parabox 拓扑）与 mechanic-000041（计数扩展）边界已在卡内声明",
     "mechanic-000050（预告+推位）与 mechanic-000021（STS Intent）为 pattern-000024 的战术/卡牌两支，边界已声明",
-    "pattern-000025（确定性预览）与 pattern-000006（Assist）、mechanic-000009（隐形宽恕）构成辅助透明度谱，hypothesis-000025 已串联三者"
+    "pattern-000025（确定性预览）与 pattern-000006（Assist）、mechanic-000009（隐形宽恕）构成辅助透明度谱，hypothesis-000025 已串联三者",
+    "mechanic-000063（死亡叙事）与 mechanic-000006（死亡即重开）、mechanic-000063 与 pattern-000003 为失败意义化两路线，边界已声明"
   ],
   "next_scheduled": {
-    "date": "2026-11-15",
-    "weekday": "sunday",
-    "theme": "synthesis_innovation + 周报 2026-W46"
+    "date": "2026-11-16",
+    "weekday": "monday",
+    "theme": "classic_mechanics（第三轮候选：Bejeweled 已入库——需新候选如 Dig Dug/Galaga 预排）"
   },
   "weekly_reports": [
     "reports/weekly/2026-W44.md",
@@ -124,6 +128,7 @@
     "2026-11-14：Bejeweled 改名口径纠误（Diamond Mines 相似，非商标诉讼）；三创始人为 Vechey/Fiete/Kapalka（无 Steve Roughon 讹传）",
     "2026-11-14：Fruit Ninja 设计者纠误（Luke Muscat，非 Phil Larsen——后者为 CMO）",
     "2026-11-14：FTL Advanced Edition 日期纠误（2014-04-03，非 2018）；Subset 联创名按 Wikipedia infobox 为 Jay Ma",
-    "2026-11-14：SpaceChem 排行三轴按 Wikipedia 口径（指令数/循环数/反应器数）——历史记忆中的 alpha/beta 与符号/蓄水池措辞不采用"
+    "2026-11-14：SpaceChem 排行三轴按 Wikipedia 口径（指令数/循环数/反应器数）——历史记忆中的 alpha/beta 与符号/蓄水池措辞不采用",
+    "2026-11-15：Fruit Ninja 设计者纠误与 Bejeweled 创始人纠误均已于 11-14 批次记录；本日无新增纠误（Mario Kart 橡皮带机制 Wikipedia 未载，如实标注不采信）"
   ]
 }

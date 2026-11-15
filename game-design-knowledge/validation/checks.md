@@ -119,3 +119,10 @@
 - 覆盖：实体 cases=55, mechanics=56, patterns=25, theories=3, hypotheses=25（共 164）；relations 185 条全合法；十二份 run.json 解析通过。
 - 合成产出：pattern-000025 确定性预览设计（收编 ITB/STS，立 XCOM/NetHack 反例——预览剂量谱与 pattern-000021/000006/000006 关联声明）。
 - README 未提交修订随本提交入库（上批次收尾遗漏，如实补记）。
+
+## 2026-11-15（周日 · 知识归纳与创新 + 周报 W46）
+
+- 工具：`validation/validate.mjs`；结果：**ERRORS 0 / WARNINGS 0**。
+- 覆盖：实体 cases=59, mechanics=60, patterns=26, theories=3, hypotheses=27（共 175）；relations 197 条全合法；十三份 run.json 解析通过；W46 周报生成。
+- 合成产出：pattern-000026 玩家发现机制转正（SFII 连击 bug 起源，Funamizu 引语）。
+- 诚实注记：Mario Kart 橡皮带机制 Wikipedia 本页未讨论（不采信社区口径）；SFII 帧表与 Hades 对话全表标未知。

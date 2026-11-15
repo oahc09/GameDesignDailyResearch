@@ -183,3 +183,15 @@
 {"from":"hypothesis-000024","type":"COMBINES_WITH","to":"mechanic-000054","evidence_urls":[]}
 {"from":"hypothesis-000025","type":"COMBINES_WITH","to":"mechanic-000056","evidence_urls":[]}
 {"from":"hypothesis-000025","type":"COMBINES_WITH","to":"pattern-000006","evidence_urls":[]}
+{"from":"game-000056","type":"USES_MECHANIC","to":"mechanic-000060","evidence_urls":["https://en.wikipedia.org/wiki/Street_Fighter_II"]}
+{"from":"game-000057","type":"USES_MECHANIC","to":"mechanic-000061","evidence_urls":["https://en.wikipedia.org/wiki/Super_Mario_Kart"]}
+{"from":"game-000058","type":"USES_MECHANIC","to":"mechanic-000062","evidence_urls":["https://en.wikipedia.org/wiki/Rocket_League"]}
+{"from":"game-000059","type":"USES_MECHANIC","to":"mechanic-000063","evidence_urls":["https://en.wikipedia.org/wiki/Hades_(video_game)"]}
+{"from":"game-000056","type":"EXEMPLIFIES_PATTERN","to":"pattern-000026","evidence_urls":["https://en.wikipedia.org/wiki/Street_Fighter_II"]}
+{"from":"game-000056","type":"EXEMPLIFIES_PATTERN","to":"pattern-000014","evidence_urls":["https://en.wikipedia.org/wiki/Street_Fighter_II"]}
+{"from":"game-000059","type":"SUPPORTED_BY","to":"theory-000002","evidence_urls":[]}
+{"from":"game-000057","type":"SUPPORTED_BY","to":"pattern-000010","evidence_urls":[]}
+{"from":"hypothesis-000026","type":"COMBINES_WITH","to":"mechanic-000060","evidence_urls":[]}
+{"from":"hypothesis-000026","type":"COMBINES_WITH","to":"pattern-000025","evidence_urls":[]}
+{"from":"hypothesis-000027","type":"COMBINES_WITH","to":"mechanic-000063","evidence_urls":[]}
+{"from":"hypothesis-000027","type":"COMBINES_WITH","to":"pattern-000003","evidence_urls":[]}

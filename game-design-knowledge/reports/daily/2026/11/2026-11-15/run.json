@@ -1,0 +1,52 @@
+{
+  "research_date": "2026-11-15",
+  "run_type": "daily",
+  "weekday_theme": "synthesis_innovation（周日专题：知识归纳与创新——格斗/体育/叙事融合轴；玩家发现的机制与死亡意义化两条新规律线）",
+  "weekly_report": {
+    "generated": true,
+    "file": "reports/weekly/2026-W46.md",
+    "iso_week": "2026-W46（Mon 2026-11-09 ~ Sun 2026-11-15）",
+    "monthly_audit_due": false,
+    "monthly_audit_note": "11-15 + 7 = 11-22 仍为 11 月，非本月最后一个周日（11-29），月审不触发"
+  },
+  "executed_at": {
+    "start": "2026-11-15T23:11:00+08:00",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 14,
+    "selected_cases": 4,
+    "new_cases": 4,
+    "new_mechanics": 4,
+    "new_patterns": 1,
+    "new_theories": 0,
+    "new_hypotheses": 2,
+    "updated_entities": 0,
+    "backlog_status_changes": 1,
+    "backlog_added": 7,
+    "sources_registered": 4,
+    "sources_fetch_failed": 0
+  },
+  "dedup_scope": "full_library（59 案例/60 机制全量比对；mechanic-000063 死亡叙事与 mechanic-000006/pattern-000003 的失败意义化路线边界已声明；Mario Kart 橡皮带机制 Wikipedia 未载——不采信社区口径）",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（Mario Kart 橡皮带/道具分布、Doodle Jump 平台类型等未核验项均标未知；'Zen Ball' 类未证实专有名词不使用）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-15/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-15",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

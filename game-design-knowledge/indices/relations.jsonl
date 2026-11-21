@@ -263,3 +263,14 @@
 {"from":"game-000085","type":"EVOLVES_FROM","to":"game-000052","evidence_urls":["https://en.wikipedia.org/wiki/Opus_Magnum"]}
 {"from":"hypothesis-000036","type":"COMBINES_WITH","to":"mechanic-000089","evidence_urls":[]}
 {"from":"hypothesis-000036","type":"COMBINES_WITH","to":"pattern-000014","evidence_urls":[]}
+{"from":"game-000087","type":"USES_MECHANIC","to":"mechanic-000091","evidence_urls":["https://en.wikipedia.org/wiki/Undertale"]}
+{"from":"game-000088","type":"USES_MECHANIC","to":"mechanic-000092","evidence_urls":["https://en.wikipedia.org/wiki/Stardew_Valley"]}
+{"from":"game-000089","type":"USES_MECHANIC","to":"mechanic-000093","evidence_urls":["https://en.wikipedia.org/wiki/Journey_(2012_video_game)"]}
+{"from":"game-000087","type":"EXEMPLIFIES_PATTERN","to":"pattern-000031","evidence_urls":["https://en.wikipedia.org/wiki/Undertale"]}
+{"from":"game-000088","type":"EXEMPLIFIES_PATTERN","to":"pattern-000031","evidence_urls":["https://en.wikipedia.org/wiki/Stardew_Valley"]}
+{"from":"game-000034","type":"EXEMPLIFIES_PATTERN","to":"pattern-000031","evidence_urls":["https://en.wikipedia.org/wiki/Papers,_Please"]}
+{"from":"game-000074","type":"EXEMPLIFIES_PATTERN","to":"pattern-000031","evidence_urls":["https://en.wikipedia.org/wiki/Her_Story_(video_game)"]}
+{"from":"game-000063","type":"EXEMPLIFIES_PATTERN","to":"pattern-000031","evidence_urls":["https://en.wikipedia.org/wiki/Inscryption"]}
+{"from":"game-000087","type":"CONTRASTS_WITH","to":"game-000034","evidence_urls":["https://en.wikipedia.org/wiki/Undertale"],"note":"道德机制两极：MERCY 可选 vs 规则刚性无豁免"}
+{"from":"game-000089","type":"SUPPORTED_BY","to":"theory-000002","evidence_urls":[]}
+{"from":"hypothesis-000038","type":"COMBINES_WITH","to":"mechanic-000093","evidence_urls":[]}

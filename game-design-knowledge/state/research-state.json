@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-14T23:55:00+08:00",
-  "last_planned_success_date": "2026-11-19（补跑完成）",
+  "last_planned_success_date": "2026-11-20（补跑完成——缺口清零）",
   "missed_scheduled_dates": [],
   "trigger_anomaly_note": "缺口积压（10-29 与 11-02~11-06）单会话逐日补跑不可持续；建议用户显式触发专项补跑批次或接受缺口滚动；周报如实列缺口",
   "backfill_history": [
@@ -78,21 +78,26 @@
       "date": "2026-11-19",
       "backfilled_on": "2026-11-21T23:45:00+08:00",
       "archive_dir": "reports/daily/2026/11/2026-11-19/"
+    },
+    {
+      "date": "2026-11-20",
+      "backfilled_on": "2026-11-21T23:40:00+08:00",
+      "archive_dir": "reports/daily/2026/11/2026-11-20/"
     }
   ],
   "last_run": {
-    "planned_date": "2026-11-19",
+    "planned_date": "2026-11-20",
     "run_type": "daily_backfill",
-    "theme": "puzzle_strategy_round4_portal2_opus_room",
+    "theme": "indie_experimental_round3_solo_auteur",
     "status": "success_pending_push",
-    "status_note": "批次补跑第 9/10 天"
+    "status_note": "批次补跑第 10/10 天——全部缺口清零"
   },
   "coverage": {
-    "total_cases": 86,
-    "total_mechanics": 87,
-    "total_patterns": 30,
+    "total_cases": 89,
+    "total_mechanics": 90,
+    "total_patterns": 31,
     "total_theories": 3,
-    "total_hypotheses": 36,
+    "total_hypotheses": 38,
     "themes_covered": {
       "2026-10-27": "casual_hypercasual",
       "2026-10-28": "action_shooter（2026-10-30 补跑）",
@@ -116,7 +121,8 @@
       "2026-11-16": "classic_mechanics（2026-11-21 补跑，第三轮）",
       "2026-11-17": "casual_hypercasual（2026-11-21 补跑，第三轮）",
       "2026-11-18": "action_shooter（2026-11-21 补跑，第三轮）",
-      "2026-11-19": "puzzle_strategy（2026-11-21 补跑，第四轮）"
+      "2026-11-19": "puzzle_strategy（2026-11-21 补跑，第四轮）",
+      "2026-11-20": "indie_experimental（2026-11-21 补跑，第三轮：单人作者全栈）"
     },
     "genres_touched": [
       "casual",
@@ -126,22 +132,23 @@
       "shooter",
       "strategy",
       "simulation",
+      "fighting",
       "fighting"
     ],
     "axis_coverage_note": "周一经典机制轴首次覆盖（Sokoban/Threes!/Candy Crush/PvZ）；pattern-000020 克隆波由跨日规律升级"
   },
   "verification_profile": {
     "code_inspected": 3,
-    "source_reviewed": 75,
+    "source_reviewed": 78,
     "demo_played": 0,
     "unverified": 0
   },
   "knowledge_gaps": [
-    "缺口积压 1 天（仅 11-20）——本批次补完 11-19 后仅剩最后一日",
+    "缺口全部清零（2026-11-21 补跑批次完成 10/10 天）",
     "demo_played 仍为 0（2048 网页版实测最优先）",
-    "Mario Kart 橡皮带/道具分布数据待核验（社区研究口径不采信）",
-    "Zachtronics 谱系与 FESS/McGuire/Yato 论文级文献待读",
-    "hypothesis-000026/000027 离线部分可先行"
+    "source_traceability_ratio 抽检方法仍未建立（流程债务升级）",
+    "Zachtronics/FESS/McGuire 等论文级文献待读",
+    "hypothesis-000032/000033/000034 等离线先行可零成本执行"
   ],
   "dedup_watchlist": [
     "game-000003 与《合成大西瓜》同构不同实体（config/aliases.yaml confusables）",
@@ -151,12 +158,13 @@
     "推块谱系三层（Sokoban 位置/Baba 规则/Parabox 拓扑）与 mechanic-000041（计数扩展）边界已在卡内声明",
     "mechanic-000050（预告+推位）与 mechanic-000021（STS Intent）为 pattern-000024 的战术/卡牌两支，边界已声明",
     "pattern-000025（确定性预览）与 pattern-000006（Assist）、mechanic-000009（隐形宽恕）构成辅助透明度谱，hypothesis-000025 已串联三者",
-    "mechanic-000063（死亡叙事）与 mechanic-000006（死亡即重开）、mechanic-000063 与 pattern-000003 为失败意义化两路线，边界已声明"
+    "mechanic-000063（死亡叙事）与 mechanic-000006（死亡即重开）、mechanic-000063 与 pattern-000003 为失败意义化两路线，边界已声明",
+    "mechanic-000091（存档污染）与失败意义化谱系、mechanic-000093（匿名协作）与 mechanic-000093 Journey 对照——边界已声明"
   ],
   "next_scheduled": {
     "date": "2026-11-22",
     "weekday": "sunday",
-    "theme": "synthesis_innovation + 周报 2026-W47"
+    "theme": "synthesis_innovation + 周报 2026-W47（本周 11-16~11-20 五天全为补跑 + 11-21 六号运行日——须如实分层）"
   },
   "weekly_reports": [
     "reports/weekly/2026-W44.md",
@@ -179,6 +187,7 @@
     "2026-11-21：Dig Dug 设计者纠误（Masahisa Ikegami + Yokoyama 协助）；Galaga 为 Galaxian 续作（Gaplus 1984）纠误",
     "2026-11-21：Temple Run 开发周期纠误（4 个月非两年）；Alto ADA/销量/洼地加速页面未载不采信；无 Owen Millington 口径",
     "2026-11-21：Katana Zero 玩法口径修正（横版一击双杀+子弹时间+可打断对话树，2019-04-18 发行）；game-000075/mechanic-000079 空号回填",
-    "2026-11-21：Portal 2 发行日纠误（2011-04-18 PC 数字）；凝胶源自学生作品 Tag: The Power of Paint；Opus Magnum 为 Codex 2008 官方重制与 GIF 导出刻意设计；The Room 为 Fireproof（前 Criterion 六人）£16 万成本、BAFTA 最佳英国游戏（非 Debut）"
+    "2026-11-21：Portal 2 发行日纠误（2011-04-18 PC 数字）；凝胶源自学生作品 Tag: The Power of Paint；Opus Magnum 为 Codex 2008 官方重制与 GIF 导出刻意设计；The Room 为 Fireproof（前 Criterion 六人）£16 万成本、BAFTA 最佳英国游戏（非 Debut）",
+    "2026-11-21：Undertale 众筹渠道纠误（Kickstarter 非 Indiegogo）；Stardew Barone 前职纠误（剧院引座员）；Journey 破产口径（Chen 自述）"
   ]
 }

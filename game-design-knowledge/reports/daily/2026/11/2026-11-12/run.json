@@ -1,0 +1,46 @@
+{
+  "research_date": "2026-11-12",
+  "run_type": "daily_backfill",
+  "weekday_theme": "puzzle_strategy（益智与策略第三轮补位：间接控制/填空演绎/数据库叙事——演绎反馈密度谱成轴）",
+  "executed_at": {
+    "start": "2026-11-21T22:30:00+08:00",
+    "start_note": "2026-11-12 调度未运行（宿主离线）；批次会话补跑，归档到计划研究日",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 14,
+    "selected_cases": 3,
+    "new_cases": 3,
+    "new_mechanics": 3,
+    "new_patterns": 1,
+    "new_theories": 0,
+    "new_hypotheses": 1,
+    "updated_entities": 0,
+    "backlog_added": 9,
+    "sources_registered": 3,
+    "sources_fetch_failed": 0
+  },
+  "dedup_scope": "full_library（74 案例/75 机制全量比对；mechanic-000077 填空演绎与 mechanic-000028 批量确认、mechanic-000078 零反馈构成演绎反馈密度谱（hypothesis-000032 串联三兄弟）；间接控制谱 pattern-000028 收编四案例）",
+  "erratum": "Lemmings 设计者纠误（David Jones，非 Gary Timmons——Timmons 为美术）；Golden Idol 发行纠误（2022-10-13）与发行商纠误（Playstack）；Her Story 发行纠误（2015-06-24）",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（Lemmings 复杂性论文原文未读经 Wikipedia 转述登记；Golden Idol '1793 教堂'等查询假设与源不符处已按源修正）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-12/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-12",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

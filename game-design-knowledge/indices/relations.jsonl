@@ -241,3 +241,11 @@
 {"from":"game-000078","type":"EXEMPLIFIES_PATTERN","to":"pattern-000029","evidence_urls":["https://en.wikipedia.org/wiki/Dig_Dug"]}
 {"from":"game-000078","type":"EVOLVES_FROM","to":"game-000077","evidence_urls":["https://en.wikipedia.org/wiki/Dig_Dug"],"note":"同一 Namco Galaga 基板与谱系（Wikipedia 口径）"}
 {"from":"hypothesis-000033","type":"COMBINES_WITH","to":"mechanic-000080","evidence_urls":[]}
+{"from":"game-000079","type":"USES_MECHANIC","to":"mechanic-000083","evidence_urls":["https://en.wikipedia.org/wiki/Temple_Run"]}
+{"from":"game-000080","type":"USES_MECHANIC","to":"mechanic-000084","evidence_urls":["https://en.wikipedia.org/wiki/Alto%27s_Adventure"]}
+{"from":"game-000081","type":"USES_MECHANIC","to":"mechanic-000085","evidence_urls":["https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"]}
+{"from":"game-000081","type":"EXEMPLIFIES_PATTERN","to":"pattern-000030","evidence_urls":["https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"]}
+{"from":"game-000065","type":"EXEMPLIFIES_PATTERN","to":"pattern-000030","evidence_urls":["https://en.wikipedia.org/wiki/Loop_Hero"]}
+{"from":"game-000026","type":"EXEMPLIFIES_PATTERN","to":"pattern-000030","evidence_urls":["https://en.wikipedia.org/wiki/Dwarf_Fortress"]}
+{"from":"game-000080","type":"CONTRASTS_WITH","to":"game-000067","evidence_urls":["https://en.wikipedia.org/wiki/Helix_Jump"],"note":"超休闲两路线：机制极简 vs 氛围补偿（MC 数据互证）"}
+{"from":"hypothesis-000034","type":"COMBINES_WITH","to":"mechanic-000085","evidence_urls":[]}

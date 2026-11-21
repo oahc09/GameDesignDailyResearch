@@ -1,0 +1,46 @@
+{
+  "research_date": "2026-11-17",
+  "run_type": "daily_backfill",
+  "weekday_theme": "casual_hypercasual（休闲与超休闲第三轮补位：转向分段/氛围循环/步行距离经济）",
+  "executed_at": {
+    "start": "2026-11-21T23:00:00+08:00",
+    "start_note": "2026-11-17 调度未运行（宿主离线）；批次会话补跑，归档到计划研究日",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 14,
+    "selected_cases": 3,
+    "new_cases": 3,
+    "new_mechanics": 3,
+    "new_patterns": 1,
+    "new_theories": 0,
+    "new_hypotheses": 1,
+    "updated_entities": 0,
+    "backlog_added": 9,
+    "sources_registered": 3,
+    "sources_fetch_failed": 0
+  },
+  "dedup_scope": "full_library（81 案例/82 机制全量比对；mechanic-000070/000084 同为'按住'语义两位、pattern-000030 与 pattern-000020 克隆波谱系边界——已在卡内声明）",
+  "erratum": "Temple Run 开发周期纠误（4 个月，非两年）；Alto 的 ADA 口径与地面吸附机制 Wikipedia 未载（不采信）；Alto 无 Owen Millington 口径",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（Alto ADA/销量/洼地加速/Zen 模式/手工地形页面均未载——如实标注不采信）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-17/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-17",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-14T23:55:00+08:00",
-  "last_planned_success_date": "2026-11-16（补跑完成）",
+  "last_planned_success_date": "2026-11-17（补跑完成）",
   "missed_scheduled_dates": [],
   "trigger_anomaly_note": "缺口积压（10-29 与 11-02~11-06）单会话逐日补跑不可持续；建议用户显式触发专项补跑批次或接受缺口滚动；周报如实列缺口",
   "backfill_history": [
@@ -63,21 +63,26 @@
       "date": "2026-11-16",
       "backfilled_on": "2026-11-21T22:55:00+08:00",
       "archive_dir": "reports/daily/2026/11/2026-11-16/"
+    },
+    {
+      "date": "2026-11-17",
+      "backfilled_on": "2026-11-21T23:00:00+08:00",
+      "archive_dir": "reports/daily/2026/11/2026-11-17/"
     }
   ],
   "last_run": {
-    "planned_date": "2026-11-16",
+    "planned_date": "2026-11-17",
     "run_type": "daily_backfill",
-    "theme": "classic_mechanics_round3_fixed_shooter",
+    "theme": "casual_hypercasual_round3",
     "status": "success_pending_push",
-    "status_note": "批次补跑第 6/10 天"
+    "status_note": "批次补跑第 7/10 天"
   },
   "coverage": {
-    "total_cases": 78,
-    "total_mechanics": 79,
-    "total_patterns": 29,
+    "total_cases": 81,
+    "total_mechanics": 82,
+    "total_patterns": 30,
     "total_theories": 3,
-    "total_hypotheses": 33,
+    "total_hypotheses": 34,
     "themes_covered": {
       "2026-10-27": "casual_hypercasual",
       "2026-10-28": "action_shooter（2026-10-30 补跑）",
@@ -98,7 +103,8 @@
       "2026-11-10": "casual_hypercasual（2026-11-21 补跑）",
       "2026-11-11": "action_shooter（2026-11-21 补跑）",
       "2026-11-12": "puzzle_strategy（2026-11-21 补跑，第三轮）",
-      "2026-11-16": "classic_mechanics（2026-11-21 补跑，第三轮）"
+      "2026-11-16": "classic_mechanics（2026-11-21 补跑，第三轮）",
+      "2026-11-17": "casual_hypercasual（2026-11-21 补跑，第三轮）"
     },
     "genres_touched": [
       "casual",
@@ -114,7 +120,7 @@
   },
   "verification_profile": {
     "code_inspected": 3,
-    "source_reviewed": 66,
+    "source_reviewed": 69,
     "demo_played": 0,
     "unverified": 0
   },
@@ -158,6 +164,7 @@
     "2026-11-21：Jetpack Joyride 发行日纠误（2011-09-01）；Helix Jump 无百科条目（C 级商店页来源，全库证据等级最低之一）",
     "2026-11-21：Doom 2016 三平台同日（2016-05-13）纠误；Willits 口径纠误；flame belch 属 Eternal 纠误；Ghostrunner 开发组纠误",
     "2026-11-21：Lemmings 设计者纠误（David Jones）；Golden Idol 发行/发行商纠误（2022-10-13/Playstack）；Her Story 发行纠误（2015-06-24）",
-    "2026-11-21：Dig Dug 设计者纠误（Masahisa Ikegami + Yokoyama 协助）；Galaga 为 Galaxian 续作（Gaplus 1984）纠误"
+    "2026-11-21：Dig Dug 设计者纠误（Masahisa Ikegami + Yokoyama 协助）；Galaga 为 Galaxian 续作（Gaplus 1984）纠误",
+    "2026-11-21：Temple Run 开发周期纠误（4 个月非两年）；Alto ADA/销量/洼地加速页面未载不采信；无 Owen Millington 口径"
   ]
 }

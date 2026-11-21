@@ -233,3 +233,11 @@
 {"from":"hypothesis-000032","type":"COMBINES_WITH","to":"mechanic-000078","evidence_urls":[]}
 {"from":"hypothesis-000032","type":"COMBINES_WITH","to":"mechanic-000028","evidence_urls":[]}
 {"from":"hypothesis-000032","type":"COMBINES_WITH","to":"mechanic-000077","evidence_urls":[]}
+{"from":"game-000076","type":"USES_MECHANIC","to":"mechanic-000080","evidence_urls":["https://en.wikipedia.org/wiki/Space_Invaders"]}
+{"from":"game-000077","type":"USES_MECHANIC","to":"mechanic-000081","evidence_urls":["https://en.wikipedia.org/wiki/Galaga"]}
+{"from":"game-000078","type":"USES_MECHANIC","to":"mechanic-000082","evidence_urls":["https://en.wikipedia.org/wiki/Dig_Dug"]}
+{"from":"game-000076","type":"EXEMPLIFIES_PATTERN","to":"pattern-000022","evidence_urls":["https://en.wikipedia.org/wiki/Space_Invaders"]}
+{"from":"game-000077","type":"EXEMPLIFIES_PATTERN","to":"pattern-000029","evidence_urls":["https://en.wikipedia.org/wiki/Galaga"]}
+{"from":"game-000078","type":"EXEMPLIFIES_PATTERN","to":"pattern-000029","evidence_urls":["https://en.wikipedia.org/wiki/Dig_Dug"]}
+{"from":"game-000078","type":"EVOLVES_FROM","to":"game-000077","evidence_urls":["https://en.wikipedia.org/wiki/Dig_Dug"],"note":"同一 Namco Galaga 基板与谱系（Wikipedia 口径）"}
+{"from":"hypothesis-000033","type":"COMBINES_WITH","to":"mechanic-000080","evidence_urls":[]}

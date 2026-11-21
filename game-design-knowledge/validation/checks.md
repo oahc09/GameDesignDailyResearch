@@ -146,3 +146,5 @@
 ## 2026-11-19（补跑，实际执行于 2026-11-21 23:45）——ERRORS 0 / WARNINGS 0；三个 frontmatter 引号污染修复（sed 误伤链）；纠误多条（Portal 2 日期/凝胶来源/Opus Magnum 重制与 GIF/The Room 团队与奖项）。
 
 ## 2026-11-20（补跑，实际执行于 2026-11-21 23:40）——ERRORS 0 / WARNINGS 0；Undertale/Stardew/Journey 纠误三条；pattern-000031 单人作者全栈成谱；10 天补跑批次完成，缺口清零。
+
+- 2026-11-21 收尾：README 状态段落更新（89/90/31/3/38，缺口清零）。

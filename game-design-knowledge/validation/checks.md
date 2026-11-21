@@ -128,3 +128,5 @@
 - 诚实注记：Mario Kart 橡皮带机制 Wikipedia 本页未讨论（不采信社区口径）；SFII 帧表与 Hades 对话全表标未知。
 
 ## 2026-11-04（补跑，实际执行于 2026-11-21 20:40）——ERRORS 0 / WARNINGS 0；纠误 HM/NT 三条；pattern-000027 成谱。
+
+## 2026-11-06（补跑，实际执行于 2026-11-21 21:05）——ERRORS 0 / WARNINGS 0；Loop Hero 发行日纠误；紧凑日 3 案例。

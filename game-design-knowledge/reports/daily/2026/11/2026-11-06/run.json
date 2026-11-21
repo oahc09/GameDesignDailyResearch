@@ -1,0 +1,46 @@
+{
+  "research_date": "2026-11-06",
+  "run_type": "daily_backfill",
+  "weekday_theme": "indie_experimental（独立与实验玩法：幕翻转元叙事/旁白博弈/地形牌邻接）",
+  "executed_at": {
+    "start": "2026-11-21T21:05:00+08:00",
+    "start_note": "2026-11-06 调度未运行（宿主离线）；由用户指令'把漏掉的任务补跑'的批次会话补跑，归档到计划研究日",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 14,
+    "selected_cases": 3,
+    "new_cases": 3,
+    "new_mechanics": 3,
+    "new_patterns": 0,
+    "new_theories": 0,
+    "new_hypotheses": 1,
+    "updated_entities": 0,
+    "backlog_added": 10,
+    "sources_registered": 3,
+    "sources_fetch_failed": 0
+  },
+  "dedup_scope": "full_library（65 案例/66 机制全量比对；mechanic-000067 幕翻转与 game-000006 规则元层、Inscryption 死亡卡与失败意义化谱系——边界已在卡内声明）",
+  "erratum": "Loop Hero 发行日纠误（2021-03-04，非 2020）；'Loop Hero 2'公布未证实不登记",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-06/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-06",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

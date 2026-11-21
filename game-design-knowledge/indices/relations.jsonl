@@ -205,3 +205,8 @@
 {"from":"game-000022","type":"EXEMPLIFIES_PATTERN","to":"pattern-000027","evidence_urls":["https://en.wikipedia.org/wiki/Downwell_(video_game)"]}
 {"from":"game-000029","type":"EXEMPLIFIES_PATTERN","to":"pattern-000027","evidence_urls":["https://en.wikipedia.org/wiki/Portal_(video_game)"]}
 {"from":"hypothesis-000028","type":"COMBINES_WITH","to":"mechanic-000066","evidence_urls":[]}
+{"from":"game-000063","type":"USES_MECHANIC","to":"mechanic-000067","evidence_urls":["https://en.wikipedia.org/wiki/Inscryption"]}
+{"from":"game-000064","type":"USES_MECHANIC","to":"mechanic-000068","evidence_urls":["https://en.wikipedia.org/wiki/The_Stanley_Parable"]}
+{"from":"game-000065","type":"USES_MECHANIC","to":"mechanic-000069","evidence_urls":["https://en.wikipedia.org/wiki/Loop_Hero"]}
+{"from":"game-000063","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
+{"from":"hypothesis-000029","type":"COMBINES_WITH","to":"mechanic-000067","evidence_urls":[]}

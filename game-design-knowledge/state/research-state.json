@@ -1,14 +1,7 @@
 {
   "updated_at": "2026-11-14T23:55:00+08:00",
-  "last_planned_success_date": "2026-11-04（补跑完成）",
-  "missed_scheduled_dates": [
-    {
-      "date": "2026-11-06",
-      "weekday_theme": "indie_experimental（独立与实验玩法）",
-      "status": "missed_not_rerun",
-      "note": "缺口"
-    }
-  ],
+  "last_planned_success_date": "2026-11-06（补跑完成）",
+  "missed_scheduled_dates": [],
   "trigger_anomaly_note": "缺口积压（10-29 与 11-02~11-06）单会话逐日补跑不可持续；建议用户显式触发专项补跑批次或接受缺口滚动；周报如实列缺口",
   "backfill_history": [
     {
@@ -45,21 +38,26 @@
       "date": "2026-11-04",
       "backfilled_on": "2026-11-21T20:40:00+08:00",
       "archive_dir": "reports/daily/2026/11/2026-11-04/"
+    },
+    {
+      "date": "2026-11-06",
+      "backfilled_on": "2026-11-21T21:05:00+08:00",
+      "archive_dir": "reports/daily/2026/11/2026-11-06/"
     }
   ],
   "last_run": {
-    "planned_date": "2026-11-04",
+    "planned_date": "2026-11-06",
     "run_type": "daily_backfill",
-    "theme": "action_shooter",
+    "theme": "indie_experimental",
     "status": "success_pending_push",
-    "status_note": "批次补跑第 1/10 天"
+    "status_note": "批次补跑第 2/10 天"
   },
   "coverage": {
-    "total_cases": 62,
-    "total_mechanics": 63,
+    "total_cases": 65,
+    "total_mechanics": 66,
     "total_patterns": 27,
     "total_theories": 3,
-    "total_hypotheses": 28,
+    "total_hypotheses": 29,
     "themes_covered": {
       "2026-10-27": "casual_hypercasual",
       "2026-10-28": "action_shooter（2026-10-30 补跑）",
@@ -75,7 +73,8 @@
       "2026-11-05": "puzzle_strategy（2026-11-14 补跑，第二轮：策略/战术轴）",
       "2026-11-14": "theory_algorithms（第三轮：算法即玩法）",
       "2026-11-15": "synthesis_innovation（格斗/体育/叙事融合轴）",
-      "2026-11-04": "action_shooter（2026-11-21 补跑）"
+      "2026-11-04": "action_shooter（2026-11-21 补跑）",
+      "2026-11-06": "indie_experimental（2026-11-21 补跑）"
     },
     "genres_touched": [
       "casual",
@@ -91,7 +90,7 @@
   },
   "verification_profile": {
     "code_inspected": 3,
-    "source_reviewed": 51,
+    "source_reviewed": 54,
     "demo_played": 0,
     "unverified": 0
   },
@@ -130,6 +129,7 @@
     "2026-11-14：FTL Advanced Edition 日期纠误（2014-04-03，非 2018）；Subset 联创名按 Wikipedia infobox 为 Jay Ma",
     "2026-11-14：SpaceChem 排行三轴按 Wikipedia 口径（指令数/循环数/反应器数）——历史记忆中的 alpha/beta 与符号/蓄水池措辞不采用",
     "2026-11-15：Fruit Ninja 设计者纠误与 Bejeweled 创始人纠误均已于 11-14 批次记录；本日无新增纠误（Mario Kart 橡皮带机制 Wikipedia 未载，如实标注不采信）",
-    "2026-11-21：HM 发行日 2012-10-23 与 Super Carnage 起源纠误；Nuclear Throne 正式发行 2015-12-05 纠误"
+    "2026-11-21：HM 发行日 2012-10-23 与 Super Carnage 起源纠误；Nuclear Throne 正式发行 2015-12-05 纠误",
+    "2026-11-21：Loop Hero 发行日纠误（2021-03-04，非 2020）"
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "research_date": "2026-11-11",
+  "run_type": "daily_backfill",
+  "weekday_theme": "action_shooter（动作与射击第二轮补位：Witch Time/资源泵/一击双杀 FPS）",
+  "executed_at": {
+    "start": "2026-11-21T22:00:00+08:00",
+    "start_note": "2026-11-11 调度未运行（宿主离线）；批次会话补跑，归档到计划研究日",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 14,
+    "selected_cases": 3,
+    "new_cases": 3,
+    "new_mechanics": 3,
+    "new_patterns": 0,
+    "new_theories": 0,
+    "new_hypotheses": 1,
+    "updated_entities": 0,
+    "backlog_added": 9,
+    "sources_registered": 3,
+    "sources_fetch_failed": 0
+  },
+  "dedup_scope": "full_library（71 案例/72 机制全量比对；mechanic-000073 慢时间与 pattern-000025 预览谱为信息/时间补偿三支；mechanic-000074 资源泵与 game-000012 涌现、game-000039 太阳泵对照——边界已声明）",
+  "erratum": "FTL AE 日期纠误（沿用 11-13 批次记录）；Doom 2016 三平台同日发行（纠'11 月主机'口径）；Willits 为 id 创意总监（非本作制作人）；flame belch/armor 属 Eternal；Ghostrunner 开发组纠误（无 3D Clouds）",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（'dodge-offset' 专有名词 Wikipedia 本页未载不采信；Witch Time 帧数未核验标未知）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-11/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-11",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

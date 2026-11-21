@@ -215,3 +215,8 @@
 {"from":"game-000068","type":"USES_MECHANIC","to":"mechanic-000072","evidence_urls":["https://en.wikipedia.org/wiki/Cookie_Clicker"]}
 {"from":"game-000068","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
 {"from":"hypothesis-000030","type":"COMBINES_WITH","to":"mechanic-000072","evidence_urls":[]}
+{"from":"game-000069","type":"USES_MECHANIC","to":"mechanic-000073","evidence_urls":["https://en.wikipedia.org/wiki/Bayonetta_(video_game)"]}
+{"from":"game-000070","type":"USES_MECHANIC","to":"mechanic-000074","evidence_urls":["https://en.wikipedia.org/wiki/Doom_(2016_video_game)"]}
+{"from":"game-000071","type":"USES_MECHANIC","to":"mechanic-000075","evidence_urls":["https://en.wikipedia.org/wiki/Ghostrunner"]}
+{"from":"game-000069","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
+{"from":"hypothesis-000031","type":"COMBINES_WITH","to":"mechanic-000074","evidence_urls":[]}

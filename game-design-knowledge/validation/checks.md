@@ -126,3 +126,5 @@
 - 覆盖：实体 cases=59, mechanics=60, patterns=26, theories=3, hypotheses=27（共 175）；relations 197 条全合法；十三份 run.json 解析通过；W46 周报生成。
 - 合成产出：pattern-000026 玩家发现机制转正（SFII 连击 bug 起源，Funamizu 引语）。
 - 诚实注记：Mario Kart 橡皮带机制 Wikipedia 本页未讨论（不采信社区口径）；SFII 帧表与 Hades 对话全表标未知。
+
+## 2026-11-04（补跑，实际执行于 2026-11-21 20:40）——ERRORS 0 / WARNINGS 0；纠误 HM/NT 三条；pattern-000027 成谱。

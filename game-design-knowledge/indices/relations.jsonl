@@ -195,3 +195,13 @@
 {"from":"hypothesis-000026","type":"COMBINES_WITH","to":"pattern-000025","evidence_urls":[]}
 {"from":"hypothesis-000027","type":"COMBINES_WITH","to":"mechanic-000063","evidence_urls":[]}
 {"from":"hypothesis-000027","type":"COMBINES_WITH","to":"pattern-000003","evidence_urls":[]}
+{"from":"game-000060","type":"USES_MECHANIC","to":"mechanic-000064","evidence_urls":["https://en.wikipedia.org/wiki/Hotline_Miami"]}
+{"from":"game-000061","type":"USES_MECHANIC","to":"mechanic-000065","evidence_urls":["https://en.wikipedia.org/wiki/Enter_the_Gungeon"]}
+{"from":"game-000062","type":"USES_MECHANIC","to":"mechanic-000066","evidence_urls":["https://en.wikipedia.org/wiki/Nuclear_Throne"]}
+{"from":"game-000062","type":"EXEMPLIFIES_PATTERN","to":"pattern-000027","evidence_urls":["https://en.wikipedia.org/wiki/Nuclear_Throne"]}
+{"from":"game-000006","type":"EXEMPLIFIES_PATTERN","to":"pattern-000027","evidence_urls":["https://en.wikipedia.org/wiki/Baba_Is_You"]}
+{"from":"game-000008","type":"EXEMPLIFIES_PATTERN","to":"pattern-000027","evidence_urls":["https://en.wikipedia.org/wiki/Celeste_(video_game)"]}
+{"from":"game-000011","type":"EXEMPLIFIES_PATTERN","to":"pattern-000027","evidence_urls":["https://en.wikipedia.org/wiki/Superhot"]}
+{"from":"game-000022","type":"EXEMPLIFIES_PATTERN","to":"pattern-000027","evidence_urls":["https://en.wikipedia.org/wiki/Downwell_(video_game)"]}
+{"from":"game-000029","type":"EXEMPLIFIES_PATTERN","to":"pattern-000027","evidence_urls":["https://en.wikipedia.org/wiki/Portal_(video_game)"]}
+{"from":"hypothesis-000028","type":"COMBINES_WITH","to":"mechanic-000066","evidence_urls":[]}

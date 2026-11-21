@@ -1,0 +1,46 @@
+{
+  "research_date": "2026-11-04",
+  "run_type": "daily_backfill",
+  "weekday_theme": "action_shooter（动作与射击：一击双杀/翻滚无敌帧/rads 变异构筑）",
+  "executed_at": {
+    "start": "2026-11-21T20:40:00+08:00",
+    "start_note": "2026-11-04 调度未运行（宿主离线）；由用户指令'把漏掉的任务补跑'的批次会话补跑，按 SPEC 第 4 节归档到计划研究日",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 13,
+    "selected_cases": 3,
+    "new_cases": 3,
+    "new_mechanics": 3,
+    "new_patterns": 1,
+    "new_theories": 0,
+    "new_hypotheses": 1,
+    "updated_entities": 0,
+    "backlog_added": 9,
+    "sources_registered": 3,
+    "sources_fetch_failed": 0
+  },
+  "dedup_scope": "full_library（62 案例/63 机制全量比对；HM 秒重开与 game-000006 同源异用、NT/EtG 与 game-000021 弹幕两极——边界已在卡内声明）",
+  "erratum": "Hotline Miami 发行日纠误（2012-10-23，非 10-22）与起源纠误（Super Carnage 原型，非 game jam）；Nuclear Throne 正式发行纠误（2015-12-05，非 2016）",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（Nuclear Throne Together 模组 Wikipedia 未载不采信；'Zen Ball' 类未证实专有名词不使用）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-04/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-04",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

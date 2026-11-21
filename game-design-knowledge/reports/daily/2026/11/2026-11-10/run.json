@@ -1,0 +1,46 @@
+{
+  "research_date": "2026-11-10",
+  "run_type": "daily_backfill",
+  "weekday_theme": "casual_hypercasual（休闲与超休闲第二轮补位：单轴喷气/转塔间接控制/idle 飞升）",
+  "executed_at": {
+    "start": "2026-11-21T21:35:00+08:00",
+    "start_note": "2026-11-10 调度未运行（宿主离线）；批次会话补跑，归档到计划研究日",
+    "timezone": "Asia/Shanghai"
+  },
+  "counts": {
+    "candidates": 14,
+    "selected_cases": 3,
+    "new_cases": 3,
+    "new_mechanics": 3,
+    "new_patterns": 0,
+    "new_theories": 0,
+    "new_hypotheses": 1,
+    "updated_entities": 0,
+    "backlog_added": 8,
+    "sources_registered": 4,
+    "sources_fetch_failed": 1
+  },
+  "dedup_scope": "full_library（68 案例/69 机制全量比对；mechanic-000070 与 mechanic-000010 的'按住'语义两位、mechanic-000072 与 mechanic-000006 重置对照——边界已声明）",
+  "erratum": "Jetpack Joyride 发行日纠误（2011-09-01，非 09-08）；Helix Jump 无独立百科条目（来源 C 级商店页，如实标注）",
+  "validation": {
+    "frontmatter_required_fields": "pass",
+    "id_uniqueness": "pass",
+    "relation_targets_exist": "pass",
+    "jsonl_parse": "pass",
+    "no_fabricated_urls": "pass（JJ 下载总量 Wikipedia 未载不采信；Helix Jump 证据等级 C 如实标注）",
+    "details": "validation/checks.md"
+  },
+  "archive": {
+    "dir": "reports/daily/2026/11/2026-11-10/",
+    "planned_date_match": true
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "remote_url": "https://github.com/oahc09/GameDesignDailyResearch",
+    "commit_message": "research: archive gameplay findings 2026-11-10",
+    "commit_sha": null,
+    "commit_sha_note": "SHA 与 push 结果记录于本次运行输出，不在仓内虚报远端状态（SPEC 第 3.6.7 节）",
+    "push_result": "to_be_reported_in_run_output"
+  }
+}

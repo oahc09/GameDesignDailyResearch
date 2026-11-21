@@ -210,3 +210,8 @@
 {"from":"game-000065","type":"USES_MECHANIC","to":"mechanic-000069","evidence_urls":["https://en.wikipedia.org/wiki/Loop_Hero"]}
 {"from":"game-000063","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
 {"from":"hypothesis-000029","type":"COMBINES_WITH","to":"mechanic-000067","evidence_urls":[]}
+{"from":"game-000066","type":"USES_MECHANIC","to":"mechanic-000070","evidence_urls":["https://en.wikipedia.org/wiki/Jetpack_Joyride"]}
+{"from":"game-000067","type":"USES_MECHANIC","to":"mechanic-000071","evidence_urls":["https://apps.apple.com/us/app/helix-jump/id1345968745"]}
+{"from":"game-000068","type":"USES_MECHANIC","to":"mechanic-000072","evidence_urls":["https://en.wikipedia.org/wiki/Cookie_Clicker"]}
+{"from":"game-000068","type":"SUPPORTED_BY","to":"theory-000001","evidence_urls":[]}
+{"from":"hypothesis-000030","type":"COMBINES_WITH","to":"mechanic-000072","evidence_urls":[]}

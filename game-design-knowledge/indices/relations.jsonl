@@ -254,3 +254,12 @@
 {"from":"game-000083","type":"USES_MECHANIC","to":"mechanic-000087","evidence_urls":["https://en.wikipedia.org/wiki/Katana_Zero"]}
 {"from":"game-000075","type":"SUPPORTED_BY","to":"theory-000002","evidence_urls":[]}
 {"from":"hypothesis-000035","type":"COMBINES_WITH","to":"mechanic-000087","evidence_urls":[]}
+{"from":"game-000084","type":"USES_MECHANIC","to":"mechanic-000088","evidence_urls":["https://en.wikipedia.org/wiki/Portal_2"]}
+{"from":"game-000085","type":"USES_MECHANIC","to":"mechanic-000089","evidence_urls":["https://en.wikipedia.org/wiki/Opus_Magnum"]}
+{"from":"game-000086","type":"USES_MECHANIC","to":"mechanic-000090","evidence_urls":["https://en.wikipedia.org/wiki/The_Room_(video_game)"]}
+{"from":"game-000085","type":"EXEMPLIFIES_PATTERN","to":"pattern-000027","evidence_urls":["https://en.wikipedia.org/wiki/Opus_Magnum"]}
+{"from":"game-000085","type":"EXEMPLIFIES_PATTERN","to":"pattern-000014","evidence_urls":["https://en.wikipedia.org/wiki/Opus_Magnum"]}
+{"from":"game-000084","type":"EVOLVES_FROM","to":"game-000029","evidence_urls":["https://en.wikipedia.org/wiki/Portal_2"]}
+{"from":"game-000085","type":"EVOLVES_FROM","to":"game-000052","evidence_urls":["https://en.wikipedia.org/wiki/Opus_Magnum"]}
+{"from":"hypothesis-000036","type":"COMBINES_WITH","to":"mechanic-000089","evidence_urls":[]}
+{"from":"hypothesis-000036","type":"COMBINES_WITH","to":"pattern-000014","evidence_urls":[]}

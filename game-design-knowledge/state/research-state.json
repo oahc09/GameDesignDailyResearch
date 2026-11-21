@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-14T23:55:00+08:00",
-  "last_planned_success_date": "2026-11-18（补跑完成）",
+  "last_planned_success_date": "2026-11-19（补跑完成）",
   "missed_scheduled_dates": [],
   "trigger_anomaly_note": "缺口积压（10-29 与 11-02~11-06）单会话逐日补跑不可持续；建议用户显式触发专项补跑批次或接受缺口滚动；周报如实列缺口",
   "backfill_history": [
@@ -73,21 +73,26 @@
       "date": "2026-11-18",
       "backfilled_on": "2026-11-21T23:20:00+08:00",
       "archive_dir": "reports/daily/2026/11/2026-11-18/"
+    },
+    {
+      "date": "2026-11-19",
+      "backfilled_on": "2026-11-21T23:45:00+08:00",
+      "archive_dir": "reports/daily/2026/11/2026-11-19/"
     }
   ],
   "last_run": {
-    "planned_date": "2026-11-18",
+    "planned_date": "2026-11-19",
     "run_type": "daily_backfill",
-    "theme": "action_shooter_round3",
+    "theme": "puzzle_strategy_round4_portal2_opus_room",
     "status": "success_pending_push",
-    "status_note": "批次补跑第 8/10 天"
+    "status_note": "批次补跑第 9/10 天"
   },
   "coverage": {
-    "total_cases": 83,
-    "total_mechanics": 84,
+    "total_cases": 86,
+    "total_mechanics": 87,
     "total_patterns": 30,
     "total_theories": 3,
-    "total_hypotheses": 35,
+    "total_hypotheses": 36,
     "themes_covered": {
       "2026-10-27": "casual_hypercasual",
       "2026-10-28": "action_shooter（2026-10-30 补跑）",
@@ -110,7 +115,8 @@
       "2026-11-12": "puzzle_strategy（2026-11-21 补跑，第三轮）",
       "2026-11-16": "classic_mechanics（2026-11-21 补跑，第三轮）",
       "2026-11-17": "casual_hypercasual（2026-11-21 补跑，第三轮）",
-      "2026-11-18": "action_shooter（2026-11-21 补跑，第三轮）"
+      "2026-11-18": "action_shooter（2026-11-21 补跑，第三轮）",
+      "2026-11-19": "puzzle_strategy（2026-11-21 补跑，第四轮）"
     },
     "genres_touched": [
       "casual",
@@ -126,12 +132,12 @@
   },
   "verification_profile": {
     "code_inspected": 3,
-    "source_reviewed": 72,
+    "source_reviewed": 75,
     "demo_played": 0,
     "unverified": 0
   },
   "knowledge_gaps": [
-    "缺口积压 7 天（11-11/11-12/11-16/11-17/11-18/11-19/11-20）——批次已补 11-04/11-06/11-10，明日 11-22 周日定时运行",
+    "缺口积压 1 天（仅 11-20）——本批次补完 11-19 后仅剩最后一日",
     "demo_played 仍为 0（2048 网页版实测最优先）",
     "Mario Kart 橡皮带/道具分布数据待核验（社区研究口径不采信）",
     "Zachtronics 谱系与 FESS/McGuire/Yato 论文级文献待读",
@@ -148,9 +154,9 @@
     "mechanic-000063（死亡叙事）与 mechanic-000006（死亡即重开）、mechanic-000063 与 pattern-000003 为失败意义化两路线，边界已声明"
   ],
   "next_scheduled": {
-    "date": "2026-11-16",
-    "weekday": "monday",
-    "theme": "classic_mechanics（第三轮候选：Bejeweled 已入库——需新候选如 Dig Dug/Galaga 预排）"
+    "date": "2026-11-22",
+    "weekday": "sunday",
+    "theme": "synthesis_innovation + 周报 2026-W47"
   },
   "weekly_reports": [
     "reports/weekly/2026-W44.md",
@@ -172,6 +178,7 @@
     "2026-11-21：Lemmings 设计者纠误（David Jones）；Golden Idol 发行/发行商纠误（2022-10-13/Playstack）；Her Story 发行纠误（2015-06-24）",
     "2026-11-21：Dig Dug 设计者纠误（Masahisa Ikegami + Yokoyama 协助）；Galaga 为 Galaxian 续作（Gaplus 1984）纠误",
     "2026-11-21：Temple Run 开发周期纠误（4 个月非两年）；Alto ADA/销量/洼地加速页面未载不采信；无 Owen Millington 口径",
-    "2026-11-21：Katana Zero 玩法口径修正（横版一击双杀+子弹时间+可打断对话树，2019-04-18 发行）；game-000075/mechanic-000079 空号回填"
+    "2026-11-21：Katana Zero 玩法口径修正（横版一击双杀+子弹时间+可打断对话树，2019-04-18 发行）；game-000075/mechanic-000079 空号回填",
+    "2026-11-21：Portal 2 发行日纠误（2011-04-18 PC 数字）；凝胶源自学生作品 Tag: The Power of Paint；Opus Magnum 为 Codex 2008 官方重制与 GIF 导出刻意设计；The Room 为 Fireproof（前 Criterion 六人）£16 万成本、BAFTA 最佳英国游戏（非 Debut）"
   ]
 }
